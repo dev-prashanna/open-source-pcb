@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "RoveCore") (type "KiCad") (uri "${KIPRJMOD}/libraries/RoveCore.kicad_sym") (options "") (descr "Vishay datasheet-derived ambient sensor"))
+)

@@ -1,0 +1,11 @@
+{
+  "via": [
+    52.2,
+    28.6
+  ],
+  "land_mm": 0.5,
+  "drill_mm": 0.25,
+  "reroute_nets": [
+    "+3V3_SENS"
+  ]
+}

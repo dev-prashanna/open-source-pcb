@@ -1,0 +1,16 @@
+{
+  "esp32": "https://documentation.espressif.com/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf",
+  "imu": "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf",
+  "mag": "https://www.st.com/resource/en/datasheet/lis3mdl.pdf",
+  "tof": "https://www.st.com/resource/en/datasheet/vl53l1x.pdf",
+  "bme": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+  "als": "https://www.vishay.com/docs/84286/veml7700.pdf",
+  "buck": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+  "servo_buck": "https://www.ti.com/lit/ds/symlink/tps54302.pdf",
+  "motor": "https://www.ti.com/lit/ds/symlink/drv8833.pdf",
+  "usb": "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf",
+  "pwm": "https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf",
+  "adc": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+  "buffer": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+  "upbuffer": "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+}

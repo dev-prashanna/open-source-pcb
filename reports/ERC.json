@@ -1,0 +1,197 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T22:34:24",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d",
+            "violations": []
+        },
+        {
+            "path": "/01 Controller 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/d09d8eeb-6d79-4dc3-b397-fa80f5d37c10",
+            "violations": []
+        },
+        {
+            "path": "/02 USB Programming 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/d19aa935-2eb0-45bc-bae6-1fd6ef980d01",
+            "violations": []
+        },
+        {
+            "path": "/03 Power Inputs 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/e891b94c-36f1-4d8b-b9a8-0d62b15b2d71",
+            "violations": []
+        },
+        {
+            "path": "/04 Logic Regulators 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/46225748-6767-4440-aa4a-76d10232a54d",
+            "violations": []
+        },
+        {
+            "path": "/05 Logic Regulators 2/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/543902e0-6138-4021-b4fc-3a8e233b3759",
+            "violations": []
+        },
+        {
+            "path": "/06 Servo Power 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/70388098-fc29-447b-acfb-d8fff45fa17d",
+            "violations": []
+        },
+        {
+            "path": "/07 Motor Driver 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/f533fe57-0d9f-4cd9-96bb-eae5546f818b",
+            "violations": []
+        },
+        {
+            "path": "/08 Motion Sensors 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/9e893aae-748c-405b-af1c-b644bd2bd37f",
+            "violations": [
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U8 Pin 1 [SDO/SA0, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.381
+                            },
+                            "uuid": "e96e52d2-a299-42e7-97f1-5dfbe75fb297"
+                        },
+                        {
+                            "description": "Symbol #FLG1 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.3556
+                            },
+                            "uuid": "06ad7df9-c501-4585-b301-7b6b4cf3b1c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U9 Pin 9 [SDO/SA1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.9652
+                            },
+                            "uuid": "15f3a57a-139d-4121-8c50-e20b98965ced"
+                        },
+                        {
+                            "description": "Symbol #FLG1 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.3556
+                            },
+                            "uuid": "06ad7df9-c501-4585-b301-7b6b4cf3b1c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/09 Environmental Sensors 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/e4b0467a-ab83-4d53-8d88-29584db33f11",
+            "violations": [
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 5 [SDO, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.381
+                            },
+                            "uuid": "da03acca-e8af-4e81-af65-580f4a6d4814"
+                        },
+                        {
+                            "description": "Symbol #FLG1 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.3556
+                            },
+                            "uuid": "06ad7df9-c501-4585-b301-7b6b4cf3b1c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/10 Distance Interfaces 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/58960cd8-9060-4e4e-81bc-18274ef8a36a",
+            "violations": []
+        },
+        {
+            "path": "/11 Distance Interfaces 2/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/09242531-d570-44f6-928d-4878b5dac4da",
+            "violations": []
+        },
+        {
+            "path": "/12 Encoder Interfaces 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/56b30888-6479-4db7-b28f-8ccb5e79d335",
+            "violations": []
+        },
+        {
+            "path": "/13 Encoder Interfaces 2/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/05c60dab-9afc-4d91-b737-bee02a2a7ef7",
+            "violations": []
+        },
+        {
+            "path": "/14 Servo PWM 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/4859d5b3-6399-4ad4-b79d-8618a6cda552",
+            "violations": []
+        },
+        {
+            "path": "/15 GPIO Expansion 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/2c626055-3af9-4efc-99a9-76d3ef76dcce",
+            "violations": []
+        },
+        {
+            "path": "/16 Analog Expansion 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/4ce01345-033b-4a9d-a218-88f6e5097024",
+            "violations": []
+        },
+        {
+            "path": "/17 User Interface 1/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/41bfd6cc-4ca5-437d-a745-f6ebb6aaaf29",
+            "violations": []
+        },
+        {
+            "path": "/18 User Interface 2/",
+            "uuid_path": "/07e4aac5-1ffc-4d02-9ffc-ec8e9853fc8d/362f5d08-6cd3-41bf-b11a-6e3801155779",
+            "violations": []
+        }
+    ],
+    "source": "RoveCore_One.kicad_sch"
+}

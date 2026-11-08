@@ -1,0 +1,37 @@
+# Local KiCad state and Python caches
+*.kicad_prl
+*.lck
+*~
+*.bak
+*-backups/
+__pycache__/
+*.pyc
+core
+core.*
+# Intermediate routing evidence; final validation reports are committed
+reports/*
+!reports/DRC.json
+!reports/ERC.json
+!reports/Connectivity_Audit.json
+!reports/Physical_Audit.json
+!reports/RoveCore_One.xml
+!reports/Final_Ground_Drop.json
+# Manufacturer PDFs are available through sources.json
+datasheets/*
+!datasheets/sources.json
+# Obsolete sheets from earlier hierarchy numbering
+11_Encoder_Interfaces_1.kicad_sch
+12_Encoder_Interfaces_2.kicad_sch
+13_Servo_PWM_1.kicad_sch
+14_GPIO_Expansion_1.kicad_sch
+15_Analog_Expansion_1.kicad_sch
+16_User_Interface_1.kicad_sch
+17_User_Interface_2.kicad_sch
+mcp_seed.kicad_sch
+# Keep current consolidated previews only
+previews/*
+!previews/RoveCore_One_Schematic.pdf
+!previews/PCB_front.svg
+!previews/PCB_back.svg
+!previews/PCB_top.png
+!previews/PCB_bottom.png

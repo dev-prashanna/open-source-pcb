@@ -1,0 +1,6 @@
+# Python venv must inherit the system pcbnew package from KiCad 10.
+sexpdata
+numpy
+scipy
+shapely>=2
+cairosvg

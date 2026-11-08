@@ -1,0 +1,6 @@
+# Preserve native KiCad/exporter formatting.
+*.svg -whitespace
+*.kicad_mod -whitespace
+*.kicad_sch -whitespace
+*.kicad_pcb -whitespace
+*.csv -whitespace

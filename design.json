@@ -1,0 +1,4818 @@
+[
+  {
+    "ref": "U1",
+    "lib": "RF_Module",
+    "name": "ESP32-WROOM-32E",
+    "value": "ESP32-WROOM-32E-N8",
+    "nets": {
+      "2": "+3V3",
+      "3": "EN",
+      "[1,15,38,39]": "GND",
+      "6": "ENC_RA",
+      "7": "ENC_RB",
+      "8": "IMU_INT",
+      "9": "BAT_ADC",
+      "10": "M_A1",
+      "11": "M_A2",
+      "12": "M_B1",
+      "13": "M_B2",
+      "14": "STRAP12",
+      "16": "US_ECHO",
+      "23": "SERVO_OE",
+      "24": "BUZZ_PWM",
+      "25": "BOOT",
+      "26": "US_TRIG",
+      "27": "UART_RX",
+      "28": "UART_TX",
+      "29": "SPI_CS",
+      "30": "SPI_SCK",
+      "31": "SPI_MISO",
+      "33": "I2C_SDA",
+      "36": "I2C_SCL",
+      "37": "SPI_MOSI",
+      "4": "ENC_LA",
+      "5": "ENC_LB",
+      "34": "U0_RX",
+      "35": "U0_TX"
+    },
+    "fp": "RoveCore:ESP32-WROOM-32E_Board",
+    "xy": [
+      22,
+      7
+    ],
+    "rot": 0,
+    "mpn": "ESP32-WROOM-32E-N8",
+    "mfr": "Espressif",
+    "source": "https://documentation.espressif.com/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf",
+    "side": "F",
+    "section": "Controller",
+    "parent": null,
+    "uuid": "f0c15429-ce64-44ba-b204-d023e1d1eecd"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "5a0bf059-f9c7-49c5-91ab-3852f3aa71ee"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "5ab2c646-1b5f-47f4-bf7b-be261f28f59f"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "EN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "e40121dd-ff53-4f38-8c64-6f43eae2aeb3"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF 16V",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61C105KA12D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "6f4dbf50-4d46-4831-83b8-a23d605175e4"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "347624f3-5b63-4cef-8a43-5eebacacf9f0"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "STRAP12",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "4fa09b39-ce33-493b-806b-af047c61e5d0"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "SPI_CS"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "130727b8-eed5-41b8-bb3b-3757f37635a6"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "SERVO_OE"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "32d47c20-d8db-49fb-896f-90583e02d814"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "BUZZ_PWM",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "53c92c36-5f0a-435a-98c2-b17d71f29a73"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "SW1",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      7,
+      24
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "a0dfb091-fa7d-4636-8deb-52669466f07c"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "SW2",
+    "nets": {
+      "1": "BOOT",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      7,
+      29
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "48a533d4-8e2c-48fd-859b-7c3d2ede8af6"
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "SERVICE 3V3",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "U0_TX",
+      "4": "U0_RX",
+      "5": "EN",
+      "6": "BOOT"
+    },
+    "fp": "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical",
+    "xy": [
+      4,
+      34
+    ],
+    "rot": 0,
+    "mpn": "M22-2010605",
+    "mfr": "Harwin",
+    "source": "",
+    "side": "F",
+    "section": "Controller",
+    "parent": "U1",
+    "uuid": "984ab7ca-ca8e-4f33-b869-ab7b5a128e12"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector",
+    "name": "USB_C_Receptacle_USB2.0_16P",
+    "value": "USB-C 5V DATA",
+    "nets": {
+      "A1": "GND",
+      "A4": "USB_VBUS",
+      "A5": "CC1",
+      "A6": "USB_DP",
+      "A7": "USB_DM",
+      "A9": "USB_VBUS",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USB_VBUS",
+      "B5": "CC2",
+      "B6": "USB_DP",
+      "B7": "USB_DM",
+      "B9": "USB_VBUS",
+      "B12": "GND",
+      "SH": "GND"
+    },
+    "fp": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "xy": [
+      9,
+      43
+    ],
+    "rot": 270,
+    "mpn": "TYPE-C-31-M-12",
+    "mfr": "HRO",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": null,
+    "uuid": "af1c6963-5558-4aca-a764-c57928fbd36b"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "J2",
+    "uuid": "0d17d126-79c7-467f-8a70-681098df66f8"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "J2",
+    "uuid": "0b66aeb3-9eab-433d-a902-d48712bba267"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF 16V",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61C105KA12D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "J2",
+    "uuid": "840a2fcb-aecb-4059-85f0-eeb4a98b17a3"
+  },
+  {
+    "ref": "U2",
+    "lib": "Interface_USB",
+    "name": "CP2102N-Axx-xQFN24",
+    "value": "CP2102N-A02-GQFN24",
+    "nets": {
+      "2": "GND",
+      "3": "USB_DP",
+      "4": "USB_DM",
+      "5": "+3V3",
+      "6": "+3V3",
+      "7": "+3V3",
+      "8": "VBUS_SENSE",
+      "9": "USB_RST",
+      "19": "RTS",
+      "20": "U0_TX",
+      "21": "U0_RX",
+      "23": "DTR",
+      "25": "GND"
+    },
+    "fp": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm",
+    "xy": [
+      19,
+      43
+    ],
+    "rot": 0,
+    "mpn": "CP2102N-A02-GQFN24",
+    "mfr": "Silicon Labs",
+    "source": "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": null,
+    "uuid": "5e5c5b08-a7ea-45e8-961c-a25674ab15bf"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "c4c6d72a-e402-452d-b08d-0688f1f28ca9"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "136660b5-e52f-443d-b092-9c362d0b0110"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7uF 10V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61A475KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "8bc256ee-ffc6-4379-9705-ac5ada2d33a0"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "USB_RST"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "22394fa7-a0b1-46c0-aa3e-dfd75921d8c4"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "22.1k",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "VBUS_SENSE"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0722K1L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "683a61a3-c4c5-4542-9abd-1504b8718d95"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "47.5k",
+    "nets": {
+      "1": "VBUS_SENSE",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0747K5L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "a97c3687-7c4b-45b3-b5d1-797db1b95a96"
+  },
+  {
+    "ref": "U3",
+    "lib": "Power_Protection",
+    "name": "USBLC6-2SC6",
+    "value": "USBLC6-2SC6",
+    "nets": {
+      "1": "USB_DP",
+      "6": "USB_DP",
+      "3": "USB_DM",
+      "4": "USB_DM",
+      "2": "GND",
+      "5": "USB_VBUS"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      13,
+      43
+    ],
+    "rot": 0,
+    "mpn": "USBLC6-2SC6",
+    "mfr": "STMicroelectronics",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": null,
+    "uuid": "3fe3a69f-3861-4599-9d57-fef65ce96ca7"
+  },
+  {
+    "ref": "Q1",
+    "lib": "Transistor_BJT",
+    "name": "MMBT3904",
+    "value": "MMBT3904",
+    "nets": {
+      "1": "AUTO_EN_B",
+      "2": "RTS",
+      "3": "EN"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "MMBT3904",
+    "mfr": "onsemi",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": null,
+    "uuid": "f8aeb03c-0095-43de-98b1-7e8178638df5"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "DTR",
+      "2": "AUTO_EN_B"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "Q1",
+    "uuid": "94195af9-1807-4fec-886a-bc70416daf80"
+  },
+  {
+    "ref": "Q2",
+    "lib": "Transistor_BJT",
+    "name": "MMBT3904",
+    "value": "MMBT3904",
+    "nets": {
+      "1": "AUTO_BOOT_B",
+      "2": "DTR",
+      "3": "BOOT"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "MMBT3904",
+    "mfr": "onsemi",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": null,
+    "uuid": "ec6b6164-6167-4d98-9ab1-ec53c1310edc"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "RTS",
+      "2": "AUTO_BOOT_B"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "Q2",
+    "uuid": "27bd843f-c68d-4765-b9be-e86d1b3558ba"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "2S BAT 6.4-8.4V",
+    "nets": {
+      "1": "BAT_RAW",
+      "2": "GND"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      10,
+      60
+    ],
+    "rot": 0,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": null,
+    "uuid": "bd40f289-8327-462c-b66d-3b92de037670"
+  },
+  {
+    "ref": "F1",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "2A hold",
+    "nets": {
+      "1": "BAT_RAW",
+      "2": "BAT_FUSED"
+    },
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "1812L200/16DR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": null,
+    "uuid": "45ab43b0-31d6-450b-90a0-8dad3fde0520"
+  },
+  {
+    "ref": "Q3",
+    "lib": "Transistor_FET",
+    "name": "AO3401A",
+    "value": "AO3401A",
+    "nets": {
+      "1": "Q3_G",
+      "2": "VBAT",
+      "3": "BAT_FUSED"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "AO3401A",
+    "mfr": "Alpha & Omega Semiconductor",
+    "source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": null,
+    "uuid": "0bf45553-d5be-4e4a-9775-c8d7321c5645"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "Q3_G",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "3e82f7cf-4351-4b8c-b9fd-09a7bf018bb8"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "470uF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:CP_Elec_8x10.5",
+    "xy": null,
+    "rot": 0,
+    "mpn": "EEE-FK1C471P",
+    "mfr": "Panasonic",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "94f11640-a803-4fef-9585-d631401692d2"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "52291793-0d5f-49cd-9d92-cdc4a5de433e"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "EXT 5V LOGIC",
+    "nets": {
+      "1": "EXT5_RAW",
+      "2": "GND"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      22,
+      60
+    ],
+    "rot": 0,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "21784c28-a566-45db-803a-684669a8ee98"
+  },
+  {
+    "ref": "F2",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "1.1A hold",
+    "nets": {
+      "1": "EXT5_RAW",
+      "2": "EXT5_FUSED"
+    },
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "1812L110/16DR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "67f5847b-1cd3-458e-93c2-dc25f0c5ccd4"
+  },
+  {
+    "ref": "F3",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "0.5A hold",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "USB_FUSED"
+    },
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "1812L050/24DR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "e8a3df72-0899-4f34-a49e-ec33393e4b59"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS34",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "EXT5_FUSED"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SS34",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "b3b6863b-4e51-438f-a209-18d98003dbf9"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS34",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "USB_FUSED"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SS34",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "9f22eaa0-6cd1-4f6e-824f-049d1cddcdb8"
+  },
+  {
+    "ref": "D3",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS34",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "BAT5"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SS34",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "1882fca1-f06c-48c0-ac5f-f2e2bcd364ef"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "3c9d0613-5dfc-46f0-b900-2d3519fc44b5"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "VBAT",
+      "2": "BAT_DIV"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "9b2154e2-f8b2-45ce-959f-555aa0dcdff1"
+  },
+  {
+    "ref": "R16",
+    "lib": "Device",
+    "name": "R",
+    "value": "33k",
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0733KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "73ae2043-ab1f-4bc1-b8d5-ab76f8c84612"
+  },
+  {
+    "ref": "R17",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "BAT_ADC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "b5f89abc-ae44-4f98-bcd8-49bb1f9f7c0f"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "BAT_ADC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Power Inputs",
+    "parent": "Q3",
+    "uuid": "c049bfca-0f01-4e76-b685-073d3b112b58"
+  },
+  {
+    "ref": "U4",
+    "lib": "Regulator_Switching",
+    "name": "AP63205WU",
+    "value": "AP63205WU-7",
+    "nets": {
+      "1": "BAT5",
+      "2": "U4_EN",
+      "3": "VBAT",
+      "4": "GND",
+      "5": "SW_BAT",
+      "6": "U4_BST"
+    },
+    "fp": "Package_TO_SOT_SMD:TSOT-23-6",
+    "xy": [
+      31,
+      54
+    ],
+    "rot": 0,
+    "mpn": "AP63205WU-7",
+    "mfr": "Diodes Inc.",
+    "source": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": null,
+    "uuid": "0a6ae3f6-3190-4397-8c81-c7501aa68ecb"
+  },
+  {
+    "ref": "R18",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "VBAT",
+      "2": "U4_EN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "bae95182-6590-4eb5-9d6e-73c8c1434128"
+  },
+  {
+    "ref": "R19",
+    "lib": "Device",
+    "name": "R",
+    "value": "27.4k",
+    "nets": {
+      "1": "U4_EN",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0727K4L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "f2f629eb-4389-44c1-b0b8-06e73a59ade8"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "U4_BST",
+      "2": "SW_BAT"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "1118e205-2d2b-424f-960f-10386cd3f44f"
+  },
+  {
+    "ref": "C13",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61C106KE15L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "38a45be1-e0ab-448b-824d-d95e3ad7c524"
+  },
+  {
+    "ref": "C14",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "ff5d4ba2-ae3a-427c-8ef1-02638b6e6830"
+  },
+  {
+    "ref": "L1",
+    "lib": "Device",
+    "name": "L",
+    "value": "4.7uH",
+    "nets": {
+      "1": "SW_BAT",
+      "2": "BAT5"
+    },
+    "fp": "Inductor_SMD:L_Bourns_SRP5030T",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SRP5030T-4R7M",
+    "mfr": "Bourns",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "80d73512-7bcd-4af0-854e-7d6213a4239f"
+  },
+  {
+    "ref": "C15",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "BAT5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "6a120021-84d6-422a-ba47-346c664bd879"
+  },
+  {
+    "ref": "C16",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "BAT5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U4",
+    "uuid": "4cb9c96d-c187-4568-b0ee-3867a5d6d557"
+  },
+  {
+    "ref": "U5",
+    "lib": "Regulator_Switching",
+    "name": "AP63203WU",
+    "value": "AP63203WU-7",
+    "nets": {
+      "1": "+3V3",
+      "2": "U5_EN",
+      "3": "LOGIC5",
+      "4": "GND",
+      "5": "SW_3V3",
+      "6": "U5_BST"
+    },
+    "fp": "Package_TO_SOT_SMD:TSOT-23-6",
+    "xy": [
+      27,
+      42
+    ],
+    "rot": 0,
+    "mpn": "AP63203WU-7",
+    "mfr": "Diodes Inc.",
+    "source": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": null,
+    "uuid": "242b0162-e51c-4666-bd53-acf5991a96ae"
+  },
+  {
+    "ref": "R20",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "U5_EN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "78923f98-d9aa-4991-ae72-c8b8ca19120e"
+  },
+  {
+    "ref": "R21",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "U5_EN",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "7565e314-8173-40f5-89da-40ca8e4e0ee4"
+  },
+  {
+    "ref": "C17",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "U5_BST",
+      "2": "SW_3V3"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "956efffe-483a-4182-b105-19d5bac90356"
+  },
+  {
+    "ref": "C18",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF 16V",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61C106KE15L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "5f65ae4c-ea99-4a5d-814f-a5732e8439c2"
+  },
+  {
+    "ref": "C19",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "LOGIC5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "0ad19c75-b96f-4909-9bfc-b85c48e5f4b2"
+  },
+  {
+    "ref": "L2",
+    "lib": "Device",
+    "name": "L",
+    "value": "4.7uH",
+    "nets": {
+      "1": "SW_3V3",
+      "2": "+3V3"
+    },
+    "fp": "Inductor_SMD:L_Bourns_SRP5030T",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SRP5030T-4R7M",
+    "mfr": "Bourns",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "9b72850b-80b1-4d00-bd9b-42b62f4fd8d2"
+  },
+  {
+    "ref": "C20",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "8d937463-5411-4f57-965f-a64b070e7727"
+  },
+  {
+    "ref": "C21",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "f6e3af59-07e4-443b-a81c-43ac2589e7d6"
+  },
+  {
+    "ref": "FB1",
+    "lib": "Device",
+    "name": "FerriteBead",
+    "value": "600R @100MHz",
+    "nets": {
+      "1": "+3V3",
+      "2": "+3V3_SENS"
+    },
+    "fp": "Inductor_SMD:L_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "BLM18AG601SN1D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "a33615ad-3d90-4b44-99ca-fd605a454ae7"
+  },
+  {
+    "ref": "C22",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7uF 10V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61A475KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "02a864d8-20ef-4be4-96e9-d836e3fa4456"
+  },
+  {
+    "ref": "C23",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "ebdb0bc9-150b-4de7-8113-9f1bcc6ab09e"
+  },
+  {
+    "ref": "R22",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "+3V3",
+      "2": "I2C_SDA"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-072K2L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "e34f83c9-ddaa-49d8-aca4-485dccb55e2d"
+  },
+  {
+    "ref": "R23",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "+3V3",
+      "2": "I2C_SCL"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-072K2L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Logic Regulators",
+    "parent": "U5",
+    "uuid": "e49b6ff2-4bd6-4f2b-bd6b-76608a3e1949"
+  },
+  {
+    "ref": "U6",
+    "lib": "Regulator_Switching",
+    "name": "TPS54302",
+    "value": "TPS54302DDCR",
+    "nets": {
+      "1": "GND",
+      "2": "SW_SERVO",
+      "3": "VBAT",
+      "4": "SERVO_FB",
+      "5": "SERVO_EN",
+      "6": "SERVO_BOOT"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      45,
+      54
+    ],
+    "rot": 0,
+    "mpn": "TPS54302DDCR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tps54302.pdf",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": null,
+    "uuid": "98148e98-3755-465f-974e-6ac8e19ef32b"
+  },
+  {
+    "ref": "R24",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "VBAT",
+      "2": "SERVO_EN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "32169bfc-8466-4a8e-acc9-01c5e5dc135f"
+  },
+  {
+    "ref": "R25",
+    "lib": "Device",
+    "name": "R",
+    "value": "27.4k",
+    "nets": {
+      "1": "SERVO_EN",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0727K4L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "c25128f5-9f92-4ec6-bc70-1e887b6c3212"
+  },
+  {
+    "ref": "C24",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "SERVO_BOOT",
+      "2": "SW_SERVO"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "cd003000-d270-418a-98fe-1fa478693a43"
+  },
+  {
+    "ref": "C25",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61C106KE15L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "e45bae87-fb95-43cf-a7ff-f327817884b1"
+  },
+  {
+    "ref": "C26",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF 16V",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61C106KE15L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "ea5a64df-19e5-4a5d-96f4-1be38da84563"
+  },
+  {
+    "ref": "L3",
+    "lib": "Device",
+    "name": "L",
+    "value": "10uH",
+    "nets": {
+      "1": "SW_SERVO",
+      "2": "SERVO_BUCK"
+    },
+    "fp": "Inductor_SMD:L_Bourns_SRP5030T",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SRP5030T-100M",
+    "mfr": "Bourns",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "77308b21-1d48-4d79-9b78-926c56628ea1"
+  },
+  {
+    "ref": "R26",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "SERVO_BUCK",
+      "2": "SERVO_FB"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "e7331d78-e7ef-4e9d-a05a-df09ee26f0ed"
+  },
+  {
+    "ref": "R27",
+    "lib": "Device",
+    "name": "R",
+    "value": "13.3k",
+    "nets": {
+      "1": "SERVO_FB",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0713K3L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "54a43db6-fb3a-4623-8c4a-aa83193fcb20"
+  },
+  {
+    "ref": "C27",
+    "lib": "Device",
+    "name": "C",
+    "value": "75pF 50V",
+    "nets": {
+      "1": "SERVO_BUCK",
+      "2": "SERVO_FB"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H750JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "0c32c39a-6e9e-40aa-845f-87553073917b"
+  },
+  {
+    "ref": "C28",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "SERVO_BUCK",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "5dc2471d-7d66-4967-ab52-5333d7ef8c97"
+  },
+  {
+    "ref": "C29",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF 10V",
+    "nets": {
+      "1": "SERVO_BUCK",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61A226ME44L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "f5967a89-a957-4d67-810a-a865d4d3055c"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "SERVO EXT 5-6V",
+    "nets": {
+      "1": "SERVO_EXT_RAW",
+      "2": "GND"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      35,
+      60
+    ],
+    "rot": 0,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "U6",
+    "uuid": "e9730d3f-a466-4c48-b656-63c423697f1a"
+  },
+  {
+    "ref": "Q4",
+    "lib": "Transistor_FET",
+    "name": "AO3401A",
+    "value": "AO3401A",
+    "nets": {
+      "1": "Q4_G",
+      "2": "SERVO_EXT",
+      "3": "SERVO_EXT_RAW"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "AO3401A",
+    "mfr": "Alpha & Omega Semiconductor",
+    "source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": null,
+    "uuid": "44d69546-43ee-42b0-aabe-a37d4b960bc3"
+  },
+  {
+    "ref": "R28",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "Q4_G",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "Q4",
+    "uuid": "911621fa-ccb2-4bb5-b979-88fc4d9656c7"
+  },
+  {
+    "ref": "JP1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SERVO SELECT 1-2 BAT / 2-3 EXT",
+    "nets": {
+      "1": "SERVO_BUCK",
+      "2": "SERVO_SELECTED",
+      "3": "SERVO_EXT"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      48,
+      59
+    ],
+    "rot": 90,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "Q4",
+    "uuid": "09d03857-9e76-4676-955d-3776dde79e0e"
+  },
+  {
+    "ref": "F4",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "2A hold",
+    "nets": {
+      "1": "SERVO_SELECTED",
+      "2": "SERVO5"
+    },
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "1812L200/16DR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "Q4",
+    "uuid": "080a3ac5-8509-4737-9cee-c992d1bf4dfb"
+  },
+  {
+    "ref": "C30",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "470uF 16V",
+    "nets": {
+      "1": "SERVO5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:CP_Elec_8x10.5",
+    "xy": null,
+    "rot": 0,
+    "mpn": "EEE-FK1C471P",
+    "mfr": "Panasonic",
+    "source": "",
+    "side": "F",
+    "section": "Servo Power",
+    "parent": "Q4",
+    "uuid": "a5211b70-82bb-4e05-bd30-c35064489367"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "VM 3-8.4V",
+    "nets": {
+      "1": "MOTOR_RAW",
+      "2": "GND"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      59,
+      60
+    ],
+    "rot": 0,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "Q4",
+    "uuid": "015f0d86-c3cb-43d4-be89-7e25d9a02108"
+  },
+  {
+    "ref": "F5",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "2A hold",
+    "nets": {
+      "1": "MOTOR_RAW",
+      "2": "MOTOR_FUSED"
+    },
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "1812L200/16DR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "Q4",
+    "uuid": "a8203bf7-c0ba-4e23-ac5d-13a357ebf5b1"
+  },
+  {
+    "ref": "Q5",
+    "lib": "Transistor_FET",
+    "name": "AO3401A",
+    "value": "AO3401A",
+    "nets": {
+      "1": "Q5_G",
+      "2": "VM",
+      "3": "MOTOR_FUSED"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "AO3401A",
+    "mfr": "Alpha & Omega Semiconductor",
+    "source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": null,
+    "uuid": "0df82a99-c020-4570-9d72-73dcf330bfdb"
+  },
+  {
+    "ref": "R29",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "Q5_G",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "Q5",
+    "uuid": "04ff3f13-6982-4df6-875f-1b8ed934a162"
+  },
+  {
+    "ref": "U7",
+    "lib": "Driver_Motor",
+    "name": "DRV8833PWP",
+    "value": "DRV8833PWPR",
+    "nets": {
+      "1": "M_SLEEP",
+      "2": "MOTOR_A_P",
+      "3": "ISENSE_A",
+      "4": "MOTOR_A_N",
+      "5": "MOTOR_B_N",
+      "6": "ISENSE_B",
+      "7": "MOTOR_B_P",
+      "8": "M_FAULT",
+      "9": "M_B1",
+      "10": "M_B2",
+      "11": "M_VCP",
+      "12": "VM",
+      "13": "GND",
+      "14": "M_VINT",
+      "15": "M_A2",
+      "16": "M_A1",
+      "17": "GND"
+    },
+    "fp": "RoveCore:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias_Board",
+    "xy": [
+      66,
+      48
+    ],
+    "rot": 0,
+    "mpn": "DRV8833PWPR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/drv8833.pdf",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": null,
+    "uuid": "8fe0183c-b7bb-44c0-8d91-042a3b746b3b"
+  },
+  {
+    "ref": "C31",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF 25V",
+    "nets": {
+      "1": "M_VCP",
+      "2": "VM"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71E103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "29c2495d-70fb-45e8-a7a3-cd79b892991a"
+  },
+  {
+    "ref": "C32",
+    "lib": "Device",
+    "name": "C",
+    "value": "2.2uF 10V",
+    "nets": {
+      "1": "M_VINT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61A225KE34D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "50b16f46-46a8-4b66-ba50-d28e65565515"
+  },
+  {
+    "ref": "C33",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "a116663f-2e12-4409-a4a5-d3eb7b32d605"
+  },
+  {
+    "ref": "C34",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF 16V",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR61C106KE15L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "e44de3f4-0c50-429f-8006-08d0c3e8445c"
+  },
+  {
+    "ref": "C35",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "470uF 16V",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:CP_Elec_8x10.5",
+    "xy": null,
+    "rot": 0,
+    "mpn": "EEE-FK1C471P",
+    "mfr": "Panasonic",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "bea817fb-e555-4e8c-b74d-369eb9bf73a1"
+  },
+  {
+    "ref": "R30",
+    "lib": "Device",
+    "name": "R",
+    "value": "0.25R 1W",
+    "nets": {
+      "1": "ISENSE_A",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_2512_6332Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "WSL2512R2500FEA",
+    "mfr": "Vishay",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "08c0f33b-8ceb-4a32-a55b-0f313af9880e"
+  },
+  {
+    "ref": "R31",
+    "lib": "Device",
+    "name": "R",
+    "value": "0.25R 1W",
+    "nets": {
+      "1": "ISENSE_B",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_2512_6332Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "WSL2512R2500FEA",
+    "mfr": "Vishay",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "adb81585-73df-4601-8aac-2934f64f2afb"
+  },
+  {
+    "ref": "R32",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "M_SLEEP",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "fa5a068b-5f04-40af-aab0-c32080e31df2"
+  },
+  {
+    "ref": "R33",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "M_FAULT"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "914c7e96-fa13-485f-a3b8-e60f5e07df6b"
+  },
+  {
+    "ref": "R34",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "M_A1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "3864bcf9-11ad-41ce-943b-88ae2cb7c9cc"
+  },
+  {
+    "ref": "R35",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "M_A2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "53b9892f-5571-4ae9-8d5a-b351437e6c2f"
+  },
+  {
+    "ref": "R36",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "M_B1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "61a40fbd-8015-46e8-bb07-19b7708f0f6b"
+  },
+  {
+    "ref": "R37",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "M_B2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "82427874-2d21-4b0b-8335-fcca239c0387"
+  },
+  {
+    "ref": "J7",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "MOTOR A",
+    "nets": {
+      "1": "MOTOR_A_P",
+      "2": "MOTOR_A_N"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      76,
+      43
+    ],
+    "rot": 90,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "8b658ba5-6d5f-4c79-abfc-f639458f5320"
+  },
+  {
+    "ref": "J8",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "MOTOR B",
+    "nets": {
+      "1": "MOTOR_B_P",
+      "2": "MOTOR_B_N"
+    },
+    "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+    "xy": [
+      76,
+      54
+    ],
+    "rot": 90,
+    "mpn": "1984617",
+    "mfr": "Phoenix Contact",
+    "source": "",
+    "side": "F",
+    "section": "Motor Driver",
+    "parent": "U7",
+    "uuid": "d68394f9-dead-4e1a-95ac-f872b27caa76"
+  },
+  {
+    "ref": "U8",
+    "lib": "Sensor_Motion",
+    "name": "LSM6DS3",
+    "value": "LSM6DS3TR-C",
+    "nets": {
+      "1": "GND",
+      "4": "IMU_INT",
+      "5": "+3V3_SENS",
+      "6": "GND",
+      "7": "GND",
+      "8": "+3V3_SENS",
+      "12": "+3V3_SENS",
+      "13": "I2C_SCL",
+      "14": "I2C_SDA"
+    },
+    "fp": "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y",
+    "xy": [
+      40,
+      29
+    ],
+    "rot": 0,
+    "mpn": "LSM6DS3TR-C",
+    "mfr": "STMicroelectronics",
+    "source": "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": null,
+    "uuid": "e562dc65-9e2d-4e82-b0a2-c0519ed5e594"
+  },
+  {
+    "ref": "C36",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U8",
+    "uuid": "5317d8ee-910e-48ee-9109-2e9ebac66cfe"
+  },
+  {
+    "ref": "C37",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U8",
+    "uuid": "0b651f02-7199-4029-b218-dcb06b0c1e31"
+  },
+  {
+    "ref": "C38",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61C105KA12D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U8",
+    "uuid": "57e9e4fb-3ff8-4416-a057-ee0331c3bc03"
+  },
+  {
+    "ref": "U9",
+    "lib": "Sensor_Magnetic",
+    "name": "LIS3MDL",
+    "value": "LIS3MDLTR",
+    "nets": {
+      "1": "I2C_SCL",
+      "2": "GND",
+      "3": "GND",
+      "4": "MAG_C1",
+      "5": "+3V3_SENS",
+      "6": "+3V3_SENS",
+      "9": "GND",
+      "10": "+3V3_SENS",
+      "11": "I2C_SDA",
+      "12": "GND"
+    },
+    "fp": "Package_LGA:LGA-12_2x2mm_P0.5mm",
+    "xy": [
+      69,
+      9
+    ],
+    "rot": 0,
+    "mpn": "LIS3MDLTR",
+    "mfr": "STMicroelectronics",
+    "source": "https://www.st.com/resource/en/datasheet/lis3mdl.pdf",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": null,
+    "uuid": "9e42e449-7d69-4511-80c3-32d537909dea"
+  },
+  {
+    "ref": "C39",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U9",
+    "uuid": "ac74db7f-4352-4fb9-953d-63723236ee3e"
+  },
+  {
+    "ref": "C40",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U9",
+    "uuid": "e0fc6a45-547d-4d13-a6b4-5c3b0dd4c558"
+  },
+  {
+    "ref": "C41",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "MAG_C1",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U9",
+    "uuid": "03903405-24e9-43e9-b948-67303fbe7c02"
+  },
+  {
+    "ref": "C42",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7uF 10V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61A475KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motion Sensors",
+    "parent": "U9",
+    "uuid": "d145da70-d1d8-4b00-9b25-19fa5bb74994"
+  },
+  {
+    "ref": "U10",
+    "lib": "Sensor",
+    "name": "BME280",
+    "value": "BME280",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "I2C_SDA",
+      "4": "I2C_SCL",
+      "5": "GND",
+      "6": "+3V3_SENS",
+      "7": "GND",
+      "8": "+3V3_SENS"
+    },
+    "fp": "RoveCore:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering_Board",
+    "xy": [
+      59,
+      9
+    ],
+    "rot": 0,
+    "mpn": "BME280",
+    "mfr": "Bosch Sensortec",
+    "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+    "side": "F",
+    "section": "Environmental Sensors",
+    "parent": null,
+    "uuid": "8243a4ca-08cb-461e-9155-729dfb0446f6"
+  },
+  {
+    "ref": "C43",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Environmental Sensors",
+    "parent": "U10",
+    "uuid": "a186f573-3d62-4570-bf05-17678b06b4da"
+  },
+  {
+    "ref": "C44",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Environmental Sensors",
+    "parent": "U10",
+    "uuid": "3c79f784-07af-47bb-a35b-c7db3804b6bd"
+  },
+  {
+    "ref": "U11",
+    "lib": "RoveCore",
+    "name": "VEML7700",
+    "value": "VEML7700-TT",
+    "nets": {
+      "1": "I2C_SCL",
+      "2": "+3V3_SENS",
+      "3": "GND",
+      "4": "I2C_SDA"
+    },
+    "fp": "RoveCore:VEML7700_TT",
+    "xy": [
+      49,
+      6
+    ],
+    "rot": 0,
+    "mpn": "VEML7700-TT",
+    "mfr": "Vishay",
+    "source": "https://www.vishay.com/docs/84286/veml7700.pdf",
+    "side": "F",
+    "section": "Environmental Sensors",
+    "parent": null,
+    "uuid": "9477da71-c56c-479f-86e6-6fd8da3fa695"
+  },
+  {
+    "ref": "C45",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Environmental Sensors",
+    "parent": "U11",
+    "uuid": "f570eadf-86e3-4a58-8613-637a8d6bc2aa"
+  },
+  {
+    "ref": "U12",
+    "lib": "Sensor_Distance",
+    "name": "VL53L1CXV0FY1",
+    "value": "VL53L1CXV0FY1",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND",
+      "3": "GND",
+      "4": "GND",
+      "5": "TOF_XSHUT",
+      "6": "GND",
+      "7": "TOF_INT",
+      "9": "I2C_SDA",
+      "10": "I2C_SCL",
+      "11": "+3V3_SENS",
+      "12": "GND"
+    },
+    "fp": "Sensor_Distance:ST_VL53L1x",
+    "xy": [
+      40,
+      5
+    ],
+    "rot": 0,
+    "mpn": "VL53L1CXV0FY1",
+    "mfr": "STMicroelectronics",
+    "source": "https://www.st.com/resource/en/datasheet/vl53l1x.pdf",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": null,
+    "uuid": "2d9d235f-5fd4-4efd-8595-6afd65c22b81"
+  },
+  {
+    "ref": "C46",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "aefbac70-f803-422f-8873-4cf50760c1c7"
+  },
+  {
+    "ref": "C47",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "c5b48d67-cdbd-4dcf-b09b-282e080efe8e"
+  },
+  {
+    "ref": "C48",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7uF 10V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R61A475KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "a01dfe27-2bcf-4281-bbbe-44994a293e9f"
+  },
+  {
+    "ref": "R38",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "TOF_XSHUT"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "b70c10cf-3d95-4fd2-870d-291108dcf739"
+  },
+  {
+    "ref": "R39",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "TOF_INT"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "00903db2-8e02-4543-be29-6725bc09d3ba"
+  },
+  {
+    "ref": "J9",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "ULTRASONIC 5V",
+    "nets": {
+      "1": "BAT5",
+      "2": "US_TRIG5",
+      "3": "US_ECHO_RAW",
+      "4": "GND"
+    },
+    "fp": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+    "xy": [
+      73,
+      24
+    ],
+    "rot": 90,
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U12",
+    "uuid": "5cc6e03e-2b3a-4fa7-862f-7f0f639c81f7"
+  },
+  {
+    "ref": "U13",
+    "lib": "74xGxx",
+    "name": "74LVC1G17",
+    "value": "SN74LVC1G17DBVR",
+    "nets": {
+      "2": "US_ECHO_RC",
+      "3": "GND",
+      "4": "US_ECHO",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      66,
+      25
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G17DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": null,
+    "uuid": "69ecb45d-6ad4-4384-af0b-cc1ecde7a0e2"
+  },
+  {
+    "ref": "C49",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U13",
+    "uuid": "7f43d187-0152-431c-809e-6976c6d8a5af"
+  },
+  {
+    "ref": "R40",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "US_ECHO_RAW",
+      "2": "US_ECHO_RC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U13",
+    "uuid": "b8e4f8b2-6d62-41ed-9218-9f7de9b7c8de"
+  },
+  {
+    "ref": "R41",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "US_ECHO_RC",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U13",
+    "uuid": "11508eac-8f66-47fe-96b5-51dffc2ea116"
+  },
+  {
+    "ref": "C50",
+    "lib": "Device",
+    "name": "C",
+    "value": "100pF 50V",
+    "nets": {
+      "1": "US_ECHO_RC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H101JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U13",
+    "uuid": "af8e560a-cb02-4ca8-9e81-93e3619609cb"
+  },
+  {
+    "ref": "U14",
+    "lib": "74xx",
+    "name": "74AHCT125",
+    "value": "SN74AHCT125PWR",
+    "nets": {
+      "1": "GND",
+      "2": "US_TRIG",
+      "3": "US_TRIG5",
+      "4": "SERVO_OE",
+      "5": "SERVO_PWM0",
+      "6": "SERVO_SIG0",
+      "7": "GND",
+      "8": "SERVO_SIG1",
+      "9": "SERVO_PWM1",
+      "10": "SERVO_OE",
+      "11": "SERVO_SIG2",
+      "12": "SERVO_PWM2",
+      "13": "SERVO_OE",
+      "14": "BAT5"
+    },
+    "fp": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "xy": [
+      61,
+      31
+    ],
+    "rot": 0,
+    "mpn": "SN74AHCT125PWR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": null,
+    "uuid": "0d6ea398-ee65-41ac-82c6-084d527eb154"
+  },
+  {
+    "ref": "C51",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "BAT5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Distance Interfaces",
+    "parent": "U14",
+    "uuid": "312417f3-f769-4bdd-a19a-cfad1d51436a"
+  },
+  {
+    "ref": "J10",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "ENC LEFT",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "ENC_LA_RAW",
+      "4": "ENC_LB_RAW"
+    },
+    "fp": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+    "xy": [
+      72,
+      33
+    ],
+    "rot": 90,
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U14",
+    "uuid": "170d2e34-40d8-4803-b183-a88141a5e323"
+  },
+  {
+    "ref": "U15",
+    "lib": "74xGxx",
+    "name": "74LVC1G17",
+    "value": "SN74LVC1G17DBVR",
+    "nets": {
+      "2": "ENC_LA_RAW_RC",
+      "3": "GND",
+      "4": "ENC_LA",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      64,
+      35
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G17DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": null,
+    "uuid": "2068fb2e-a9f8-4e1d-81ff-5e5ff01d6df9"
+  },
+  {
+    "ref": "C52",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U15",
+    "uuid": "53515628-3fd9-4b35-8911-2b4da8e8e008"
+  },
+  {
+    "ref": "R42",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "ENC_LA_RAW",
+      "2": "ENC_LA_RAW_RC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U15",
+    "uuid": "39d27d70-60f6-4561-8af2-97da238ae4ae"
+  },
+  {
+    "ref": "R43",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "ENC_LA_RAW"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U15",
+    "uuid": "8db636b8-1dd1-4bc2-a06e-85d0134b5207"
+  },
+  {
+    "ref": "C53",
+    "lib": "Device",
+    "name": "C",
+    "value": "100pF 50V",
+    "nets": {
+      "1": "ENC_LA_RAW_RC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H101JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U15",
+    "uuid": "0d9bff1e-f7fb-40c0-8a74-35a92ae057ba"
+  },
+  {
+    "ref": "U16",
+    "lib": "74xGxx",
+    "name": "74LVC1G17",
+    "value": "SN74LVC1G17DBVR",
+    "nets": {
+      "2": "ENC_LB_RAW_RC",
+      "3": "GND",
+      "4": "ENC_LB",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      64,
+      40
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G17DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": null,
+    "uuid": "fae327e0-9afd-4b11-a561-df7bb83fcdc0"
+  },
+  {
+    "ref": "C54",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U16",
+    "uuid": "692c7d4f-dd6d-4010-87b8-507362402385"
+  },
+  {
+    "ref": "R44",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "ENC_LB_RAW",
+      "2": "ENC_LB_RAW_RC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U16",
+    "uuid": "03f69072-4e48-454f-86b7-0b8d3fe40787"
+  },
+  {
+    "ref": "R45",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "ENC_LB_RAW"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U16",
+    "uuid": "97f39258-de3b-4d0e-8c00-d5b36e8fd18e"
+  },
+  {
+    "ref": "C55",
+    "lib": "Device",
+    "name": "C",
+    "value": "100pF 50V",
+    "nets": {
+      "1": "ENC_LB_RAW_RC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H101JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U16",
+    "uuid": "870d630d-89c3-49c3-97fb-2dffd3a7d0d2"
+  },
+  {
+    "ref": "J11",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "ENC RIGHT",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "ENC_RA_RAW",
+      "4": "ENC_RB_RAW"
+    },
+    "fp": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+    "xy": [
+      72,
+      38
+    ],
+    "rot": 90,
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U16",
+    "uuid": "8d7a2db4-482a-4eb7-9e94-ea69899102c2"
+  },
+  {
+    "ref": "U17",
+    "lib": "74xGxx",
+    "name": "74LVC1G17",
+    "value": "SN74LVC1G17DBVR",
+    "nets": {
+      "2": "ENC_RA_RAW_RC",
+      "3": "GND",
+      "4": "ENC_RA",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      69,
+      35
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G17DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": null,
+    "uuid": "ecda6939-fa2d-45fa-9f5c-5cfac2dc2048"
+  },
+  {
+    "ref": "C56",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U17",
+    "uuid": "ce673c1a-3164-4ca8-a2ed-81804211db24"
+  },
+  {
+    "ref": "R46",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "ENC_RA_RAW",
+      "2": "ENC_RA_RAW_RC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U17",
+    "uuid": "cfab0dc9-2f1c-4b12-82a9-33f783b89563"
+  },
+  {
+    "ref": "R47",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "ENC_RA_RAW"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U17",
+    "uuid": "5d4163ec-20e7-4a8a-8c7a-04ba490dddb4"
+  },
+  {
+    "ref": "C57",
+    "lib": "Device",
+    "name": "C",
+    "value": "100pF 50V",
+    "nets": {
+      "1": "ENC_RA_RAW_RC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H101JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U17",
+    "uuid": "a061e6df-7d68-4793-9579-936b29ebed09"
+  },
+  {
+    "ref": "U18",
+    "lib": "74xGxx",
+    "name": "74LVC1G17",
+    "value": "SN74LVC1G17DBVR",
+    "nets": {
+      "2": "ENC_RB_RAW_RC",
+      "3": "GND",
+      "4": "ENC_RB",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      69,
+      40
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G17DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": null,
+    "uuid": "314e5f32-7b82-4949-a1ed-74f6bc2fbf31"
+  },
+  {
+    "ref": "C58",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U18",
+    "uuid": "32a1c6b8-87af-4a28-9c3b-16a56e7c0083"
+  },
+  {
+    "ref": "R48",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "ENC_RB_RAW",
+      "2": "ENC_RB_RAW_RC"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U18",
+    "uuid": "15867adf-0dea-44fb-8f7b-84045a1a361b"
+  },
+  {
+    "ref": "R49",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "ENC_RB_RAW"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U18",
+    "uuid": "39ae87f2-be4c-448e-98d0-f24a17dfd838"
+  },
+  {
+    "ref": "C59",
+    "lib": "Device",
+    "name": "C",
+    "value": "100pF 50V",
+    "nets": {
+      "1": "ENC_RB_RAW_RC",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1885C1H101JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Encoder Interfaces",
+    "parent": "U18",
+    "uuid": "9e466b13-f3d3-4bed-ade8-5ae10def217f"
+  },
+  {
+    "ref": "U19",
+    "lib": "Driver_LED",
+    "name": "PCA9685PW",
+    "value": "PCA9685PW,118",
+    "nets": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "GND",
+      "5": "GND",
+      "6": "SERVO_PWM0",
+      "7": "SERVO_PWM1",
+      "8": "SERVO_PWM2",
+      "9": "SERVO_PWM3",
+      "14": "GND",
+      "23": "SERVO_OE",
+      "24": "GND",
+      "25": "GND",
+      "26": "I2C_SCL",
+      "27": "I2C_SDA",
+      "28": "+3V3"
+    },
+    "fp": "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm",
+    "xy": [
+      50,
+      38
+    ],
+    "rot": 0,
+    "mpn": "PCA9685PW,118",
+    "mfr": "NXP",
+    "source": "https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": null,
+    "uuid": "8c65b9a0-f356-49a8-87bf-4258c9a1f903"
+  },
+  {
+    "ref": "C60",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U19",
+    "uuid": "79ef62ef-d8a3-4940-b2a3-78327eb50144"
+  },
+  {
+    "ref": "U20",
+    "lib": "74xGxx",
+    "name": "74AHCT1G125",
+    "value": "SN74AHCT1G125DBVR",
+    "nets": {
+      "2": "SERVO_PWM3",
+      "3": "GND",
+      "4": "SERVO_SIG3",
+      "5": "BAT5",
+      "1": "SERVO_OE"
+    },
+    "fp": "RoveCore:SOT-23-5_Board",
+    "xy": [
+      54,
+      45
+    ],
+    "rot": 0,
+    "mpn": "SN74AHCT1G125DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": null,
+    "uuid": "e228de53-fa0c-432f-85f0-132672ac074c"
+  },
+  {
+    "ref": "C61",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "BAT5",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "b848724c-1b30-4924-948a-d283d6e7869a"
+  },
+  {
+    "ref": "R50",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "SERVO_SIG0",
+      "2": "SERVO_OUT0"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "8c0758de-9bbc-427e-a1b8-fb02b5a553a9"
+  },
+  {
+    "ref": "R51",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "SERVO_OUT0",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "de50ff77-9b24-4d5c-ae80-c05b90693496"
+  },
+  {
+    "ref": "J12",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SERVO 1",
+    "nets": {
+      "1": "GND",
+      "2": "SERVO5",
+      "3": "SERVO_OUT0"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      54.0,
+      17
+    ],
+    "rot": 0,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "6f2fe294-1d3b-45d8-a2a4-41ad6bb67e71"
+  },
+  {
+    "ref": "R52",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "SERVO_SIG1",
+      "2": "SERVO_OUT1"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "311b2d63-6973-40ec-8b99-9ad4087be08a"
+  },
+  {
+    "ref": "R53",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "SERVO_OUT1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "1d786f9d-292e-4c50-9583-3b0896143770"
+  },
+  {
+    "ref": "J13",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SERVO 2",
+    "nets": {
+      "1": "GND",
+      "2": "SERVO5",
+      "3": "SERVO_OUT1"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      59.5,
+      17
+    ],
+    "rot": 0,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "2cf22491-e819-4f05-beda-4af4e7dbcbaa"
+  },
+  {
+    "ref": "R54",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "SERVO_SIG2",
+      "2": "SERVO_OUT2"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "b1840b67-7dcc-4e90-9706-7e2e472234e7"
+  },
+  {
+    "ref": "R55",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "SERVO_OUT2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "935a41a4-e419-4977-bea6-01b3316a1a83"
+  },
+  {
+    "ref": "J14",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SERVO 3",
+    "nets": {
+      "1": "GND",
+      "2": "SERVO5",
+      "3": "SERVO_OUT2"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      65.0,
+      17
+    ],
+    "rot": 0,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "98043296-6261-48f4-95bb-c8b2c9d0f56f"
+  },
+  {
+    "ref": "R56",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "SERVO_SIG3",
+      "2": "SERVO_OUT3"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "0ead1f31-5819-4350-8605-95ee9a668865"
+  },
+  {
+    "ref": "R57",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "SERVO_OUT3",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "d116d7ca-26d4-4c57-a094-a75f50e62a19"
+  },
+  {
+    "ref": "J15",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SERVO 4",
+    "nets": {
+      "1": "GND",
+      "2": "SERVO5",
+      "3": "SERVO_OUT3"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      70.5,
+      17
+    ],
+    "rot": 0,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Servo PWM",
+    "parent": "U20",
+    "uuid": "1ada8907-96cd-4503-b5b3-a1807a986cf6"
+  },
+  {
+    "ref": "U21",
+    "lib": "Interface_Expansion",
+    "name": "MCP23017x-x-SS",
+    "value": "MCP23017-E/SS",
+    "nets": {
+      "1": "EXP_B0",
+      "2": "EXP_B1",
+      "3": "EXP_B2",
+      "4": "EXP_B3",
+      "5": "EXP_B4",
+      "6": "EXP_B5",
+      "7": "EXP_B6",
+      "8": "EXP_B7",
+      "9": "+3V3",
+      "10": "GND",
+      "12": "I2C_SCL",
+      "13": "I2C_SDA",
+      "15": "GND",
+      "16": "GND",
+      "17": "GND",
+      "18": "EN",
+      "21": "M_SLEEP",
+      "22": "M_FAULT",
+      "23": "TOF_XSHUT",
+      "24": "TOF_INT",
+      "25": "USER_BTN",
+      "26": "RGB_R",
+      "27": "RGB_G",
+      "28": "RGB_B"
+    },
+    "fp": "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm",
+    "xy": [
+      43,
+      43
+    ],
+    "rot": 0,
+    "mpn": "MCP23017-E/SS",
+    "mfr": "Microchip",
+    "source": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": null,
+    "uuid": "1b31a4a8-b3fa-4913-9546-bf3e005d647d"
+  },
+  {
+    "ref": "C62",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "2926c2f5-458e-4c12-9bc5-3afc44826dbf"
+  },
+  {
+    "ref": "J16",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "I2C 3V3",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "I2C_SDA",
+      "4": "I2C_SCL"
+    },
+    "fp": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+    "xy": [
+      43,
+      14
+    ],
+    "rot": 180,
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "53ad7b1e-2cb9-4121-b8f3-90d7439b8c40"
+  },
+  {
+    "ref": "J17",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "SPI / LORA",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "SPI_SCK",
+      "4": "SPI_MOSI",
+      "5": "SPI_MISO",
+      "6": "SPI_CS"
+    },
+    "fp": "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+    "xy": [
+      39,
+      22
+    ],
+    "rot": 0,
+    "mpn": "SM06B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "3a21bde1-25eb-41a1-9f36-457ee04bbd35"
+  },
+  {
+    "ref": "J18",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "GPS / UART",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "UART_TX",
+      "4": "UART_RX"
+    },
+    "fp": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+    "xy": [
+      58,
+      24
+    ],
+    "rot": 0,
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "95e29554-76e0-4831-923a-63b4472646ad"
+  },
+  {
+    "ref": "J19",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x10",
+    "value": "GPIO EXP 3V3",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "GND",
+      "4": "GND",
+      "5": "GND",
+      "6": "EXP_B3",
+      "7": "EXP_B4",
+      "8": "EXP_B5",
+      "9": "EXP_B6",
+      "10": "EXP_B7"
+    },
+    "fp": "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical",
+    "xy": [
+      77,
+      7
+    ],
+    "rot": 0,
+    "mpn": "M22-2011005",
+    "mfr": "Harwin",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "7055bc3e-ad5e-47d8-80e7-c1d984c4d644"
+  },
+  {
+    "ref": "TP1",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "EXP_B0",
+    "nets": {
+      "1": "EXP_B0"
+    },
+    "fp": "RoveCore:ServicePad_0.5mm",
+    "xy": [
+      40.2806,
+      39.0703
+    ],
+    "rot": 0,
+    "mpn": "PCB copper feature",
+    "mfr": "PCB fabricator",
+    "source": "",
+    "side": "B",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "76e4d33c-a4b2-42ea-aef6-626b5848c207"
+  },
+  {
+    "ref": "TP2",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "EXP_B1",
+    "nets": {
+      "1": "EXP_B1"
+    },
+    "fp": "RoveCore:ServicePad_0.5mm",
+    "xy": [
+      39.4113,
+      39.4811
+    ],
+    "rot": 0,
+    "mpn": "PCB copper feature",
+    "mfr": "PCB fabricator",
+    "source": "",
+    "side": "B",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "a319b282-e61a-4fee-8540-235d20f69d98"
+  },
+  {
+    "ref": "TP3",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "EXP_B2",
+    "nets": {
+      "1": "EXP_B2"
+    },
+    "fp": "RoveCore:ServicePad_0.5mm",
+    "xy": [
+      39.377,
+      40.2551
+    ],
+    "rot": 0,
+    "mpn": "PCB copper feature",
+    "mfr": "PCB fabricator",
+    "source": "",
+    "side": "B",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "dc180469-63be-48be-bf37-a3181e247357"
+  },
+  {
+    "ref": "J20",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x10",
+    "value": "ESP GPIO SHARED",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "M_A1",
+      "4": "M_A2",
+      "5": "M_B1",
+      "6": "M_B2",
+      "7": "IMU_INT",
+      "8": "BAT_ADC",
+      "9": "US_TRIG",
+      "10": "US_ECHO"
+    },
+    "fp": "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical",
+    "xy": [
+      6,
+      7
+    ],
+    "rot": 0,
+    "mpn": "M22-2011005",
+    "mfr": "Harwin",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "119a231e-daf2-4518-9d87-2a194516f32e"
+  },
+  {
+    "ref": "J21",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x08",
+    "value": "ESP GPIO INPUTS",
+    "nets": {
+      "1": "GND",
+      "2": "SERVO_OE",
+      "3": "BUZZ_PWM",
+      "4": "ENC_LA",
+      "5": "ENC_LB",
+      "6": "ENC_RA",
+      "7": "ENC_RB",
+      "8": "SPI_CS"
+    },
+    "fp": "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical",
+    "xy": [
+      35,
+      8
+    ],
+    "rot": 0,
+    "mpn": "M22-2010805",
+    "mfr": "Harwin",
+    "source": "",
+    "side": "F",
+    "section": "GPIO Expansion",
+    "parent": "U21",
+    "uuid": "1c758338-98fb-4af8-a216-b9356892acfb"
+  },
+  {
+    "ref": "U22",
+    "lib": "Analog_ADC",
+    "name": "ADS1115IDGS",
+    "value": "ADS1115IDGSR",
+    "nets": {
+      "1": "GND",
+      "3": "GND",
+      "4": "AN0",
+      "5": "AN1",
+      "6": "AN2",
+      "7": "AN3",
+      "8": "+3V3_SENS",
+      "9": "I2C_SDA",
+      "10": "I2C_SCL"
+    },
+    "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "xy": [
+      48,
+      28
+    ],
+    "rot": 0,
+    "mpn": "ADS1115IDGSR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": null,
+    "uuid": "e645ec8f-1db5-447b-bd5c-e9dadcc065e3"
+  },
+  {
+    "ref": "C63",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "27a7f304-49cd-439d-a5c9-21a8c221f321"
+  },
+  {
+    "ref": "R58",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "nets": {
+      "1": "AN_IN0",
+      "2": "AN0"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-074K7L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "cf84bf8e-ec08-48fa-908b-3d57259ae7dc"
+  },
+  {
+    "ref": "C64",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF 25V",
+    "nets": {
+      "1": "AN0",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71E103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "e6729dc1-b093-4e23-bf56-1d8f1fde0687"
+  },
+  {
+    "ref": "D10",
+    "lib": "Diode",
+    "name": "BAT54S",
+    "value": "BAT54S",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "AN0"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "BAT54S-7-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "a262512a-808d-4b97-9523-3e9aa06e3718"
+  },
+  {
+    "ref": "R59",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "nets": {
+      "1": "AN_IN1",
+      "2": "AN1"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-074K7L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "5a7555cc-1492-4aaa-9a56-9d6cca053073"
+  },
+  {
+    "ref": "C65",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF 25V",
+    "nets": {
+      "1": "AN1",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71E103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "48541a5e-9c6f-494b-b284-e8dacd5ceba3"
+  },
+  {
+    "ref": "D11",
+    "lib": "Diode",
+    "name": "BAT54S",
+    "value": "BAT54S",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "AN1"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "BAT54S-7-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "82d8530f-176e-4a53-acb5-9738f8c4d36d"
+  },
+  {
+    "ref": "R60",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "nets": {
+      "1": "AN_IN2",
+      "2": "AN2"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-074K7L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "f2372715-894e-4df5-98a2-c456c54c2bac"
+  },
+  {
+    "ref": "C66",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF 25V",
+    "nets": {
+      "1": "AN2",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71E103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "d4a5fe75-ecd5-4755-8417-e5190396e4f1"
+  },
+  {
+    "ref": "D12",
+    "lib": "Diode",
+    "name": "BAT54S",
+    "value": "BAT54S",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "AN2"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "BAT54S-7-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "fc9f5078-42dc-456d-8921-2b144cd5d46f"
+  },
+  {
+    "ref": "R61",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "nets": {
+      "1": "AN_IN3",
+      "2": "AN3"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-074K7L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "1c2260bc-72e2-49b2-92b0-b065b4c6a55b"
+  },
+  {
+    "ref": "C67",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF 25V",
+    "nets": {
+      "1": "AN3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71E103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "a03816a2-0357-44c7-b28f-3f8fd7f761b1"
+  },
+  {
+    "ref": "D13",
+    "lib": "Diode",
+    "name": "BAT54S",
+    "value": "BAT54S",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "AN3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": null,
+    "rot": 0,
+    "mpn": "BAT54S-7-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "460b826d-80c5-44dc-8e61-39264bd90f91"
+  },
+  {
+    "ref": "J22",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "ANALOG 0-3V3",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "AN_IN0",
+      "4": "AN_IN1",
+      "5": "AN_IN2",
+      "6": "AN_IN3"
+    },
+    "fp": "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+    "xy": [
+      59,
+      5
+    ],
+    "rot": 180,
+    "mpn": "SM06B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "Analog Expansion",
+    "parent": "U22",
+    "uuid": "07fbd086-dbfc-41e1-a037-a16bc5917201"
+  },
+  {
+    "ref": "SW3",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "SW3",
+    "nets": {
+      "1": "USER_BTN",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      7,
+      18
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "b3ad901c-d6fc-47ef-ad8c-4daef975afe9"
+  },
+  {
+    "ref": "R62",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "USER_BTN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "69284876-fe8e-4897-a347-098fd5d41a6b"
+  },
+  {
+    "ref": "C68",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF 16V",
+    "nets": {
+      "1": "USER_BTN",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "fdc011ea-e431-408a-8544-a002952d8eaf"
+  },
+  {
+    "ref": "R63",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "POWER_LED"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "ff8536cc-f9b0-414b-824b-e9320c3a8dc7"
+  },
+  {
+    "ref": "D4",
+    "lib": "Device",
+    "name": "LED",
+    "value": "GREEN",
+    "nets": {
+      "1": "GND",
+      "2": "POWER_LED"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      14,
+      26
+    ],
+    "rot": 0,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "eddd89d7-b366-4a60-9947-a6ee074c40e5"
+  },
+  {
+    "ref": "R64",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "LED_R"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "446d7f31-f759-40bd-9446-ad74f63977f9"
+  },
+  {
+    "ref": "D5",
+    "lib": "Device",
+    "name": "LED",
+    "value": "RED",
+    "nets": {
+      "1": "RGB_R",
+      "2": "LED_R"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      14,
+      30
+    ],
+    "rot": 0,
+    "mpn": "LTST-C190KRKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "62bc3375-297d-4080-a9b9-8b85f141125f"
+  },
+  {
+    "ref": "R65",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "LED_G"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "1346f0e4-9a1e-480e-b0b9-7de2cd88f43a"
+  },
+  {
+    "ref": "D6",
+    "lib": "Device",
+    "name": "LED",
+    "value": "GREEN",
+    "nets": {
+      "1": "RGB_G",
+      "2": "LED_G"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      17,
+      30
+    ],
+    "rot": 0,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "111caf07-3339-49b0-aadc-9444dcf047c1"
+  },
+  {
+    "ref": "R66",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "LED_B"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "541c4994-e67f-4a77-a7dc-1e1cf01ac546"
+  },
+  {
+    "ref": "D7",
+    "lib": "Device",
+    "name": "LED",
+    "value": "BLUE",
+    "nets": {
+      "1": "RGB_B",
+      "2": "LED_B"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      20,
+      30
+    ],
+    "rot": 0,
+    "mpn": "LTST-C193TBKT-5A",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "b121f5e7-07c9-406b-b8a8-f2afc112664f"
+  },
+  {
+    "ref": "Q6",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "BUZZ_GATE",
+      "2": "GND",
+      "3": "BUZZ_LOW"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      23,
+      29
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega Semiconductor",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "060f865a-363d-4ee4-be3b-2ea0d8782f69"
+  },
+  {
+    "ref": "R67",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "BUZZ_PWM",
+      "2": "BUZZ_GATE"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q6",
+    "uuid": "2f1c71d2-75b1-4705-8abb-d677262168a6"
+  },
+  {
+    "ref": "R68",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "BUZZ_GATE",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q6",
+    "uuid": "bb17bd7c-a474-4e61-a0a9-478c15cc779d"
+  },
+  {
+    "ref": "BZ1",
+    "lib": "Device",
+    "name": "Buzzer",
+    "value": "PKLCS1212E4001-R1",
+    "nets": {
+      "1": "+3V3",
+      "2": "BUZZ_LOW"
+    },
+    "fp": "Buzzer_Beeper:Buzzer_Murata_PKLCS1212E",
+    "xy": [
+      25,
+      32
+    ],
+    "rot": 0,
+    "mpn": "PKLCS1212E4001-R1",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q6",
+    "uuid": "68f4e6f4-d2a0-4626-933e-9f5c284371bb"
+  },
+  {
+    "ref": "R69",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BUZZ_LOW"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q6",
+    "uuid": "9ccdcc55-5d13-4701-a2ca-1810b81cfd2b"
+  },
+  {
+    "ref": "Q7",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "LOAD_GATE",
+      "2": "GND",
+      "3": "LOAD_LOW"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      59,
+      42
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega Semiconductor",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": null,
+    "uuid": "4507b637-a759-441a-9485-907212d776c4"
+  },
+  {
+    "ref": "R70",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "EXP_B7",
+      "2": "LOAD_GATE"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q7",
+    "uuid": "3d79ebcd-72b4-4f98-8d77-792540a4849d"
+  },
+  {
+    "ref": "R71",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "LOAD_GATE",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q7",
+    "uuid": "80e42ffc-13ea-4c55-862d-1c781098fbf8"
+  },
+  {
+    "ref": "D8",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS34",
+    "nets": {
+      "1": "BAT5",
+      "2": "LOAD_LOW"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": null,
+    "rot": 0,
+    "mpn": "SS34",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q7",
+    "uuid": "ef939db8-712a-4d10-b9ca-44da6239934b"
+  },
+  {
+    "ref": "J23",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "LOAD 5V 0.25A",
+    "nets": {
+      "1": "BAT5",
+      "2": "LOAD_LOW"
+    },
+    "fp": "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+    "xy": [
+      64,
+      39
+    ],
+    "rot": 0,
+    "mpn": "SM02B-GHS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "F",
+    "section": "User Interface",
+    "parent": "Q7",
+    "uuid": "b7d74ea3-49cc-4b73-a6e7-b6d1183b4594"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "all_manifest_pins_match_exported_schematic": true,
+    "distinct_power_sources": true,
+    "usb_dp": true,
+    "usb_dm": true,
+    "uart_tx_rx_crossed": true,
+    "boot_and_reset_independent": true,
+    "servo_power_not_logic": true,
+    "motor_power_not_logic": true,
+    "encoder_inputs_only": true,
+    "five_volt_echo_buffered": true,
+    "four_motor_inputs_unique": true,
+    "i2c_addresses_unique": true,
+    "auto_reset_truth_table": true,
+    "schematic_to_pcb_pad_nets_match": true
+  },
+  "electrical_parts": 220,
+  "physical_connected_pins": 682,
+  "net_count": 186,
+  "connectivity_errors": [],
+  "pcb_errors": [],
+  "all_passed": true
+}

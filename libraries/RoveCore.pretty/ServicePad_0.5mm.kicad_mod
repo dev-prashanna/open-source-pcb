@@ -1,0 +1,4 @@
+(footprint "ServicePad_0.5mm" (version 20250108) (generator pcbnew) (layer "F.Cu") (attr smd exclude_from_pos_files exclude_from_bom)
+(property "Reference" "TP**" (at 0 -0.9)(layer "F.SilkS")(effects(font(size 0.6 0.6)(thickness 0.1))))
+(property "Value" "SERVICE" (at 0 0.9)(layer "F.Fab")(effects(font(size 0.6 0.6))))
+(pad "1" smd circle (at 0 0)(size 0.5 0.5)(layers "F.Cu" "F.Mask")))

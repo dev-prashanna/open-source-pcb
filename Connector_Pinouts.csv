@@ -1,0 +1,114 @@
+Connector,Label,Pin,Signal,Interface_limit
+J1,SERVICE 3V3,1,GND,3V3 service logic only
+J1,SERVICE 3V3,2,+3V3,3V3 service logic only
+J1,SERVICE 3V3,3,U0_TX,3V3 service logic only
+J1,SERVICE 3V3,4,U0_RX,3V3 service logic only
+J1,SERVICE 3V3,5,EN,3V3 service logic only
+J1,SERVICE 3V3,6,BOOT,3V3 service logic only
+J2,USB-C 5V DATA,A1,GND,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A4,USB_VBUS,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A5,CC1,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A6,USB_DP,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A7,USB_DM,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A9,USB_VBUS,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,A12,GND,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B1,GND,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B4,USB_VBUS,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B5,CC2,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B6,USB_DP,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B7,USB_DM,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B9,USB_VBUS,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,B12,GND,"USB 5V sink, full-speed data, no PD"
+J2,USB-C 5V DATA,SH,GND,"USB 5V sink, full-speed data, no PD"
+J3,2S BAT 6.4-8.4V,1,BAT_RAW,Protected 2S 6.4–8.4V; no onboard charging
+J3,2S BAT 6.4-8.4V,2,GND,Protected 2S 6.4–8.4V; no onboard charging
+J4,EXT 5V LOGIC,1,EXT5_RAW,Regulated external 5V logic input
+J4,EXT 5V LOGIC,2,GND,Regulated external 5V logic input
+J5,SERVO EXT 5-6V,1,SERVO_EXT_RAW,External 5–6V servo input
+J5,SERVO EXT 5-6V,2,GND,External 5–6V servo input
+JP1,SERVO SELECT 1-2 BAT / 2-3 EXT,1,SERVO_BUCK,"ONE shunt:1-2 battery servo,2-3 external servo"
+JP1,SERVO SELECT 1-2 BAT / 2-3 EXT,2,SERVO_SELECTED,"ONE shunt:1-2 battery servo,2-3 external servo"
+JP1,SERVO SELECT 1-2 BAT / 2-3 EXT,3,SERVO_EXT,"ONE shunt:1-2 battery servo,2-3 external servo"
+J6,VM 3-8.4V,1,MOTOR_RAW,Separate motor input 3–8.4V
+J6,VM 3-8.4V,2,GND,Separate motor input 3–8.4V
+J7,MOTOR A,1,MOTOR_A_P,"Motor A, <=0.6A continuous target"
+J7,MOTOR A,2,MOTOR_A_N,"Motor A, <=0.6A continuous target"
+J8,MOTOR B,1,MOTOR_B_P,"Motor B, <=0.6A continuous target"
+J8,MOTOR B,2,MOTOR_B_N,"Motor B, <=0.6A continuous target"
+J9,ULTRASONIC 5V,1,BAT5,5V accessories require battery BAT5; ECHO input buffered
+J9,ULTRASONIC 5V,2,US_TRIG5,5V accessories require battery BAT5; ECHO input buffered
+J9,ULTRASONIC 5V,3,US_ECHO_RAW,5V accessories require battery BAT5; ECHO input buffered
+J9,ULTRASONIC 5V,4,GND,5V accessories require battery BAT5; ECHO input buffered
+J10,ENC LEFT,1,+3V3,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J10,ENC LEFT,2,GND,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J10,ENC LEFT,3,ENC_LA_RAW,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J10,ENC LEFT,4,ENC_LB_RAW,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J11,ENC RIGHT,1,+3V3,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J11,ENC RIGHT,2,GND,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J11,ENC RIGHT,3,ENC_RA_RAW,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J11,ENC RIGHT,4,ENC_RB_RAW,Encoder power 3V3; A/B buffer inputs accept <=5.5V
+J12,SERVO 1,1,GND,GND / servo supply / 5V signal; aggregate servo current limit applies
+J12,SERVO 1,2,SERVO5,GND / servo supply / 5V signal; aggregate servo current limit applies
+J12,SERVO 1,3,SERVO_OUT0,GND / servo supply / 5V signal; aggregate servo current limit applies
+J13,SERVO 2,1,GND,GND / servo supply / 5V signal; aggregate servo current limit applies
+J13,SERVO 2,2,SERVO5,GND / servo supply / 5V signal; aggregate servo current limit applies
+J13,SERVO 2,3,SERVO_OUT1,GND / servo supply / 5V signal; aggregate servo current limit applies
+J14,SERVO 3,1,GND,GND / servo supply / 5V signal; aggregate servo current limit applies
+J14,SERVO 3,2,SERVO5,GND / servo supply / 5V signal; aggregate servo current limit applies
+J14,SERVO 3,3,SERVO_OUT2,GND / servo supply / 5V signal; aggregate servo current limit applies
+J15,SERVO 4,1,GND,GND / servo supply / 5V signal; aggregate servo current limit applies
+J15,SERVO 4,2,SERVO5,GND / servo supply / 5V signal; aggregate servo current limit applies
+J15,SERVO 4,3,SERVO_OUT3,GND / servo supply / 5V signal; aggregate servo current limit applies
+J16,I2C 3V3,1,+3V3,"3V3 I2C, shared pullups, short cable"
+J16,I2C 3V3,2,GND,"3V3 I2C, shared pullups, short cable"
+J16,I2C 3V3,3,I2C_SDA,"3V3 I2C, shared pullups, short cable"
+J16,I2C 3V3,4,I2C_SCL,"3V3 I2C, shared pullups, short cable"
+J17,SPI / LORA,1,GND,3V3 SPI; CS boot strap must remain high at reset
+J17,SPI / LORA,2,+3V3,3V3 SPI; CS boot strap must remain high at reset
+J17,SPI / LORA,3,SPI_SCK,3V3 SPI; CS boot strap must remain high at reset
+J17,SPI / LORA,4,SPI_MOSI,3V3 SPI; CS boot strap must remain high at reset
+J17,SPI / LORA,5,SPI_MISO,3V3 SPI; CS boot strap must remain high at reset
+J17,SPI / LORA,6,SPI_CS,3V3 SPI; CS boot strap must remain high at reset
+J18,GPS / UART,1,GND,3V3 UART/GPS; alternate external CAN transceiver replaces UART
+J18,GPS / UART,2,+3V3,3V3 UART/GPS; alternate external CAN transceiver replaces UART
+J18,GPS / UART,3,UART_TX,3V3 UART/GPS; alternate external CAN transceiver replaces UART
+J18,GPS / UART,4,UART_RX,3V3 UART/GPS; alternate external CAN transceiver replaces UART
+J19,GPIO EXP 3V3,1,GND,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,2,+3V3,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,3,GND,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,4,GND,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,5,GND,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,6,EXP_B3,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,7,EXP_B4,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,8,EXP_B5,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,9,EXP_B6,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+J19,GPIO EXP 3V3,10,EXP_B7,3V3 GPB3..7; pins3..5 are ground returns; B7 output-only/shared load
+TP1,EXP_B0,1,EXP_B0,3V3 logic
+TP2,EXP_B1,1,EXP_B1,3V3 logic
+TP3,EXP_B2,1,EXP_B2,3V3 logic
+J20,ESP GPIO SHARED,1,GND,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,2,+3V3,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,3,M_A1,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,4,M_A2,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,5,M_B1,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,6,M_B2,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,7,IMU_INT,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,8,BAT_ADC,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,9,US_TRIG,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J20,ESP GPIO SHARED,10,US_ECHO,Shared controller signals; BAT_ADC and IMU_INT are inputs
+J21,ESP GPIO INPUTS,1,GND,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,2,SERVO_OE,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,3,BUZZ_PWM,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,4,ENC_LA,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,5,ENC_LB,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,6,ENC_RA,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,7,ENC_RB,Shared controller signals; encoder pins input-only
+J21,ESP GPIO INPUTS,8,SPI_CS,Shared controller signals; encoder pins input-only
+J22,ANALOG 0-3V3,1,+3V3,"0–3V3 analog, ADS1115 total <=860samples/s"
+J22,ANALOG 0-3V3,2,GND,"0–3V3 analog, ADS1115 total <=860samples/s"
+J22,ANALOG 0-3V3,3,AN_IN0,"0–3V3 analog, ADS1115 total <=860samples/s"
+J22,ANALOG 0-3V3,4,AN_IN1,"0–3V3 analog, ADS1115 total <=860samples/s"
+J22,ANALOG 0-3V3,5,AN_IN2,"0–3V3 analog, ADS1115 total <=860samples/s"
+J22,ANALOG 0-3V3,6,AN_IN3,"0–3V3 analog, ADS1115 total <=860samples/s"
+J23,LOAD 5V 0.25A,1,BAT5,"5V switched load, <=250mA, battery BAT5 required"
+J23,LOAD 5V 0.25A,2,LOAD_LOW,"5V switched load, <=250mA, battery BAT5 required"
