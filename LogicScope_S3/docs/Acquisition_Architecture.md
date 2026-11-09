@@ -1,5 +1,13 @@
 # Acquisition architecture review
 
+Implementation update: [firmware v0.1.0](../firmware/README.md) now implements
+finite LCD_CAM/GDMA captures with 16–65,536 samples, a fixed finite descriptor
+chain, native USB Serial/JTAG transfers, and trigger search within the retained
+buffer. The 64-KiB limit fits the peripheral's 16-bit byte-count EOF field.
+The 128-KiB budget and circular/pre-trigger modes discussed below remain
+future work. No configured rate or acquisition behavior has been physically
+qualified. See [software verification](Software_Verification.md).
+
 Decision: the ESP32-S3 LCD_CAM architecture is viable for an eight-bit parallel
 capture instrument. Proceed with a 1 MS/s **buffered-capture design target**.
 No sampling rate has been measured on this PCB. The 2 MS/s stretch target is

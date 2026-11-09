@@ -4,8 +4,10 @@
 
 The native hardware design is routed and passes electrical, layout and
 schematic-parity checks. It is an **unbuilt engineering prototype**, not a
-bench-qualified instrument. Acquisition firmware and the Python desktop
-application remain to be implemented. There is no measured achievable sampling
+bench-qualified instrument. Acquisition firmware and the Python/Tk desktop
+application v0.1.0 are implemented; see [software verification](Software_Verification.md)
+and their [build](../firmware/README.md) / [usage](../software/README.md) guides.
+There is no measured achievable sampling
 rate yet. The design target is 1 MS/s for eight-channel finite captures;
 2 MS/s and continuous 1 MS/s are not released specifications.
 
@@ -75,10 +77,12 @@ clock/framing requirements and the firmware qualification steps. The hardware
 avoids strapping, USB and memory-reserved pins for the eight data bits.
 
 At 1 MS/s, each sample is one byte containing all eight channels: 1,000,000
-bytes/s. A proposed 128-KiB internal-DMA buffer stores 131,072 samples, or
-131.072 ms at that rate. This allocation is a firmware budget, not an observed
-allocation result; the chip's full 512-KiB SRAM is not all available to DMA.
-Initial operation captures to memory, stops and uploads. Trigger detection,
+bytes/s. Firmware v0.1.0 uses a 64-KiB internal-DMA buffer, holding 65,536 samples
+or 65.536 ms at that rate. The original 128-KiB proposal remains future work;
+the current limit fits LCD_CAM's 16-bit byte-count EOF field. The chip's full
+512-KiB SRAM is not all available to DMA. Operation captures to memory, stops
+and uploads. Trigger search is implemented within that finite window; trigger
+wait and rolling pre-trigger history remain future work. Trigger detection,
 pre-trigger buffering, clock accuracy, sample ordering and absence of lost
 samples must be demonstrated on the prototype.
 
@@ -89,9 +93,10 @@ eight-channel stream is 2 MB/s and exceeds even that physical upper bound.
 Faster finite captures would require separate acquisition validation and
 upload after capture. No 2-MS/s capability is claimed.
 
-The eventual application should display, measure and decode digital waveforms,
-and export CSV/VCD. None of those software features is supplied as a working
-application in this hardware release. At the initial 1-us sampling interval,
+The Python/Tk application now displays eight digital waveform lanes, provides
+timing cursors and zoom/pan, saves/reopens captures, and exports CSV/VCD. It also
+includes a synthetic demo mode. Protocol decoding remains future work, and
+physical acquisition is unvalidated. At the initial 1-us sampling interval,
 narrow pulses can be missed; high-speed SPI and precise short-pulse timing
 are outside the baseline qualification target.
 

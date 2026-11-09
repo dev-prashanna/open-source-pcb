@@ -1,5 +1,13 @@
 # Bring-up and acquisition qualification
 
+Software update: firmware and desktop app v0.1.0 are implemented. The first
+release uses finite captures up to 64 KiB and trigger search **within a captured
+window**; it does not implement trigger wait, rolling pre-trigger history or
+continuous streaming. Apply the relevant checks below to this implementation;
+steps for future modes remain qualification requirements before enabling them.
+See [firmware setup](../firmware/README.md) and
+[software verification](Software_Verification.md).
+
 1. Inspect the module variant, pin 1, buffer orientation, ESD part package and
    connector pin numbering against the BOM and native assembly drawing. Check
    resistance between 5 V, 3.3 V and ground before powering.

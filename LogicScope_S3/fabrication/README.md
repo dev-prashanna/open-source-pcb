@@ -1,6 +1,8 @@
 # LS-S3-A0 engineering fabrication package
 
-This is an unbuilt prototype; firmware and host software are pending.
+This is an unbuilt prototype. Firmware and host software v0.1.0 are implemented
+but have not been validated on physical hardware; see `../firmware/README.md`
+and `../software/README.md`.
 Read `../docs/Engineering_Report.md` and `../docs/Electrical_and_Fabrication.md`.
 
 - `gerbers/`: TWO copper layers, masks, silkscreens, outline, separate PTH/NPTH

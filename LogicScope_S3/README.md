@@ -4,8 +4,8 @@ Compact 8-channel USB digital logic analyzer hardware by Prashanna Tiwari.
 Open `LogicScope_S3.kicad_pro` in KiCad 10. The project contains native
 hierarchical schematics, verified library parts and an actual two-layer PCB.
 
-**Engineering prototype; acquisition firmware and desktop software are not yet
-implemented or bench validated.** 1 MS/s is an unmeasured finite-capture target,
+**Engineering prototype; firmware and desktop software v0.1.0 are implemented
+but not bench validated.** 1 MS/s is an unmeasured finite-capture target,
 not an advertised continuous rate. There is no analog voltage measurement.
 
 ## Design
@@ -20,6 +20,29 @@ not an advertised continuous rate. There is no analog voltage measurement.
 
 Use a common ground with the target. J2 pin 7 is a current-limited reference
 only; this instrument does not power the target.
+
+## Firmware and desktop software
+
+- [ESP32-S3 firmware: build, flash and capture behavior](firmware/README.md)
+- [Simple desktop app: setup and usage](software/README.md)
+- [USB protocol](docs/USB_Protocol.md)
+- [Software verification and remaining hardware checks](docs/Software_Verification.md)
+
+Firmware uses LCD_CAM/GDMA with the PCB's GPIO12-to-GPIO11 sampling-clock
+loopback. Select 100 kS/s, 250 kS/s, 500 kS/s or 1 MS/s and collect up to
+65,536 packed eight-channel samples before uploading over USB. All rates
+remain unmeasured. Trigger search marks a matching event within a finite
+capture; rolling pre-trigger history and continuous streaming are not enabled.
+
+The Python/Tk app includes eight waveform lanes, zoom/pan, timing cursors,
+save/open, CSV/VCD export, and a synthetic demo mode. From `software/`:
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -e .
+logicscope --demo
+```
 
 ## Files and limitations
 
@@ -47,5 +70,6 @@ Scripts under `scripts/` record engineering operations; do not run placement
 or initial-routing scripts over the completed board. `release.py`, when
 available, validates the current design and exports without reconstructing it.
 
-Copyright (c) 2026 Prashanna Tiwari. [CERN-OHL-P-2.0](LICENSE).
+Copyright (c) 2026 Prashanna Tiwari. Hardware: [CERN-OHL-P-2.0](LICENSE).
+Firmware and desktop app: MIT (see their respective directories).
 KiCad-derived library graphics retain their upstream licence in `libraries/`.

@@ -13,7 +13,11 @@ Open hardware designs for ESP32 robotics, a brushed-motor flight controller, and
 - [Hardware validation plan](LogicScope_S3/docs/Validation_Plan.md)
 - [License](LogicScope_S3/LICENSE)
 
-LS-S3-A0 has recorded passing ERC, DRC, connectivity and schematic/PCB parity checks. Acquisition firmware and desktop software are not yet implemented; sampling performance and electrical behavior require physical prototype validation.
+LS-S3-A0 has recorded passing ERC, DRC, connectivity and schematic/PCB parity checks. Firmware and a simple desktop app v0.1.0 are implemented, with finite DMA captures, an eight-channel viewer, timing cursors and CSV/VCD export. Sampling performance and electrical behavior require physical prototype validation.
+
+- [Firmware: build and flash](LogicScope_S3/firmware/README.md)
+- [Desktop app: install and demo](LogicScope_S3/software/README.md)
+- [Software verification](LogicScope_S3/docs/Software_Verification.md)
 
 ![LogicScope S3 PCB](LogicScope_S3/previews/PCB_3D_isometric.png)
 
