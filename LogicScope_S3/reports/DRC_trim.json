@@ -1,0 +1,153 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T13:30:36",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "LogicScope_S3.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 0.3,
+                        "y": 0.3
+                    },
+                    "uuid": "76e06373-66dc-46aa-9eb3-f742739b7c41"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 0.3,
+                        "y": 0.3
+                    },
+                    "uuid": "70b30ec4-7780-4de2-a935-745eb9e94f33"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [IN6] of R26 on F.Cu",
+                    "pos": {
+                        "x": 13.675,
+                        "y": 21.0
+                    },
+                    "uuid": "e7095ecd-6ff1-4d88-a2d3-6fef57784725"
+                },
+                {
+                    "description": "Track [IN6] on F.Cu, length 0.2828 mm",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 18.15
+                    },
+                    "uuid": "78ae4718-dff8-4a9f-bf4a-6382ec1a22f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0489 mm)",
+            "items": [
+                {
+                    "description": "Segment of R26 on F.Silkscreen",
+                    "pos": {
+                        "x": 14.262742,
+                        "y": 20.4775
+                    },
+                    "uuid": "830c368b-81cf-4943-8061-516d86d0a6d8"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 14.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a1055d4e-6dd5-4039-ac07-72f8060709ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 14.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a1055d4e-6dd5-4039-ac07-72f8060709ac"
+                },
+                {
+                    "description": "Pad 1 [IN6] of R26 on F.Cu",
+                    "pos": {
+                        "x": 13.675,
+                        "y": 21.0
+                    },
+                    "uuid": "e7095ecd-6ff1-4d88-a2d3-6fef57784725"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 14.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a1055d4e-6dd5-4039-ac07-72f8060709ac"
+                },
+                {
+                    "description": "Pad 2 [GND] of R26 on F.Cu",
+                    "pos": {
+                        "x": 15.325,
+                        "y": 21.0
+                    },
+                    "uuid": "9a03b700-c707-41cd-b4bd-c3aac06c337f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

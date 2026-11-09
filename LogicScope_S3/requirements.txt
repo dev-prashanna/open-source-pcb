@@ -1,0 +1,4 @@
+sexpdata
+numpy
+scipy
+shapely>=2

@@ -1,0 +1,49 @@
+{
+  "connections": [
+    {
+      "net": "IN6",
+      "width_mm": 0.2,
+      "rear_length_mm": 0,
+      "vias": 0,
+      "points": [
+        [
+          13.675,
+          21.0,
+          0
+        ],
+        [
+          13.700000000000001,
+          21.0,
+          0
+        ],
+        [
+          13.350000000000001,
+          20.650000000000002,
+          0
+        ],
+        [
+          13.350000000000001,
+          20.6,
+          0
+        ],
+        [
+          13.0,
+          20.25,
+          0
+        ],
+        [
+          13.0,
+          18.150000000000002,
+          0
+        ],
+        [
+          13.0,
+          18.15,
+          0
+        ]
+      ]
+    }
+  ],
+  "remaining": [],
+  "protected_returns": "USB data and eight acquisition lines; front copper TIWARI marking"
+}

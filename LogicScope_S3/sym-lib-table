@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "LogicScope") (type "KiCad") (uri "${KIPRJMOD}/libraries/LogicScope.kicad_sym") (options "") (descr "Datasheet verified fixed-direction LVC buffer")))

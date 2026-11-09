@@ -1,6 +1,21 @@
 # Open Source PCB
 
-Open hardware designs for ESP32 robotics and a brushed-motor flight controller.
+Open hardware designs for ESP32 robotics, a brushed-motor flight controller, and a USB logic analyser.
+
+## LogicScope S3
+
+[LogicScope S3](LogicScope_S3/) is a compact 8-channel USB digital logic analyser hardware prototype built around the ESP32-S3, with a 55 x 40-mm, two-layer PCB.
+
+- [Project documentation](LogicScope_S3/README.md)
+- [KiCad project](LogicScope_S3/LogicScope_S3.kicad_pro)
+- [Fabrication and assembly package](LogicScope_S3/fabrication/)
+- [Engineering report](LogicScope_S3/docs/Engineering_Report.md)
+- [Hardware validation plan](LogicScope_S3/docs/Validation_Plan.md)
+- [License](LogicScope_S3/LICENSE)
+
+LS-S3-A0 has recorded passing ERC, DRC, connectivity and schematic/PCB parity checks. Acquisition firmware and desktop software are not yet implemented; sampling performance and electrical behavior require physical prototype validation.
+
+![LogicScope S3 PCB](LogicScope_S3/previews/PCB_3D_isometric.png)
 
 ## RoveFlight S3
 

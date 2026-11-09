@@ -1,0 +1,9 @@
+Channel,GPIO,Module_pad,Buffer_output_pad
+CH0,4,4,18
+CH1,5,5,17
+CH2,6,6,16
+CH3,7,7,15
+CH4,15,8,14
+CH5,16,9,13
+CH6,17,10,12
+CH7,18,11,11

@@ -1,0 +1,152 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T13:32:33",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "LogicScope_S3.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'REF ONLY - NO TARGET POWER' on B.Silkscreen",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 38.0
+                    },
+                    "uuid": "ee114542-dddb-4790-b3c2-21fd3313975f"
+                },
+                {
+                    "description": "PTH pad SH [GND] of J3",
+                    "pos": {
+                        "x": 21.68,
+                        "y": 38.075
+                    },
+                    "uuid": "980eecaa-eb19-4d37-a7d3-7b4c50bde95c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'REF ONLY - NO TARGET POWER' on B.Silkscreen",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 38.0
+                    },
+                    "uuid": "ee114542-dddb-4790-b3c2-21fd3313975f"
+                },
+                {
+                    "description": "PTH pad SH [GND] of J3",
+                    "pos": {
+                        "x": 30.32,
+                        "y": 38.075
+                    },
+                    "uuid": "d66b2873-5d1c-468c-a6f2-c9fdfbdfb8a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 5.0
+                    },
+                    "uuid": "5ec397bb-abc2-4e00-bea1-4c8dd1330364"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of J4",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 5.0
+                    },
+                    "uuid": "f14a4daf-a019-44fc-a6fa-7c314f08e746"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'TX' on B.Silkscreen",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 7.54
+                    },
+                    "uuid": "67cbd8fd-8794-471b-8a22-31df7af9e065"
+                },
+                {
+                    "description": "PTH pad 2 [UART_TX] of J4",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 7.54
+                    },
+                    "uuid": "e5f966ab-eeb9-413e-aadf-7169fdb9bd43"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'RX' on B.Silkscreen",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 10.08
+                    },
+                    "uuid": "b71c4ade-cea1-4db0-993b-686ba33ac94e"
+                },
+                {
+                    "description": "PTH pad 3 [UART_RX] of J4",
+                    "pos": {
+                        "x": 51.0,
+                        "y": 10.08
+                    },
+                    "uuid": "4a37666f-8a35-4e0e-8f3e-de46582c1a7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

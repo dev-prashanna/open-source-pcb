@@ -1,0 +1,85 @@
+{
+  "routed": [],
+  "remaining": [
+    {
+      "net": "IN6",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "IN7",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH2",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH2",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH3",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH3",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH6",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CH7",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "VUSB",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "VUSB",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "BUF_OE_N",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "BUF_OE_N",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CAM_DE",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "USB_5V",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "BOOT",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "VREF_3V3",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "SAMPLE_CLK",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "PWR_LED_A",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "CAM_VSYNC",
+      "reason": "no clear front-layer path"
+    },
+    {
+      "net": "STATUS_LED_A",
+      "reason": "no clear front-layer path"
+    }
+  ]
+}

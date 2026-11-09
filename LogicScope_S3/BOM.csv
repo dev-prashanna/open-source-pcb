@@ -1,0 +1,57 @@
+Reference,Value,MPN,Manufacturer,Footprint,DNP,Datasheet
+U1,ESP32-S3-WROOM-1-N8R2,ESP32-S3-WROOM-1-N8R2,Espressif,LogicScope:ESP32-S3-WROOM-1_Overhang,NO,https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+C1,100nF,GRM188R71C104KA01D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+C2,10uF,GRM21BR61A106KE19L,Murata,Capacitor_SMD:C_0805_2012Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+R1,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+C3,1uF,GRM188R61A105KA61D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+R2,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R3,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R4,33,RC0603FR-0733RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R5,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R6,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R7,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+SW1,RESET,KMR221GLFS,C&K,Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG,NO,https://www.ckswitches.com/media/1464/kmr2.pdf
+SW2,BOOT,KMR221GLFS,C&K,Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG,NO,https://www.ckswitches.com/media/1464/kmr2.pdf
+J4,DEBUG 3V3 UART,61300311121,Wurth Elektronik,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,NO,https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER
+J1,CH0..4 + GROUNDS,61301021121,Wurth Elektronik,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,NO,https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER
+J2,CH5..7 / REF ONLY,61301021121,Wurth Elektronik,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,NO,https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER
+R10,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R20,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R11,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R21,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R12,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R22,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R13,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R23,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R14,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R24,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R15,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R25,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R16,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R26,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R17,220,RC0603FR-07220RL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R27,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R28,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+U5,TPD4E05U06DQAR (OPTIONAL),TPD4E05U06DQAR,Texas Instruments,Package_SON:USON-10_2.5x1.0mm_P0.5mm,YES,https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf
+U6,TPD4E05U06DQAR (OPTIONAL),TPD4E05U06DQAR,Texas Instruments,Package_SON:USON-10_2.5x1.0mm_P0.5mm,YES,https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf
+U2,SN74LVC245APW,SN74LVC245APW,Texas Instruments,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,NO,https://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf
+C4,100nF,GRM188R71C104KA01D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+C5,1uF,GRM188R61A105KA61D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+J3,USB4105-GF-A,USB4105-GF-A,GCT,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,NO,https://gct.co/connector/usb4105
+R30,5.1k,RC0603FR-075K1L,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R31,5.1k,RC0603FR-075K1L,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+U4,TPD2E2U06DCKR,TPD2E2U06DCKR,Texas Instruments,Package_TO_SOT_SMD:SOT-323_SC-70,NO,https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf
+R32,22,RC0402FR-0722RL,Yageo,Resistor_SMD:R_0402_1005Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+R33,22,RC0402FR-0722RL,Yageo,Resistor_SMD:R_0402_1005Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+F1,500mA,1206L050YR,Littelfuse,Fuse:Fuse_1206_3216Metric,NO,https://www.littelfuse.com/products/polyswitch-resettable-pptcs/surface-mount/1206l
+U3,AP63203WU-7,AP63203WU-7,Diodes Incorporated,Package_TO_SOT_SMD:TSOT-23-6,NO,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+C6,10uF,GRM21BR61A106KE19L,Murata,Capacitor_SMD:C_0805_2012Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+C7,100nF,GRM188R71C104KA01D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+C8,100nF,GRM188R71C104KA01D,Murata,Capacitor_SMD:C_0603_1608Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+L1,4.7uH,SRN4018-4R7M,Bourns,Inductor_SMD:L_Bourns-SRN4018,NO,https://www.bourns.com/docs/product-datasheets/srn4018.pdf
+C9,22uF,GRM21BR60J226ME39L,Murata,Capacitor_SMD:C_0805_2012Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+C10,22uF,GRM21BR60J226ME39L,Murata,Capacitor_SMD:C_0805_2012Metric,NO,https://www.murata.com/en-global/products/capacitor/ceramiccapacitor
+R34,4.7k,RC0603FR-074K7L,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+D1,PWR GREEN,LTST-C190KGKT,Lite-On,LED_SMD:LED_0603_1608Metric,NO,
+R35,2.2k,RC0603FR-072K2L,Yageo,Resistor_SMD:R_0603_1608Metric,NO,https://www.yageo.com/en/Product/Index/rchip
+D2,CAPTURE GREEN,LTST-C190KGKT,Lite-On,LED_SMD:LED_0603_1608Metric,NO,

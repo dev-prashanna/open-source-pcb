@@ -1,0 +1,7 @@
+(version 1)
+# GCT USB4105 recommended land pattern, drawing B3, component-side view.
+# Internal peg-to-GND-land clearance is 0.1944mm. Requires fab >=0.18mm capability.
+# Unrelated routing keeps the global 0.25mm copper-to-hole rule.
+(rule "USB4105 manufacturer internal peg land spacing"
+  (condition "A.memberOfFootprint('J3') && B.memberOfFootprint('J3')")
+  (constraint hole_clearance (min 0.18mm)))

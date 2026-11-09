@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T13:42:08",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344",
+            "violations": []
+        },
+        {
+            "path": "/01 Controller and Acquisition 1/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344/2bed44d4-62ad-4064-957e-caa27f125ada",
+            "violations": []
+        },
+        {
+            "path": "/02 Digital Input Protection 1/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344/7296e7e2-1325-4414-87c0-948d1a81c0cb",
+            "violations": []
+        },
+        {
+            "path": "/03 Digital Input Protection 2/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344/b9724cb1-ca96-45c0-99ee-75d411debcbe",
+            "violations": []
+        },
+        {
+            "path": "/04 USB and Power 1/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344/7e8599b6-703e-49ed-ba7b-11de41283e39",
+            "violations": []
+        },
+        {
+            "path": "/05 Test Points 1/",
+            "uuid_path": "/57ef4310-8151-41ff-9542-eae7a78cb344/aa43026b-ef2b-4aad-a411-b581a5bca080",
+            "violations": []
+        }
+    ],
+    "source": "LogicScope_S3.kicad_sch"
+}

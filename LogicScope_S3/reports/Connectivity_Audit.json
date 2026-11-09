@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "manifest_schematic_and_pcb_match": true,
+    "eight_parallel_bits": true,
+    "input_protection_each_channel": true,
+    "pulldowns_each_input": true,
+    "buffer_direction_and_supply": true,
+    "usb_native_gpio19_20": true,
+    "usb_dual_data_pads": true,
+    "usb_cc_separate": true,
+    "buck_pin_map": true,
+    "hardware_clock_loopback": true,
+    "no_external_5V_direct_to_mcu": true,
+    "two_copper_layers": true,
+    "optional_esd_dnp": true,
+    "etched_and_silk_tiwari": true,
+    "J1_pinout": true,
+    "J2_pinout": true
+  },
+  "errors": [],
+  "electrical_parts": 67,
+  "all_passed": true
+}

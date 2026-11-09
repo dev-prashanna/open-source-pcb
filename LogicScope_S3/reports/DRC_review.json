@@ -1,0 +1,209 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T13:33:36",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Fuse:Fuse_1206_3216Metric doesn't match symbol's footprint filters (*polyfuse* *PTC*)",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 33.0
+                    },
+                    "uuid": "3d815fb9-d9ba-4821-bf96-1ab4e6fd5e13"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "LogicScope:ProbePad_D0.5mm doesn't match symbol's footprint filters (Pin* Test*)",
+            "items": [
+                {
+                    "description": "Footprint TP6",
+                    "pos": {
+                        "x": 26.6,
+                        "y": 17.25
+                    },
+                    "uuid": "29def303-3b64-43d8-9529-ce5fae1f9674"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "LogicScope:ProbePad_D0.5mm doesn't match symbol's footprint filters (Pin* Test*)",
+            "items": [
+                {
+                    "description": "Footprint TP7",
+                    "pos": {
+                        "x": 26.6,
+                        "y": 15.98
+                    },
+                    "uuid": "777fcc38-826f-40df-96c4-3bd9c569e461"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        }
+    ],
+    "source": "LogicScope_S3.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0236 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 44.265,
+                        "y": 23.485
+                    },
+                    "uuid": "20959cef-79c9-42de-a779-5e49ea2f37ad"
+                },
+                {
+                    "description": "PCB text 'CAP' on F.Silkscreen",
+                    "pos": {
+                        "x": 45.0,
+                        "y": 24.0
+                    },
+                    "uuid": "7138540b-8a32-42f2-86c7-dd96cb70fc01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0236 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 45.735,
+                        "y": 23.485
+                    },
+                    "uuid": "6c31235b-d01e-4a03-abbd-4e414b5678d1"
+                },
+                {
+                    "description": "PCB text 'CAP' on F.Silkscreen",
+                    "pos": {
+                        "x": 45.0,
+                        "y": 24.0
+                    },
+                    "uuid": "7138540b-8a32-42f2-86c7-dd96cb70fc01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0570 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 44.265,
+                        "y": 21.2
+                    },
+                    "uuid": "1188e724-d477-4baa-8d06-ff3bbd11f1e9"
+                },
+                {
+                    "description": "PCB text 'CAP' on F.Silkscreen",
+                    "pos": {
+                        "x": 45.0,
+                        "y": 24.0
+                    },
+                    "uuid": "7138540b-8a32-42f2-86c7-dd96cb70fc01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP3",
+                    "pos": {
+                        "x": 44.0,
+                        "y": 24.5
+                    },
+                    "uuid": "4cbce173-8ad2-401e-b8da-49b48ed2024f"
+                },
+                {
+                    "description": "PCB text 'CAP' on F.Silkscreen",
+                    "pos": {
+                        "x": 45.0,
+                        "y": 24.0
+                    },
+                    "uuid": "7138540b-8a32-42f2-86c7-dd96cb70fc01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'CAP' on F.Silkscreen",
+                    "pos": {
+                        "x": 45.0,
+                        "y": 24.0
+                    },
+                    "uuid": "7138540b-8a32-42f2-86c7-dd96cb70fc01"
+                },
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 24.5
+                    },
+                    "uuid": "f536e8d5-cf8c-44df-90e9-4d08ba7c102d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D1",
+                    "pos": {
+                        "x": 52.25,
+                        "y": 35.3
+                    },
+                    "uuid": "4417230f-cc8c-4c18-8fa0-de1fd73dee24"
+                },
+                {
+                    "description": "PCB text 'PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 52.7,
+                        "y": 35.5
+                    },
+                    "uuid": "7b940587-888c-4576-9023-91528e0ff4b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

@@ -1,0 +1,1615 @@
+[
+  {
+    "ref": "U1",
+    "lib": "RF_Module",
+    "name": "ESP32-S3-WROOM-1",
+    "value": "ESP32-S3-WROOM-1-N8R2",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "EN",
+      "13": "USB_DM",
+      "14": "USB_DP",
+      "27": "BOOT",
+      "17": "CAM_DE",
+      "18": "CAM_VSYNC",
+      "19": "CAM_PCLK",
+      "20": "SAMPLE_CLK",
+      "21": "BUF_OE_N",
+      "22": "STATUS_LED",
+      "36": "UART_RX",
+      "37": "UART_TX",
+      "40": "GND",
+      "41": "GND",
+      "4": "D0",
+      "5": "D1",
+      "6": "D2",
+      "7": "D3",
+      "8": "D4",
+      "9": "D5",
+      "10": "D6",
+      "11": "D7"
+    },
+    "fp": "LogicScope:ESP32-S3-WROOM-1_Overhang",
+    "xy": [
+      37,
+      6
+    ],
+    "rot": 0,
+    "mpn": "ESP32-S3-WROOM-1-N8R2",
+    "mfr": "Espressif",
+    "source": "https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "15a34101-d380-481d-8c61-88387bdb733c"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      26.2,
+      2.01
+    ],
+    "rot": 180,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "9356c2ad-dfb9-4caa-bea1-4242f928fcca"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      23.0,
+      2.0
+    ],
+    "rot": 0,
+    "mpn": "GRM21BR61A106KE19L",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "6e110528-0645-4f9c-bbe4-009f51556746"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "EN"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      1.5
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "224e0543-08a1-4a79-8762-091211731733"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      17.75,
+      1.5
+    ],
+    "rot": 0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "7916e771-adae-474e-b189-161eb402feda"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      48.5,
+      18.0
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "4de667bb-5292-4da2-8c4a-f6570b023c4e"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BUF_OE_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      39.7,
+      22.0
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "c0dd1384-4358-478c-bbf4-d5050aac9993"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "33",
+    "nets": {
+      "1": "SAMPLE_CLK",
+      "2": "CAM_PCLK"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      37.6,
+      21.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-0733RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "cc5ed327-aa6f-4f65-b995-5649cb3bafb7"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "CAM_PCLK",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      35.0,
+      22.3
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "0180620c-26d0-49f2-a56b-942fec3d6496"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "CAM_DE",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      32.8,
+      22.3
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "86cefa71-6580-48c7-a40b-4f6f1180c276"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "CAM_VSYNC",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      32.8,
+      24.1
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "00c23335-0039-4d6d-8e1a-994c10d77398"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "RESET",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      49,
+      22
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "https://www.ckswitches.com/media/1464/kmr2.pdf",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "516c7598-fb10-4385-884c-c9aa3eec7d05"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BOOT",
+    "nets": {
+      "1": "BOOT",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      49,
+      27
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "https://www.ckswitches.com/media/1464/kmr2.pdf",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "7001d0ff-2779-48de-8d55-411a4a9ffb75"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "DEBUG 3V3 UART",
+    "nets": {
+      "1": "GND",
+      "2": "UART_TX",
+      "3": "UART_RX"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "xy": [
+      51,
+      5
+    ],
+    "rot": 0,
+    "mpn": "61300311121",
+    "mfr": "Wurth Elektronik",
+    "source": "https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER",
+    "side": "F",
+    "section": "Controller and Acquisition",
+    "parent": null,
+    "uuid": "e896c190-ce44-461e-937e-496b1ed72c7b"
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic",
+    "name": "Conn_02x05_Odd_Even",
+    "value": "CH0..4 + GROUNDS",
+    "nets": {
+      "1": "CH0",
+      "2": "GND",
+      "3": "CH1",
+      "4": "GND",
+      "5": "CH2",
+      "6": "GND",
+      "7": "CH3",
+      "8": "GND",
+      "9": "CH4",
+      "10": "GND"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical",
+    "xy": [
+      3.5,
+      5
+    ],
+    "rot": 0,
+    "mpn": "61301021121",
+    "mfr": "Wurth Elektronik",
+    "source": "https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "481b0744-df00-49b8-b718-2ae860724b01"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "name": "Conn_02x05_Odd_Even",
+    "value": "CH5..7 / REF ONLY",
+    "nets": {
+      "1": "CH5",
+      "2": "GND",
+      "3": "CH6",
+      "4": "GND",
+      "5": "CH7",
+      "6": "GND",
+      "7": "VREF_3V3",
+      "8": "GND"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical",
+    "xy": [
+      3.5,
+      23
+    ],
+    "rot": 0,
+    "mpn": "61301021121",
+    "mfr": "Wurth Elektronik",
+    "source": "https://www.we-online.com/en/components/products/WR-PHD_254MM_PIN_HEADER",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "7ab3f228-338f-44c8-89a1-a0184ed89c4a"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH0",
+      "2": "IN0"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      3.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "4d93c7c3-10b4-409a-a045-419b6301edab"
+  },
+  {
+    "ref": "R20",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN0",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      3.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "fe49d292-93c0-47f1-a653-9969b14b49ed"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH1",
+      "2": "IN1"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      5.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "38b6b089-dcd2-4dc2-a629-996e7fe18d58"
+  },
+  {
+    "ref": "R21",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      5.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "7d938471-8d48-41fc-a1f0-b0085f9490ad"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH2",
+      "2": "IN2"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      7.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "5dd98fb6-5272-406b-bb3b-16293f59c171"
+  },
+  {
+    "ref": "R22",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      7.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "2b50e11e-50c3-41b8-8827-9aa2afdd4f93"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH3",
+      "2": "IN3"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      9.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "708b3147-2832-42a1-8a5d-df5bb4c0a826"
+  },
+  {
+    "ref": "R23",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN3",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      9.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "247a8b24-2d30-449e-8bb1-c3f18948d76a"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH4",
+      "2": "IN4"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      11.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "fa984b07-212b-4211-8902-2c46fe8107ad"
+  },
+  {
+    "ref": "R24",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN4",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      11.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "cf88fe88-4eb0-4424-92f7-a7f597c0fa02"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH5",
+      "2": "IN5"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      13.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "bec1dbe4-4eae-4515-962e-3cce5df8f6a1"
+  },
+  {
+    "ref": "R25",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN5",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      19.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "fb068eb7-4eb1-44ac-85d8-6e77e4a7d9aa"
+  },
+  {
+    "ref": "R16",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH6",
+      "2": "IN6"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      15.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "7e8bfae5-1ca8-4299-8d9d-56d4c92db96d"
+  },
+  {
+    "ref": "R26",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN6",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      21.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "2849c915-e3a9-4054-8dc3-1538f10fe0be"
+  },
+  {
+    "ref": "R17",
+    "lib": "Device",
+    "name": "R",
+    "value": "220",
+    "nets": {
+      "1": "CH7",
+      "2": "IN7"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      11,
+      17.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07220RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "1973a52b-31f1-48ab-b051-93019a07a917"
+  },
+  {
+    "ref": "R27",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "IN7",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      14.5,
+      17.0
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "78d7aae2-16ca-4704-a1cb-6d04a5d96bd8"
+  },
+  {
+    "ref": "R28",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "VREF_3V3"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      7.9,
+      32.5
+    ],
+    "rot": 0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "4b358bff-9daf-4c21-977c-42ad9d71016f"
+  },
+  {
+    "ref": "U5",
+    "lib": "Power_Protection",
+    "name": "TPD4E05U06DQA",
+    "value": "TPD4E05U06DQAR (OPTIONAL)",
+    "nets": {
+      "3": "GND",
+      "8": "GND",
+      "1": "CH0",
+      "2": "CH1",
+      "4": "CH2",
+      "5": "CH3"
+    },
+    "fp": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+    "xy": [
+      8,
+      11
+    ],
+    "rot": 0,
+    "mpn": "TPD4E05U06DQAR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "80e29a8b-7e33-4df8-b6fc-c3e1c829ecd0",
+    "dnp": true
+  },
+  {
+    "ref": "U6",
+    "lib": "Power_Protection",
+    "name": "TPD4E05U06DQA",
+    "value": "TPD4E05U06DQAR (OPTIONAL)",
+    "nets": {
+      "3": "GND",
+      "8": "GND",
+      "1": "CH4",
+      "2": "CH5",
+      "4": "CH6",
+      "5": "CH7"
+    },
+    "fp": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+    "xy": [
+      8,
+      27
+    ],
+    "rot": 0,
+    "mpn": "TPD4E05U06DQAR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "2252e329-acf6-4462-8d95-d9cecb8a03c7",
+    "dnp": true
+  },
+  {
+    "ref": "U2",
+    "lib": "LogicScope",
+    "name": "SN74LVC245APW_A_TO_B",
+    "value": "SN74LVC245APW",
+    "nets": {
+      "1": "+3V3",
+      "10": "GND",
+      "19": "BUF_OE_N",
+      "20": "+3V3",
+      "2": "IN0",
+      "18": "D0",
+      "3": "IN1",
+      "17": "D1",
+      "4": "IN2",
+      "16": "D2",
+      "5": "IN3",
+      "15": "D3",
+      "6": "IN4",
+      "14": "D4",
+      "7": "IN5",
+      "13": "D5",
+      "8": "IN6",
+      "12": "D6",
+      "9": "IN7",
+      "11": "D7"
+    },
+    "fp": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+    "xy": [
+      20.5,
+      9.0
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC245APW",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "0630b314-ac24-444f-9726-1e96d1224cee"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      23.5,
+      4.2
+    ],
+    "rot": 0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "4f1bcd60-58c0-4c50-bf51-bff7aa48325d"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      20.0,
+      3.5
+    ],
+    "rot": 0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "Digital Input Protection",
+    "parent": null,
+    "uuid": "566d215c-fca0-42be-b23c-61a648713c8b"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector",
+    "name": "USB_C_Receptacle_USB2.0_16P",
+    "value": "USB4105-GF-A",
+    "nets": {
+      "A1": "GND",
+      "A4": "USB_5V",
+      "A5": "USB_CC1",
+      "A6": "USB_DP_CONN",
+      "A7": "USB_DM_CONN",
+      "A9": "USB_5V",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USB_5V",
+      "B5": "USB_CC2",
+      "B6": "USB_DP_CONN",
+      "B7": "USB_DM_CONN",
+      "B9": "USB_5V",
+      "B12": "GND",
+      "SH": "GND"
+    },
+    "fp": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "xy": [
+      26,
+      37
+    ],
+    "rot": 0,
+    "mpn": "USB4105-GF-A",
+    "mfr": "GCT",
+    "source": "https://gct.co/connector/usb4105",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "895d484a-f29b-433b-a310-ef473c4df75d"
+  },
+  {
+    "ref": "R30",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      20.3,
+      31.2
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "99d4c3c7-7d47-40c7-8d60-a17266e67535"
+  },
+  {
+    "ref": "R31",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      31.7,
+      31.2
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "0fc4dd0a-cacf-42fb-8dd1-9e8b585b4c85"
+  },
+  {
+    "ref": "U4",
+    "lib": "Power_Protection",
+    "name": "TPD2E2U06DCK",
+    "value": "TPD2E2U06DCKR",
+    "nets": {
+      "1": "USB_DM_CONN",
+      "2": "USB_DP_CONN",
+      "3": "GND"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-323_SC-70",
+    "xy": [
+      22.96,
+      29.0
+    ],
+    "rot": 90,
+    "mpn": "TPD2E2U06DCKR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "e6c40564-4b2f-489d-a3e7-b313ad3a0cc4"
+  },
+  {
+    "ref": "R32",
+    "lib": "Device",
+    "name": "R",
+    "value": "22",
+    "nets": {
+      "1": "USB_DP_CONN",
+      "2": "USB_DP"
+    },
+    "fp": "Resistor_SMD:R_0402_1005Metric",
+    "xy": [
+      25.0,
+      17.25
+    ],
+    "rot": 0,
+    "mpn": "RC0402FR-0722RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "988ed909-32ae-4b3f-b6e4-aeeb58a2541d"
+  },
+  {
+    "ref": "R33",
+    "lib": "Device",
+    "name": "R",
+    "value": "22",
+    "nets": {
+      "1": "USB_DM_CONN",
+      "2": "USB_DM"
+    },
+    "fp": "Resistor_SMD:R_0402_1005Metric",
+    "xy": [
+      25.0,
+      15.98
+    ],
+    "rot": 0,
+    "mpn": "RC0402FR-0722RL",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "33942701-e233-4667-bd3d-3132abc1c344"
+  },
+  {
+    "ref": "F1",
+    "lib": "LogicScope",
+    "name": "Polyfuse_1206",
+    "value": "500mA",
+    "nets": {
+      "1": "USB_5V",
+      "2": "VUSB"
+    },
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "xy": [
+      36,
+      33.0
+    ],
+    "rot": 0,
+    "mpn": "1206L050YR",
+    "mfr": "Littelfuse",
+    "source": "https://www.littelfuse.com/products/polyswitch-resettable-pptcs/surface-mount/1206l",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "2ad75c77-c1b2-4321-a73e-3e0d4d7e029a"
+  },
+  {
+    "ref": "U3",
+    "lib": "Regulator_Switching",
+    "name": "AP63203WU",
+    "value": "AP63203WU-7",
+    "nets": {
+      "1": "+3V3",
+      "2": "VUSB",
+      "3": "VUSB",
+      "4": "GND",
+      "5": "SW",
+      "6": "BST"
+    },
+    "fp": "Package_TO_SOT_SMD:TSOT-23-6",
+    "xy": [
+      43,
+      31
+    ],
+    "rot": 0,
+    "mpn": "AP63203WU-7",
+    "mfr": "Diodes Incorporated",
+    "source": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "8489f549-d75c-43f2-a286-a2738a609f09"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      40.2,
+      34.5
+    ],
+    "rot": 180,
+    "mpn": "GRM21BR61A106KE19L",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "27b1f889-8cbb-4490-a750-991759bef680"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      40.2,
+      31.5
+    ],
+    "rot": 90,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "8d1c776f-a449-413e-850d-8827c3ac27dd"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "BST",
+      "2": "SW"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      45.4,
+      30.5
+    ],
+    "rot": 90,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "86769e58-8af5-430e-af28-38d71ebe692e"
+  },
+  {
+    "ref": "L1",
+    "lib": "Device",
+    "name": "L",
+    "value": "4.7uH",
+    "nets": {
+      "1": "SW",
+      "2": "+3V3"
+    },
+    "fp": "Inductor_SMD:L_Bourns-SRN4018",
+    "xy": [
+      48,
+      32.0
+    ],
+    "rot": 0,
+    "mpn": "SRN4018-4R7M",
+    "mfr": "Bourns",
+    "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "f692a097-0b52-4816-aa43-1e6bc7adca5d"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      46.5,
+      37.0
+    ],
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "820b47cc-12b1-4ba1-b77e-3316fe84f01c"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      42.7,
+      37.0
+    ],
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "https://www.murata.com/en-global/products/capacitor/ceramiccapacitor",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "dc0bd298-d68d-4f99-8c00-fedb092d3764"
+  },
+  {
+    "ref": "R34",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "nets": {
+      "1": "+3V3",
+      "2": "PWR_LED_A"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      51,
+      31.0
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-074K7L",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "4819eb5b-1b27-477e-97be-6106a5f5372d"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "name": "LED",
+    "value": "PWR GREEN",
+    "nets": {
+      "1": "GND",
+      "2": "PWR_LED_A"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      51,
+      33.8
+    ],
+    "rot": 90,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "012c4fe1-a116-48d5-a138-3ebd0fd272b9"
+  },
+  {
+    "ref": "R35",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "STATUS_LED",
+      "2": "STATUS_LED_A"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      42.5,
+      22
+    ],
+    "rot": 90,
+    "mpn": "RC0603FR-072K2L",
+    "mfr": "Yageo",
+    "source": "https://www.yageo.com/en/Product/Index/rchip",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "25d86942-4727-4bc2-8b38-f1d5c4ad80f2"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device",
+    "name": "LED",
+    "value": "CAPTURE GREEN",
+    "nets": {
+      "1": "GND",
+      "2": "STATUS_LED_A"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      45,
+      22
+    ],
+    "rot": 90,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "USB and Power",
+    "parent": null,
+    "uuid": "5a10a336-cff8-47da-8a8b-a77be362abb0"
+  },
+  {
+    "ref": "TP1",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "USB_5V",
+    "nets": {
+      "1": "USB_5V"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      34,
+      36.5
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "f7aead98-5a6e-4ff0-bfaa-17de24af12d1"
+  },
+  {
+    "ref": "TP2",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "VUSB",
+    "nets": {
+      "1": "VUSB"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      38,
+      36.5
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "30d12139-8e6a-4527-a72e-1acb02d62773"
+  },
+  {
+    "ref": "TP3",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "+3V3",
+    "nets": {
+      "1": "+3V3"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      44,
+      26
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "7cd2088b-bb11-4192-a343-50a42bcee56b"
+  },
+  {
+    "ref": "TP4",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "GND",
+    "nets": {
+      "1": "GND"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      38,
+      26
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "6d32b429-3da1-4da2-9ee7-8720d0204c59"
+  },
+  {
+    "ref": "TP5",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "EN",
+    "nets": {
+      "1": "EN"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      46,
+      24.5
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "00425fcb-0031-45f9-b596-d79bdbbb0098"
+  },
+  {
+    "ref": "TP6",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "USB_DP",
+    "nets": {
+      "1": "USB_DP"
+    },
+    "fp": "LogicScope:TestPoint_D0.5mm",
+    "xy": [
+      26.6,
+      17.25
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "8cd3917d-dd03-49cd-8e65-67cabf44397b"
+  },
+  {
+    "ref": "TP7",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "USB_DM",
+    "nets": {
+      "1": "USB_DM"
+    },
+    "fp": "LogicScope:TestPoint_D0.5mm",
+    "xy": [
+      26.6,
+      15.98
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "706aa452-b619-49e5-ab98-7d24c1eed7f6"
+  },
+  {
+    "ref": "TP8",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "CAM_PCLK",
+    "nets": {
+      "1": "CAM_PCLK"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      37.7,
+      24
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "97cc04ec-b7aa-4e59-9dfa-0680fe805fcf"
+  },
+  {
+    "ref": "TP9",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "CAM_DE",
+    "nets": {
+      "1": "CAM_DE"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      33,
+      26
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "16e02dbc-e453-481d-be1f-34198d2916d6"
+  },
+  {
+    "ref": "TP10",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "CAM_VSYNC",
+    "nets": {
+      "1": "CAM_VSYNC"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      35,
+      26
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "69e1d692-3ca7-4ce7-9c11-2c36c521268c"
+  },
+  {
+    "ref": "TP11",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "BUF_OE_N",
+    "nets": {
+      "1": "BUF_OE_N"
+    },
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      40,
+      24
+    ],
+    "rot": 0,
+    "mpn": "PCB_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Test Points",
+    "parent": null,
+    "uuid": "44f4ccfa-0024-47b6-bb71-07f25d058588"
+  }
+]
