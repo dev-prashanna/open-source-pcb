@@ -1,0 +1,16 @@
+*.kicad_prl
+*.lck
+*-backups/
+__pycache__/
+*.pyc
+core
+core.*
+mcp_seed.kicad_sch
+reports/*.dsn
+reports/*.ses
+reports/DRC_*.json
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+.venv/
+reports/placement_before_route.kicad_pcb

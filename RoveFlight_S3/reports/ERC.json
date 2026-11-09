@@ -1,0 +1,106 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T08:20:22",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e",
+            "violations": []
+        },
+        {
+            "path": "/01 ESP32S3 Controller 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/2e836fc8-651d-48a5-916f-12c5b2aa25ad",
+            "violations": []
+        },
+        {
+            "path": "/02 USB Programming 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/93efa647-9586-4c43-b1fa-0765a794358e",
+            "violations": []
+        },
+        {
+            "path": "/03 Battery Power 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/ff5bc94d-bd5f-4366-9db5-eb2318a47921",
+            "violations": []
+        },
+        {
+            "path": "/04 Motor Safety Interlock 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/030fefbf-45cc-44ee-bc92-5a6ed9639382",
+            "violations": []
+        },
+        {
+            "path": "/05 Motor Safety Interlock 2/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/f1dcac70-ceb2-4bf4-88db-34a87d7f56a1",
+            "violations": []
+        },
+        {
+            "path": "/06 Motor M1 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/5fe57988-1e0a-4c91-9581-82cc611bfdbe",
+            "violations": []
+        },
+        {
+            "path": "/07 Motor M2 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/97d8b1ae-af62-4265-8fc8-8c33f5c8c900",
+            "violations": []
+        },
+        {
+            "path": "/08 Motor M3 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/a3ccc0e1-f78d-4ef8-ab70-865505184f17",
+            "violations": []
+        },
+        {
+            "path": "/09 Motor M4 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/8af0021a-3dc5-4eb4-a2b6-9d84f8ef2361",
+            "violations": []
+        },
+        {
+            "path": "/10 SPI Flight Sensors 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/791c440e-c9b5-4223-a398-06a06bb70143",
+            "violations": []
+        },
+        {
+            "path": "/11 Optical and IR 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/c28447e8-b563-4ea0-b9fe-0f8be03f6be3",
+            "violations": []
+        },
+        {
+            "path": "/12 Battery Monitoring 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/180f59bc-8ada-4886-be4b-c9a0a1dfb4bd",
+            "violations": []
+        },
+        {
+            "path": "/13 Receiver Expansion and Indicators 1/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/8bbb9e47-23d8-4e66-aff5-7f897ebedfd2",
+            "violations": []
+        },
+        {
+            "path": "/14 Receiver Expansion and Indicators 2/",
+            "uuid_path": "/ecbec1e7-180b-4fc5-a867-ff7043e8490e/1dd4aa26-22f6-44ce-8986-a05471db396e",
+            "violations": []
+        }
+    ],
+    "source": "RoveFlight_S3.kicad_sch"
+}

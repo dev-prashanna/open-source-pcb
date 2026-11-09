@@ -1,0 +1,183 @@
+{
+  "added": [
+    {
+      "source": "track",
+      "net": "ARMED_N",
+      "via": [
+        35.2507,
+        31.2668
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": false
+    },
+    {
+      "source": "D7.2",
+      "net": "LED_A",
+      "via": [
+        31.7779,
+        19.5429
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": false
+    },
+    {
+      "source": "track",
+      "net": "USB_VBUS",
+      "via": [
+        11.6028,
+        27.3005
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": false
+    },
+    {
+      "source": "J1.B9",
+      "net": "USB_VBUS",
+      "via": [
+        8.4086,
+        22.6535
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    },
+    {
+      "source": "U1.9",
+      "net": "TOF_INT",
+      "via": [
+        14.4428,
+        11.3
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    },
+    {
+      "source": "track",
+      "net": "SAFE_CLR_N",
+      "via": [
+        29.1504,
+        32.4465
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    },
+    {
+      "source": "U6.1",
+      "net": "ARM_CLK",
+      "via": [
+        29.0141,
+        21.7045
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": false
+    },
+    {
+      "source": "U11.3",
+      "net": "IR_RX",
+      "via": [
+        7.4582,
+        24.1768
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    },
+    {
+      "source": "track",
+      "net": "IR_RX",
+      "via": [
+        12.2683,
+        10.496
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": false
+    },
+    {
+      "source": "track",
+      "net": "BAT_ADC",
+      "via": [
+        27.1549,
+        29.7888
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    },
+    {
+      "source": "U1.38",
+      "net": "BAT_ADC",
+      "via": [
+        31.85,
+        3.28
+      ],
+      "land_mm": 0.45,
+      "drill_mm": 0.2,
+      "via_in_pad": true
+    }
+  ],
+  "failed": [
+    {
+      "source": "track",
+      "net": "+3V3_SENS",
+      "xy": [
+        20.55,
+        29.05
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3_SENS",
+      "xy": [
+        20.3,
+        29.4
+      ]
+    },
+    {
+      "source": "U9.2",
+      "net": "SPI_SCK",
+      "xy": [
+        11.75,
+        21.7625
+      ]
+    },
+    {
+      "source": "track",
+      "net": "SPI_SCK",
+      "xy": [
+        16.1,
+        19.75
+      ]
+    },
+    {
+      "source": "U6.3",
+      "net": "ARMED_N",
+      "xy": [
+        28.6,
+        24.25
+      ]
+    },
+    {
+      "source": "R130.2",
+      "net": "LED_A",
+      "xy": [
+        19.0,
+        31.49
+      ]
+    },
+    {
+      "source": "R3.1",
+      "net": "ARM_CLK",
+      "xy": [
+        34.51,
+        15.0
+      ]
+    }
+  ]
+}

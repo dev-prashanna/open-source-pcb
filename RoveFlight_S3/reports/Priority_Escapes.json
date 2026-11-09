@@ -1,0 +1,263 @@
+{
+  "added": [
+    {
+      "source": "track",
+      "net": "SPI_MISO",
+      "via": [
+        27.9,
+        26.8268
+      ],
+      "cut_nets": [
+        "CURRENT_ADC"
+      ]
+    },
+    {
+      "source": "J8.5",
+      "net": "SPI_MISO",
+      "via": [
+        23.3,
+        20.4804
+      ],
+      "cut_nets": [
+        "IMU_CS"
+      ]
+    },
+    {
+      "source": "U8.4",
+      "net": "IMU_INT",
+      "via": [
+        21.0643,
+        23.85
+      ],
+      "cut_nets": [
+        "+3V3_SENS",
+        "TOF_INT"
+      ]
+    },
+    {
+      "source": "U9.10",
+      "net": "+3V3_SENS",
+      "via": [
+        12.8625,
+        21.6732
+      ],
+      "cut_nets": [
+        "TOF_INT"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3_SENS",
+      "via": [
+        28.6258,
+        19.9
+      ],
+      "cut_nets": [
+        "CURRENT_ADC",
+        "KILL_OD"
+      ]
+    },
+    {
+      "source": "J10.2",
+      "net": "+3V3_SENS",
+      "via": [
+        29.95,
+        9.5
+      ],
+      "cut_nets": [
+        "BAT_ADC",
+        "KILL_OD"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        10.0,
+        21.01
+      ],
+      "cut_nets": [
+        "IR_RX"
+      ]
+    },
+    {
+      "source": "J8.2",
+      "net": "+3V3",
+      "via": [
+        20.65,
+        19.8742
+      ],
+      "cut_nets": [
+        "SPI_MOSI",
+        "SPI_SCK"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        17.8625,
+        23.1242
+      ],
+      "cut_nets": [
+        "+3V3_SENS",
+        "TOF_INT"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        25.6732,
+        23.35
+      ],
+      "cut_nets": [
+        "TOF_XSHUT"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        26.6575,
+        31.05
+      ],
+      "cut_nets": [
+        "BAT_DIV"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        26.6768,
+        24.13
+      ],
+      "cut_nets": [
+        "STATUS_LED"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        27.8,
+        23.75
+      ],
+      "cut_nets": [
+        "+3V3_SENS",
+        "SAFE_CLR_N"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        30.0236,
+        28.225
+      ],
+      "cut_nets": [
+        "SAFE_CLR_N",
+        "WD_TIMING"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        30.05,
+        27.6786
+      ],
+      "cut_nets": [
+        "BAT_ADC",
+        "WD_TIMING"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "+3V3",
+      "via": [
+        30.5258,
+        23.1
+      ],
+      "cut_nets": [
+        "BAT_ADC"
+      ]
+    },
+    {
+      "source": "U12.3",
+      "net": "BAT_PROTECTED",
+      "via": [
+        24.8625,
+        32.95
+      ],
+      "cut_nets": [
+        "BAT_DIV"
+      ]
+    },
+    {
+      "source": "R130.2",
+      "net": "LED_A",
+      "via": [
+        19.0,
+        31.09
+      ],
+      "cut_nets": [
+        "SYS_IN",
+        "USB_VBUS"
+      ]
+    },
+    {
+      "source": "J1.A4",
+      "net": "USB_VBUS",
+      "via": [
+        7.995,
+        22.55
+      ],
+      "cut_nets": [
+        "IR_RX"
+      ]
+    },
+    {
+      "source": "C5.1",
+      "net": "USB_VBUS",
+      "via": [
+        13.5875,
+        25.23
+      ],
+      "cut_nets": [
+        "TOF_XSHUT"
+      ]
+    },
+    {
+      "source": "track",
+      "net": "IR_VS",
+      "via": [
+        9.9888,
+        26.1273
+      ],
+      "cut_nets": [
+        "USB_DM_CONN",
+        "USB_DP_CONN"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "source": "track",
+      "net": "+3V3"
+    },
+    {
+      "source": "U3.4",
+      "net": "REG_L1"
+    },
+    {
+      "source": "U6.3",
+      "net": "ARMED_N"
+    },
+    {
+      "source": "track",
+      "net": "I2C_SDA"
+    }
+  ]
+}

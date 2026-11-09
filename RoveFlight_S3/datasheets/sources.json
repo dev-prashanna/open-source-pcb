@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-11-08",
+  "sources": {
+    "ESP32-S3-WROOM-1-N8R2": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+    "USBLC6-2SC6": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "DMP2008UFG-7": "https://www.diodes.com/datasheet/download/DMP2008UFG.pdf",
+    "TPS63001DRCR": "https://www.ti.com/lit/ds/symlink/tps63000.pdf",
+    "TPS3431SDRBR": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+    "TPS3808G01DBVR": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "SN74LVC1G74DCUR": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+    "SN74LVC125APWR": "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf",
+    "AO3400A": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+    "BMI270": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+    "BMP390": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf",
+    "VL53L1CXV0FY/1": "https://www.st.com/resource/en/datasheet/vl53l1x.pdf",
+    "TSOP75438TT": "https://www.vishay.com/docs/82494/tsop752.pdf",
+    "INA180A2IDBVR": "https://www.ti.com/lit/ds/symlink/ina180.pdf",
+    "Espressif Hardware Guidelines": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html",
+    "ESP32-S3 module catalogue": "https://www.espressif.com/en/products/modules/esp32/esp32-s3-wroom-1",
+    "IFSC1515AHER2R2M01": "https://www.vishay.com/docs/34295/ifsc-1515ah-01.pdf",
+    "T520B107M006ATE070": "https://search.kemet.com/download/specsheet/T520B107M006ATE070"
+  }
+}

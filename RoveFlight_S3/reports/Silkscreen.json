@@ -1,0 +1,42 @@
+{
+  "references_on_fab_only": [
+    "SW1",
+    "R100",
+    "C119",
+    "R122",
+    "C6",
+    "C7",
+    "R130",
+    "Q2",
+    "C118",
+    "U1",
+    "R104",
+    "C114",
+    "R129",
+    "TP12",
+    "C115",
+    "C123",
+    "C125",
+    "TP15",
+    "TP11"
+  ],
+  "connector_legends": {
+    "J1": "USB",
+    "J2": "1S BAT",
+    "J3": "M1",
+    "J4": "M2",
+    "J5": "M3",
+    "J6": "M4",
+    "J7": "RC 3V3",
+    "J8": "FLOW SPI",
+    "J9": "DEBUG",
+    "J10": "I2C",
+    "JP1": "ARM LINK",
+    "SW1": "RESET",
+    "SW2": "BOOT",
+    "SW3": "KILL",
+    "U8": "IMU",
+    "U9": "BARO",
+    "U10": "TOF DOWN"
+  }
+}

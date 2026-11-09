@@ -1,0 +1,32 @@
+// Generated from verified GPIO_Allocation.csv. RF-S3-A0 / N8R2 only.
+#pragma once
+#define PIN_BOOT 0
+#define PIN_CURRENT_ADC 1
+#define PIN_BAT_ADC 2
+#define PIN_PWM_M1 4
+#define PIN_PWM_M2 5
+#define PIN_PWM_M3 6
+#define PIN_PWM_M4 7
+#define PIN_I2C_SDA 8
+#define PIN_IMU_INT 9
+#define PIN_IMU_CS 10
+#define PIN_SPI_MOSI 11
+#define PIN_SPI_SCK 12
+#define PIN_SPI_MISO 13
+#define PIN_BARO_CS 14
+#define PIN_IR_RX 15
+#define PIN_TOF_INT 16
+#define PIN_TOF_XSHUT 17
+#define PIN_I2C_SCL 18
+#define PIN_USB_DM 19
+#define PIN_USB_DP 20
+#define PIN_STATUS_LED 21
+#define PIN_ARM_CLK 38
+#define PIN_WD_HEARTBEAT 39
+#define PIN_KILL_OD 40
+#define PIN_RC_RX 41
+#define PIN_RC_TX 42
+#define PIN_DEBUG_TX 43
+#define PIN_DEBUG_RX 44
+#define PIN_FLOW_CS 47
+#define PIN_FLOW_INT 48

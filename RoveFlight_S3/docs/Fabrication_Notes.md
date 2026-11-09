@@ -1,0 +1,16 @@
+# Fabrication and assembly notes
+
+RF-S3-A0 is an engineering prototype. Review Manufacturing_Readiness.md and actual validation reports before any order.
+
+- 45 x 45-mm chamfered board, nominal 1.0-mm finished thickness, six 35-um nominal copper layers. Obtain a fabricator-qualified stack; a possible starting stack has about 0.1-mm F.Cu-to-In1 spacing, a central core adjusted for total thickness, and the remaining outer dielectric/copper. Actual impedance and tolerances require the fabricator's field-solver geometry.
+- Fabrication minima: 0.125-mm track, 0.15-mm copper spacing, 0.20-mm minimum plated drill, 0.45-mm minimum routing via land and at least 0.10-mm annular ring. Standard vias are typically 0.50/0.25 mm; higher-current plane drops use 0.60/0.30 mm with multiple vias. Copper-to-edge minimum 0.25 mm. Do not silently enlarge drills or shrink annular rings.
+- Four 2.2-mm nonplated M2 mounting holes, 25.5-mm-square pattern centered on the board. Verify actual frame/standoff geometry; holes are not motor-wire strain relief.
+- The ESP32 antenna extends beyond the carrier. Keep its all-copper-layer keepout and the surrounding enclosure/battery/wire region clear per Espressif guidelines. No metal standoff or motor wire may cross the antenna zone.
+- Components occur on both faces. Sensor apertures face downward; underside connectors, KILL button, barometer and ToF need chassis clearance. The pressure port must be vented and protected from direct propeller airflow; the ToF requires an unobstructed optical cone and cover calibration.
+- Resin filling, planarization and copper capping are required for the 54 board vias whose drills intersect SMD lands in reports/Assembly_Audit.json. Review footprint-integrated ESP32/regulator thermal vias, adjacent via annuli and stencil apertures with the assembler as well. Tenting alone is insufficient for vias intersecting solder apertures. Keep connector plated holes and mounting holes functional.
+- Battery and motor interfaces are solder pads. Use an insulated, keyed 1S battery harness and suitably rated wire (20-AWG battery and 24-AWG motor are starting choices; qualify cable heating and weight). Strain-relieve leads to the frame, not the sensor PCB. Keep solder away from nearby parts and holes. Board pads do not provide connector polarity protection against a reversed motor harness.
+- Use matched CW/CCW brushed motors and propellers within the documented electrical envelope. J3–J6 pin 1 is VM positive; pin 2 is a switched low-side output, not ground.
+- Confirm all actual MPN package drawings and assembly orientation, including the combined DMP2008 drain land, BMP390 top-view pad numbering, BMI270 pin 1 and TSOP75438TT top-view package. Procurement substitution requires a new electrical/package review.
+- Suggested ENIG finish, ordinary lead-free reflow subject to the most restrictive MEMS/module handling limits. Do not coat optical windows or the barometer port. Do not wash MEMS/optical sensors without manufacturer approval.
+
+USB is full-speed, but its pair still needs length/return-path and impedance review against the ordered stack. Native ERC/DRC cannot certify USB eye quality, RF performance, transient immunity or motor-current thermal capacity. Start with a small engineering lot and current-limited bring-up.

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "all_manifest_and_board_pad_nets_match": true,
+    "usb_native_gpio19_20": true,
+    "adc1_monitoring": true,
+    "four_pwm_unique": true,
+    "four_low_side_stages": true,
+    "flyback_polarities": true,
+    "latched_clear_faults": true,
+    "physical_arm_disconnect": true,
+    "all_driver_enables_gated": true,
+    "imu_spi": true,
+    "baro_spi_independent_cs": true,
+    "battery_usb_diode_isolation": true,
+    "reverse_pfet_orientation": true,
+    "shunt_kelvin_nets": true,
+    "receiver_uart_separate": true
+  },
+  "electrical_entries": 138,
+  "connected_pins": 396,
+  "nets": 71,
+  "errors": [],
+  "all_passed": true
+}

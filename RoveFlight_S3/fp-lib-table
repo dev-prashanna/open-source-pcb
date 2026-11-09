@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "RoveFlight") (type "KiCad") (uri "${KIPRJMOD}/libraries/RoveFlight.pretty") (options "") (descr "Project land patterns")))

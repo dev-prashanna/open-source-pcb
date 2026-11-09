@@ -1,0 +1,48 @@
+{
+  "added": [
+    {
+      "net": "SAFE_CLR_N",
+      "layer": "In3.Cu",
+      "width_mm": 0.16,
+      "points": [
+        [
+          29.1504,
+          32.4465
+        ],
+        [
+          30.075,
+          31.475
+        ]
+      ]
+    },
+    {
+      "net": "IR_RX",
+      "layer": "In3.Cu",
+      "width_mm": 0.16,
+      "points": [
+        [
+          7.4582,
+          24.1768
+        ],
+        [
+          4.4582,
+          24.1768
+        ],
+        [
+          12.2683,
+          10.496
+        ]
+      ]
+    }
+  ],
+  "failed": [
+    "+3V3_SENS",
+    "SPI_SCK",
+    "ARMED_N",
+    "LED_A",
+    "USB_VBUS",
+    "TOF_INT",
+    "ARM_CLK",
+    "BAT_ADC"
+  ]
+}

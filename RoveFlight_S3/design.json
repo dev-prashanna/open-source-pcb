@@ -1,0 +1,3074 @@
+[
+  {
+    "ref": "U1",
+    "lib": "RF_Module",
+    "name": "ESP32-S3-WROOM-1",
+    "value": "ESP32-S3-WROOM-1-N8R2",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "EN",
+      "4": "PWM_M1",
+      "5": "PWM_M2",
+      "6": "PWM_M3",
+      "7": "PWM_M4",
+      "8": "IR_RX",
+      "9": "TOF_INT",
+      "10": "TOF_XSHUT",
+      "11": "I2C_SCL",
+      "12": "I2C_SDA",
+      "13": "USB_DM",
+      "14": "USB_DP",
+      "17": "IMU_INT",
+      "18": "IMU_CS",
+      "19": "SPI_MOSI",
+      "20": "SPI_SCK",
+      "21": "SPI_MISO",
+      "22": "BARO_CS",
+      "23": "STATUS_LED",
+      "24": "FLOW_CS",
+      "25": "FLOW_INT",
+      "27": "BOOT",
+      "31": "ARM_CLK",
+      "32": "WD_HEARTBEAT",
+      "33": "KILL_OD",
+      "34": "RC_RX",
+      "35": "RC_TX",
+      "36": "DEBUG_RX",
+      "37": "DEBUG_TX",
+      "38": "BAT_ADC",
+      "39": "CURRENT_ADC",
+      "40": "GND",
+      "41": "GND"
+    },
+    "fp": "RoveFlight:ESP32-S3-WROOM-1_Overhang",
+    "xy": [
+      22.5,
+      6
+    ],
+    "rot": 0,
+    "mpn": "ESP32-S3-WROOM-1-N8R2",
+    "mfr": "Espressif",
+    "source": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "0c981c80-a70c-4a87-9821-b065faecb4c1"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C1",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "ca4d3545-f545-422d-af0b-4728bf2bafb4"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R60J106ME47D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "85545f91-8e24-4fd4-a741-1beb19699e01"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "2fec91cc-6202-4f4c-a27a-3287894b3d5c"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "EN"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R1",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "b3ec4d08-af84-4f27-be95-e040280f9bf3"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C4",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R61A105KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "56d726ee-8de6-4e3e-9744-4728eb8b666e"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R2",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "8ae0f829-1727-41da-bbb0-c814632d3bec"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "RESET",
+    "nets": {
+      "1": "EN",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      5,
+      19
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "e4b32cc1-e0ca-46c8-9606-19763940cc2e"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BOOT",
+    "nets": {
+      "1": "BOOT",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      10,
+      19
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "935a747b-a3c0-4ca5-a6a6-2952228d8336"
+  },
+  {
+    "ref": "SW3",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "KILL",
+    "nets": {
+      "1": "SAFE_CLR_N",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      39,
+      28
+    ],
+    "rot": 0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "B",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "c441744f-df1f-4ed7-a1fe-8efa61c5044b"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "ARM_CLK",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R3",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "c34282c9-e07c-4bee-a04f-e1ff0844786b"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "WD_HEARTBEAT",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R4",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "95282a44-62af-4cd5-bcbc-407806babfa9"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "IMU_CS"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R5",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "5af923e8-b8ce-45e5-b488-ac3e4680f99f"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "BARO_CS"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R6",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "1dcbf681-2089-4574-b9b9-f3422ba277d8"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "FLOW_CS"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R7",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "ESP32S3 Controller",
+    "parent": "U1",
+    "uuid": "e7a309b2-9f0e-46f5-b69a-c6aa5f976717"
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector",
+    "name": "USB_C_Receptacle_USB2.0_16P",
+    "value": "USB-C",
+    "nets": {
+      "A1": "GND",
+      "A4": "USB_VBUS",
+      "A5": "USB_CC1",
+      "A6": "USB_DP_CONN",
+      "A7": "USB_DM_CONN",
+      "A9": "USB_VBUS",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USB_VBUS",
+      "B5": "USB_CC2",
+      "B6": "USB_DP_CONN",
+      "B7": "USB_DM_CONN",
+      "B9": "USB_VBUS",
+      "B12": "GND",
+      "SH": "GND"
+    },
+    "fp": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "xy": [
+      3.5,
+      25
+    ],
+    "rot": 270,
+    "mpn": "TYPE-C-31-M-12",
+    "mfr": "HRO",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U1",
+    "uuid": "7583b173-b7fd-413b-b430-8dfa1f2c2468"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R8",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-075101L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U1",
+    "uuid": "e0a49482-b6e4-4191-9657-75f52a12061b"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R9",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-075101L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U1",
+    "uuid": "ce1570eb-ecd4-4cb9-917a-b44d7cf33637"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "22",
+    "nets": {
+      "1": "USB_DP_CONN",
+      "2": "USB_DP"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R10",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-0722R0L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U1",
+    "uuid": "f6228f95-2a8a-44e8-9665-ea57d59f9ecd"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "22",
+    "nets": {
+      "1": "USB_DM_CONN",
+      "2": "USB_DM"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R11",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-0722R0L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U1",
+    "uuid": "bfb7a845-7477-4450-bbbc-afa7f6e64dc1"
+  },
+  {
+    "ref": "U2",
+    "lib": "Power_Protection",
+    "name": "USBLC6-2SC6",
+    "value": "USBLC6-2SC6",
+    "nets": {
+      "1": "USB_DP_CONN",
+      "6": "USB_DP_CONN",
+      "3": "USB_DM_CONN",
+      "4": "USB_DM_CONN",
+      "2": "GND",
+      "5": "USB_VBUS"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      8.5,
+      25
+    ],
+    "rot": 0,
+    "mpn": "USBLC6-2SC6",
+    "mfr": "STMicroelectronics",
+    "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "67e8bd7e-d729-4b84-9d7b-ccaad18fb31d"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C5",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R61A105KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programming",
+    "parent": "U2",
+    "uuid": "4ff66500-7cab-4440-a8de-85219d34b1bf"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "1S BATTERY",
+    "nets": {
+      "1": "BAT_RAW",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:BatteryPads",
+    "xy": [
+      22.5,
+      42
+    ],
+    "rot": 0,
+    "mpn": "PCB_SOLDER_PADS_20AWG",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U2",
+    "uuid": "a1fba12f-2338-4f16-bc39-7b2955390207"
+  },
+  {
+    "ref": "F1",
+    "lib": "Device",
+    "name": "Fuse",
+    "value": "5A fuse",
+    "nets": {
+      "1": "BAT_RAW",
+      "2": "BAT_FUSED"
+    },
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "xy": [
+      17,
+      38
+    ],
+    "rot": 0,
+    "mpn": "0467005.NR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U2",
+    "uuid": "af540edb-a7cd-415a-814a-dda0501307b3"
+  },
+  {
+    "ref": "Q1",
+    "lib": "RoveFlight",
+    "name": "DMP2008UFG",
+    "value": "DMP2008UFG-7",
+    "nets": {
+      "1": "BAT_PROTECTED",
+      "2": "BAT_PROTECTED",
+      "3": "BAT_PROTECTED",
+      "4": "GND",
+      "5": "BAT_FUSED"
+    },
+    "fp": "Package_SON:Diodes_PowerDI3333-8",
+    "xy": [
+      22.5,
+      36
+    ],
+    "rot": 0,
+    "mpn": "DMP2008UFG-7",
+    "mfr": "Diodes Inc.",
+    "source": "https://www.diodes.com/datasheet/download/DMP2008UFG.pdf",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "Q1",
+    "uuid": "79234a5a-df66-4653-8800-404a90747c34"
+  },
+  {
+    "ref": "R100",
+    "lib": "Device",
+    "name": "R",
+    "value": "5mOhm 1% 0.25W",
+    "nets": {
+      "1": "BAT_PROTECTED",
+      "2": "VM"
+    },
+    "fp": "Resistor_SMD:R_1206_3216Metric",
+    "xy": [
+      27.5,
+      37
+    ],
+    "rot": 0,
+    "mpn": "WSL1206R0050FEA",
+    "mfr": "Vishay",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "Q1",
+    "uuid": "cbbaaf1b-1490-44a1-995a-e2431e03f106"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS14",
+    "nets": {
+      "1": "SYS_IN",
+      "2": "VM"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      30,
+      34
+    ],
+    "rot": 0,
+    "mpn": "SS14-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "Q1",
+    "uuid": "2d5ceec7-1e68-4a7f-9b09-2a159fb31b3b"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS14",
+    "nets": {
+      "1": "SYS_IN",
+      "2": "USB_VBUS"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      12,
+      30
+    ],
+    "rot": 0,
+    "mpn": "SS14-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "Q1",
+    "uuid": "59af2b73-3fb0-4e8a-b762-5be4aa0a48a6"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "SYS_IN",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      14,
+      34
+    ],
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": null,
+    "uuid": "6daa39f1-ba37-4de6-94aa-a2a83dec0ee4"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "SYS_IN",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C7",
+    "xy": [
+      15,
+      36
+    ],
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": null,
+    "uuid": "3ec754b1-5bb4-4b14-8e6e-c9edb1317855"
+  },
+  {
+    "ref": "U3",
+    "lib": "Regulator_Switching",
+    "name": "TPS63001",
+    "value": "TPS63001DRCR",
+    "nets": {
+      "1": "+3V3",
+      "2": "REG_L2",
+      "3": "GND",
+      "4": "REG_L1",
+      "5": "SYS_IN",
+      "6": "SYS_IN",
+      "7": "SYS_IN",
+      "8": "REG_VINA",
+      "9": "GND",
+      "10": "+3V3",
+      "11": "GND"
+    },
+    "fp": "RoveFlight:Texas_DRC0010J_ThermalVias_RF_U3",
+    "xy": [
+      13,
+      37
+    ],
+    "rot": 0,
+    "mpn": "TPS63001DRCR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tps63000.pdf",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "27156a2d-c979-416f-b793-15bd70ff2f15"
+  },
+  {
+    "ref": "R101",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "SYS_IN",
+      "2": "REG_VINA"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R101",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "8a132738-68e3-43e3-9861-3e2aa4208bc4"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "REG_VINA",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C8",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "cd6b0ae3-387a-472e-9558-e31c1f64c784"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "277391ef-dbfb-402e-8c8c-4c5de415e37e"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device",
+    "name": "C",
+    "value": "22uF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM21BR60J226ME39L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "26d0ceaf-2271-4236-b62a-2e6bfdf15a5a"
+  },
+  {
+    "ref": "L1",
+    "lib": "Device",
+    "name": "L",
+    "value": "2.2uH 3A",
+    "nets": {
+      "1": "REG_L1",
+      "2": "REG_L2"
+    },
+    "fp": "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm",
+    "xy": [
+      12,
+      41
+    ],
+    "rot": 0,
+    "mpn": "IFSC1515AHER2R2M01",
+    "mfr": "Vishay",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "e0a700c4-d765-4c8b-a4a6-e2af90212270"
+  },
+  {
+    "ref": "FB1",
+    "lib": "Device",
+    "name": "FerriteBead",
+    "value": "600R@100MHz",
+    "nets": {
+      "1": "+3V3",
+      "2": "+3V3_SENS"
+    },
+    "fp": "Inductor_SMD:L_0603_1608Metric",
+    "xy": [
+      18,
+      27
+    ],
+    "rot": 0,
+    "mpn": "BLM18AG601SN1D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "U3",
+    "uuid": "27f771e6-7146-4dbe-8901-07f3ed48fd2e"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R60J106ME47D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "FB1",
+    "uuid": "41b3fbbb-2aec-4767-a120-a2fa495ff4e2"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C12",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": "FB1",
+    "uuid": "c53afdf1-7d7e-43e7-bb15-34735e005f29"
+  },
+  {
+    "ref": "C100",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "100uF 6.3V polymer",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+    "xy": [
+      32,
+      39
+    ],
+    "rot": 0,
+    "mpn": "T520B107M006ATE070",
+    "mfr": "KEMET",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": null,
+    "uuid": "5ea6ce15-09ef-47a2-ac58-2ac4d293a080"
+  },
+  {
+    "ref": "C101",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "100uF 6.3V polymer",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+    "xy": [
+      37,
+      19
+    ],
+    "rot": 0,
+    "mpn": "T520B107M006ATE070",
+    "mfr": "KEMET",
+    "source": "",
+    "side": "F",
+    "section": "Battery Power",
+    "parent": null,
+    "uuid": "a6ff6909-1c08-4d47-9b86-2efad1c493fd"
+  },
+  {
+    "ref": "C102",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "100uF 6.3V logic bulk",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+    "xy": [
+      17,
+      14
+    ],
+    "rot": 0,
+    "mpn": "T520B107M006ATE070",
+    "mfr": "KEMET",
+    "source": "",
+    "side": "B",
+    "section": "Battery Power",
+    "parent": null,
+    "uuid": "d898f935-ad7e-4c57-b5a2-78ff9e02bdf4"
+  },
+  {
+    "ref": "U4",
+    "lib": "RoveFlight",
+    "name": "TPS3431",
+    "value": "TPS3431SDRBR",
+    "nets": {
+      "1": "+3V3",
+      "2": "WD_TIMING",
+      "3": "+3V3",
+      "4": "GND",
+      "5": "+3V3",
+      "6": "WD_HEARTBEAT",
+      "7": "SAFE_CLR_N",
+      "9": "GND"
+    },
+    "fp": "Package_DFN_QFN:Texas_DRB0008A",
+    "xy": [
+      32,
+      29
+    ],
+    "rot": 0,
+    "mpn": "TPS3431SDRBR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U4",
+    "uuid": "d6e6357c-6086-469e-bf61-10427e2f64fc"
+  },
+  {
+    "ref": "C103",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C103",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U4",
+    "uuid": "03afc670-cff0-45c5-acf2-51165817e3b5"
+  },
+  {
+    "ref": "C104",
+    "lib": "Device",
+    "name": "C",
+    "value": "1nF",
+    "nets": {
+      "1": "WD_TIMING",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C104",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM1555C1H102JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U4",
+    "uuid": "2dc4c554-1053-4052-98d0-214e8d3ab769"
+  },
+  {
+    "ref": "U5",
+    "lib": "RoveFlight",
+    "name": "TPS3808G01",
+    "value": "TPS3808G01DBVR",
+    "nets": {
+      "1": "SAFE_CLR_N",
+      "2": "GND",
+      "3": "EN",
+      "4": "UV_DELAY",
+      "5": "UV_SENSE",
+      "6": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      34,
+      34
+    ],
+    "rot": 0,
+    "mpn": "TPS3808G01DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "262dff11-e6b3-485e-af49-2027ca2caedb"
+  },
+  {
+    "ref": "C105",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C105",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "54e7e96e-c7c7-4f4e-8c1c-34901da4734e"
+  },
+  {
+    "ref": "C106",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF",
+    "nets": {
+      "1": "UV_DELAY",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C106",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71H103KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "592b6a3c-e31e-421d-9125-82bcabd96688"
+  },
+  {
+    "ref": "R102",
+    "lib": "Device",
+    "name": "R",
+    "value": "665k",
+    "nets": {
+      "1": "VM",
+      "2": "UV_SENSE"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R102",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-076653L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "60b5f262-fc63-4b65-afb2-a64a63a9118c"
+  },
+  {
+    "ref": "R103",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "UV_SENSE",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R103",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "7e32318a-3bc4-44d1-a342-419ceed4d2ac"
+  },
+  {
+    "ref": "C107",
+    "lib": "Device",
+    "name": "C",
+    "value": "10nF",
+    "nets": {
+      "1": "UV_SENSE",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C107",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71H103KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U5",
+    "uuid": "b54147c6-4ede-490f-8bc8-e35a4a776453"
+  },
+  {
+    "ref": "U6",
+    "lib": "RoveFlight",
+    "name": "SN74LVC1G74",
+    "value": "SN74LVC1G74DCUR",
+    "nets": {
+      "1": "ARM_CLK",
+      "2": "+3V3",
+      "3": "ARMED_N",
+      "4": "GND",
+      "5": "ARMED",
+      "6": "SAFE_CLR_N",
+      "7": "+3V3",
+      "8": "+3V3"
+    },
+    "fp": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+    "xy": [
+      30,
+      24
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC1G74DCUR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U6",
+    "uuid": "884c0863-8813-4322-80bc-e85fc496a7b6"
+  },
+  {
+    "ref": "C108",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C108",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U6",
+    "uuid": "493adb72-423e-4400-b552-0eed66dc31f2"
+  },
+  {
+    "ref": "R104",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "SAFE_CLR_N"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R104",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U6",
+    "uuid": "da04e118-b6d2-48d3-a342-4c5966ffd2be"
+  },
+  {
+    "ref": "R105",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "KILL_OD",
+      "2": "SAFE_CLR_N"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R105",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071001L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U6",
+    "uuid": "7ac0c591-4749-407d-841f-2344cae0049b"
+  },
+  {
+    "ref": "Q2",
+    "lib": "Transistor_FET",
+    "name": "2N7002",
+    "value": "2N7002",
+    "nets": {
+      "1": "USB_KILL_GATE",
+      "2": "GND",
+      "3": "SAFE_CLR_N"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      29,
+      29
+    ],
+    "rot": 0,
+    "mpn": "2N7002",
+    "mfr": "Nexperia",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "Q2",
+    "uuid": "c0a340e1-8d46-45c9-b99a-7dae02ca6b61"
+  },
+  {
+    "ref": "R106",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "USB_KILL_GATE"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R106",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "Q2",
+    "uuid": "c778a336-c1ee-44f3-94fa-688ac567cc18"
+  },
+  {
+    "ref": "R107",
+    "lib": "Device",
+    "name": "R",
+    "value": "1M",
+    "nets": {
+      "1": "USB_KILL_GATE",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R107",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071004L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "Q2",
+    "uuid": "4ebb5808-e9d3-444c-a284-e48bf2eb6e74"
+  },
+  {
+    "ref": "JP1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "REMOVE TO DISARM",
+    "nets": {
+      "1": "ARMED_N",
+      "2": "MOTOR_OE_N"
+    },
+    "fp": "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical",
+    "xy": [
+      40,
+      33
+    ],
+    "rot": 0,
+    "mpn": "20021111-00002T4LF",
+    "mfr": "Amphenol",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "Q2",
+    "uuid": "d17d2260-3459-4f81-9c69-edc4387db9e7"
+  },
+  {
+    "ref": "R108",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "MOTOR_OE_N"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R108",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "Q2",
+    "uuid": "765f3d1c-fffe-45f2-8226-2cae8b443ff1"
+  },
+  {
+    "ref": "U7",
+    "lib": "74xx",
+    "name": "74LVC125",
+    "value": "SN74LVC125APWR",
+    "nets": {
+      "1": "MOTOR_OE_N",
+      "2": "PWM_M1",
+      "3": "BUF_M1",
+      "4": "MOTOR_OE_N",
+      "5": "PWM_M2",
+      "6": "BUF_M2",
+      "7": "GND",
+      "8": "BUF_M3",
+      "9": "PWM_M3",
+      "10": "MOTOR_OE_N",
+      "11": "BUF_M4",
+      "12": "PWM_M4",
+      "13": "MOTOR_OE_N",
+      "14": "+3V3"
+    },
+    "fp": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "xy": [
+      37,
+      24
+    ],
+    "rot": 0,
+    "mpn": "SN74LVC125APWR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U7",
+    "uuid": "023428ce-e92c-446b-92c6-34acd8b35f90"
+  },
+  {
+    "ref": "C109",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C109",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor Safety Interlock",
+    "parent": "U7",
+    "uuid": "0907fe8a-7841-48f2-83ed-4cfd71bb068e"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "M1 MOTOR",
+    "nets": {
+      "1": "VM",
+      "2": "M1_NEG"
+    },
+    "fp": "RoveFlight:MotorPads",
+    "xy": [
+      3.7,
+      12
+    ],
+    "rot": 0,
+    "mpn": "PCB_SOLDER_PADS_24AWG",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": null,
+    "uuid": "8eb1375e-5073-482a-a0bf-0697c573266b"
+  },
+  {
+    "ref": "Q3",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "GATE_M1",
+      "2": "GND",
+      "3": "M1_NEG"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      5,
+      15.5
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega",
+    "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "257c7d03-7c79-4afc-a536-1d2251a8b0bb"
+  },
+  {
+    "ref": "R109",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "BUF_M1",
+      "2": "GATE_M1"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R109",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "21ca2000-f77b-4377-af3e-d07f161a40f5"
+  },
+  {
+    "ref": "R110",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "GATE_M1",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R110",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "454bfafd-b14e-434e-af41-368328e43da9"
+  },
+  {
+    "ref": "R111",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "PWM_M1",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R111",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "e652c841-afeb-4c5b-b220-27c5bacd79ea"
+  },
+  {
+    "ref": "D3",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS24",
+    "nets": {
+      "1": "VM",
+      "2": "M1_NEG"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      4,
+      8
+    ],
+    "rot": 0,
+    "mpn": "SS24-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "eba5b39f-7cce-4025-9b1c-11c899fe6bbb"
+  },
+  {
+    "ref": "C110",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C110",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor M1",
+    "parent": "Q3",
+    "uuid": "c33fd43a-9ba4-4f7d-8953-3c1168352ea4"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "M2 MOTOR",
+    "nets": {
+      "1": "VM",
+      "2": "M2_NEG"
+    },
+    "fp": "RoveFlight:MotorPads",
+    "xy": [
+      41.3,
+      12
+    ],
+    "rot": 0,
+    "mpn": "PCB_SOLDER_PADS_24AWG",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": null,
+    "uuid": "e1f6a1aa-1cd1-4588-a758-1d8468338fb3"
+  },
+  {
+    "ref": "Q4",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "GATE_M2",
+      "2": "GND",
+      "3": "M2_NEG"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      40,
+      15.5
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega",
+    "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "9fee9822-4651-491e-bbe4-e7a4a8447b3d"
+  },
+  {
+    "ref": "R112",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "BUF_M2",
+      "2": "GATE_M2"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R112",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "4feed2da-48e3-41a9-8431-e901feac9df7"
+  },
+  {
+    "ref": "R113",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "GATE_M2",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R113",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "e1cdbf80-948b-4fcd-9462-11241f451c8a"
+  },
+  {
+    "ref": "R114",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "PWM_M2",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R114",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "b055e2d7-3623-46ca-aca1-9844fd59141f"
+  },
+  {
+    "ref": "D4",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS24",
+    "nets": {
+      "1": "VM",
+      "2": "M2_NEG"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      41,
+      8
+    ],
+    "rot": 0,
+    "mpn": "SS24-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "90eccb68-a311-4438-b6da-b90f8e87bf83"
+  },
+  {
+    "ref": "C111",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C111",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor M2",
+    "parent": "Q4",
+    "uuid": "a2927188-066c-4ef0-a282-faa7b49332bf"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "M3 MOTOR",
+    "nets": {
+      "1": "VM",
+      "2": "M3_NEG"
+    },
+    "fp": "RoveFlight:MotorPads",
+    "xy": [
+      41.3,
+      41
+    ],
+    "rot": 0,
+    "mpn": "PCB_SOLDER_PADS_24AWG",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": null,
+    "uuid": "5fe3cac3-65db-4935-b994-7095bffe59d7"
+  },
+  {
+    "ref": "Q5",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "GATE_M3",
+      "2": "GND",
+      "3": "M3_NEG"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      40,
+      37
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega",
+    "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "8726f5bd-112c-42ea-a0c1-8e6a69b238bd"
+  },
+  {
+    "ref": "R115",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "BUF_M3",
+      "2": "GATE_M3"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R115",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "b5758dcf-a240-4d26-bed0-9200407229a0"
+  },
+  {
+    "ref": "R116",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "GATE_M3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R116",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "a75ef397-06f5-46d4-8dfe-62fb793bf01f"
+  },
+  {
+    "ref": "R117",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "PWM_M3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R117",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "29cdbd7b-a173-419f-a5fa-7f35f2033916"
+  },
+  {
+    "ref": "D5",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS24",
+    "nets": {
+      "1": "VM",
+      "2": "M3_NEG"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      40,
+      34
+    ],
+    "rot": 0,
+    "mpn": "SS24-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "e40a3982-3aa3-4783-a46a-4d957afb97b3"
+  },
+  {
+    "ref": "C112",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C112",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor M3",
+    "parent": "Q5",
+    "uuid": "fdc33de4-af9c-4948-a88a-98376b3b0629"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "M4 MOTOR",
+    "nets": {
+      "1": "VM",
+      "2": "M4_NEG"
+    },
+    "fp": "RoveFlight:MotorPads",
+    "xy": [
+      3.7,
+      41
+    ],
+    "rot": 0,
+    "mpn": "PCB_SOLDER_PADS_24AWG",
+    "mfr": "PCB",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": null,
+    "uuid": "7d3b321f-4c4b-4580-9b24-8bb77e21cbcc"
+  },
+  {
+    "ref": "Q6",
+    "lib": "Transistor_FET",
+    "name": "AO3400A",
+    "value": "AO3400A",
+    "nets": {
+      "1": "GATE_M4",
+      "2": "GND",
+      "3": "M4_NEG"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      5,
+      37
+    ],
+    "rot": 0,
+    "mpn": "AO3400A",
+    "mfr": "Alpha & Omega",
+    "source": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "539477b1-0388-4921-b0a2-d7e529c2239b"
+  },
+  {
+    "ref": "R118",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "BUF_M4",
+      "2": "GATE_M4"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R118",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "82fee8d7-7b2d-4295-9adc-a7ae50f3e3e4"
+  },
+  {
+    "ref": "R119",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "GATE_M4",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R119",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "91cedc72-18e9-4b89-85c0-a7e3be64458c"
+  },
+  {
+    "ref": "R120",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "PWM_M4",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R120",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "5ce2bb96-a2e4-4653-ac17-f68bfd2d8354"
+  },
+  {
+    "ref": "D6",
+    "lib": "Device",
+    "name": "D_Schottky",
+    "value": "SS24",
+    "nets": {
+      "1": "VM",
+      "2": "M4_NEG"
+    },
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      5,
+      34
+    ],
+    "rot": 0,
+    "mpn": "SS24-13-F",
+    "mfr": "Diodes Inc.",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "be260f86-3732-4d43-a84b-3e2712d5fad2"
+  },
+  {
+    "ref": "C113",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C113",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Motor M4",
+    "parent": "Q6",
+    "uuid": "694032e5-e122-4951-ad90-1d72d5323fb9"
+  },
+  {
+    "ref": "U8",
+    "lib": "RoveFlight",
+    "name": "BMI270",
+    "value": "BMI270",
+    "nets": {
+      "1": "SPI_MISO",
+      "4": "IMU_INT",
+      "5": "+3V3_SENS",
+      "6": "GND",
+      "7": "GND",
+      "8": "+3V3_SENS",
+      "12": "IMU_CS",
+      "13": "SPI_SCK",
+      "14": "SPI_MOSI"
+    },
+    "fp": "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm",
+    "xy": [
+      22.5,
+      23
+    ],
+    "rot": 0,
+    "mpn": "BMI270",
+    "mfr": "Bosch Sensortec",
+    "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U8",
+    "uuid": "02302fd4-1d68-4d33-952b-a8444eaac369"
+  },
+  {
+    "ref": "C114",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C114",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U8",
+    "uuid": "17993309-db16-4ac2-8603-890b6f595024"
+  },
+  {
+    "ref": "C115",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C115",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U8",
+    "uuid": "348dcbb0-238a-40e4-b93c-8df9a0a3b5b8"
+  },
+  {
+    "ref": "C116",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C116",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R61A105KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U8",
+    "uuid": "65510f68-bebf-4f6d-bc11-1121fad2d519"
+  },
+  {
+    "ref": "U9",
+    "lib": "RoveFlight",
+    "name": "BMP390",
+    "value": "BMP390",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "SPI_SCK",
+      "3": "GND",
+      "4": "SPI_MOSI",
+      "5": "SPI_MISO",
+      "6": "BARO_CS",
+      "8": "GND",
+      "9": "GND",
+      "10": "+3V3_SENS"
+    },
+    "fp": "RoveFlight:BMP390_LGA10",
+    "xy": [
+      12,
+      21
+    ],
+    "rot": 0,
+    "mpn": "BMP390",
+    "mfr": "Bosch Sensortec",
+    "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf",
+    "side": "B",
+    "section": "SPI Flight Sensors",
+    "parent": "U9",
+    "uuid": "5e7ef814-0b25-4067-a57f-0c90ebcb5949"
+  },
+  {
+    "ref": "C117",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C117",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U9",
+    "uuid": "72e27455-d008-4711-9f02-a4b229292dc3"
+  },
+  {
+    "ref": "C118",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C118",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "SPI Flight Sensors",
+    "parent": "U9",
+    "uuid": "b57b2dea-e546-461a-8356-73bf6fd3b073"
+  },
+  {
+    "ref": "U10",
+    "lib": "Sensor_Distance",
+    "name": "VL53L1CXV0FY1",
+    "value": "VL53L1CXV0FY/1",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND",
+      "3": "GND",
+      "4": "GND",
+      "5": "TOF_XSHUT",
+      "6": "GND",
+      "7": "TOF_INT",
+      "9": "I2C_SDA",
+      "10": "I2C_SCL",
+      "11": "+3V3_SENS",
+      "12": "GND"
+    },
+    "fp": "Sensor_Distance:ST_VL53L1x",
+    "xy": [
+      22.5,
+      28
+    ],
+    "rot": 0,
+    "mpn": "VL53L1CXV0FY/1",
+    "mfr": "STMicroelectronics",
+    "source": "https://www.st.com/resource/en/datasheet/vl53l1x.pdf",
+    "side": "B",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "c140eede-8e30-40a1-9fbc-f89da23d108e"
+  },
+  {
+    "ref": "C119",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C119",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "5a588ec6-0664-4935-96f7-7a141262cca4"
+  },
+  {
+    "ref": "C120",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7uF",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM188R60J475KE19D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "9402cede-dcb6-4cca-9543-57298bb92616"
+  },
+  {
+    "ref": "R121",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "TOF_XSHUT"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R121",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "99566f43-96ee-4acb-99ae-9cf60fab15de"
+  },
+  {
+    "ref": "R122",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "TOF_INT"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R122",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071002L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "836dc04f-371a-4290-8890-ee9c67ac8a8b"
+  },
+  {
+    "ref": "R123",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "I2C_SDA"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R123",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-072201L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "5ac945c8-0b65-402c-9c32-248e12806540"
+  },
+  {
+    "ref": "R124",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "+3V3_SENS",
+      "2": "I2C_SCL"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R124",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-072201L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U10",
+    "uuid": "fff5340b-1e37-4243-938c-2623d5cce81c"
+  },
+  {
+    "ref": "U11",
+    "lib": "RoveFlight",
+    "name": "TSOP75438TT",
+    "value": "TSOP75438TT",
+    "nets": {
+      "1": "GND",
+      "2": "IR_VS",
+      "3": "IR_RX",
+      "4": "GND"
+    },
+    "fp": "RoveFlight:TSOP75438TT",
+    "xy": [
+      7,
+      29
+    ],
+    "rot": 0,
+    "mpn": "TSOP75438TT",
+    "mfr": "Vishay",
+    "source": "https://www.vishay.com/docs/82494/tsop752.pdf",
+    "side": "B",
+    "section": "Optical and IR",
+    "parent": "U11",
+    "uuid": "318a5510-4a7d-402a-8e66-8e09cf366794"
+  },
+  {
+    "ref": "R125",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "+3V3",
+      "2": "IR_VS"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R125",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071000L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U11",
+    "uuid": "659f05e4-472e-4ee9-8bf9-9f7917b1c742"
+  },
+  {
+    "ref": "C121",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF",
+    "nets": {
+      "1": "IR_VS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C121",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R61A105KE15D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U11",
+    "uuid": "d6117833-048a-43fd-ada2-ab701efb8fcd"
+  },
+  {
+    "ref": "C122",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "IR_VS",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C122",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Optical and IR",
+    "parent": "U11",
+    "uuid": "8b89e8d1-3eaa-4e0f-9f7a-8aaa7bc8b3e3"
+  },
+  {
+    "ref": "U12",
+    "lib": "Amplifier_Current",
+    "name": "INA180A2",
+    "value": "INA180A2IDBVR",
+    "nets": {
+      "1": "CURRENT_RAW",
+      "2": "GND",
+      "3": "BAT_PROTECTED",
+      "4": "VM",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      28,
+      33
+    ],
+    "rot": 0,
+    "mpn": "INA180A2IDBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/ina180.pdf",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "00c3ce84-ecd5-437d-b43c-52c674fc6778"
+  },
+  {
+    "ref": "C123",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C123",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "62e8ac76-cc9a-4b9e-a3f9-6165c161264f"
+  },
+  {
+    "ref": "R126",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "CURRENT_RAW",
+      "2": "CURRENT_ADC"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R126",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071001L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "336f57c5-a200-4855-8973-9e01071794b7"
+  },
+  {
+    "ref": "C124",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "CURRENT_ADC",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C124",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "a0fc2a37-3e15-414a-b594-e67fb2ce011b"
+  },
+  {
+    "ref": "R127",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "VM",
+      "2": "BAT_DIV"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R127",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "1689b592-8b87-4180-b2fa-f5b18312155b"
+  },
+  {
+    "ref": "R128",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R128",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071003L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "f681d2fe-dfab-407e-9585-2dcb1d0e57f2"
+  },
+  {
+    "ref": "R129",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "BAT_ADC"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R129",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071001L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "a7dd4339-c22a-481e-a575-17729d4880ed"
+  },
+  {
+    "ref": "C125",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF",
+    "nets": {
+      "1": "BAT_ADC",
+      "2": "GND"
+    },
+    "fp": "RoveFlight:C_0402_1005Metric_RF_C125",
+    "xy": null,
+    "rot": 0,
+    "mpn": "GRM155R71C104KA88D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "Battery Monitoring",
+    "parent": "U12",
+    "uuid": "0b5ab67a-f94d-49b1-b11d-d1d75d51e6fd"
+  },
+  {
+    "ref": "J7",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "RC 3V3",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "RC_RX",
+      "4": "RC_TX"
+    },
+    "fp": "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+    "xy": [
+      40,
+      20
+    ],
+    "rot": 0,
+    "mpn": "SM04B-SRSS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "b9986397-ca02-4d32-a999-c8f40ae34d08"
+  },
+  {
+    "ref": "J8",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x07",
+    "value": "OPTICAL FLOW SPI",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "SPI_SCK",
+      "4": "SPI_MOSI",
+      "5": "SPI_MISO",
+      "6": "FLOW_CS",
+      "7": "FLOW_INT"
+    },
+    "fp": "Connector_JST:JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal",
+    "xy": [
+      22,
+      19
+    ],
+    "rot": 0,
+    "mpn": "SM07B-SRSS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "ca9d517b-8fe6-4564-b82d-220e08321366"
+  },
+  {
+    "ref": "J9",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "DEBUG UART",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "DEBUG_TX",
+      "4": "DEBUG_RX",
+      "5": "EN",
+      "6": "BOOT"
+    },
+    "fp": "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+    "xy": [
+      31,
+      20
+    ],
+    "rot": 0,
+    "mpn": "SM06B-SRSS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "b0acf00b-94b1-47d2-8a16-55d80b9e5c8f"
+  },
+  {
+    "ref": "J10",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "I2C 3V3",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3_SENS",
+      "3": "I2C_SDA",
+      "4": "I2C_SCL"
+    },
+    "fp": "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+    "xy": [
+      31,
+      9
+    ],
+    "rot": 0,
+    "mpn": "SM04B-SRSS-TB(LF)(SN)",
+    "mfr": "JST",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "32ae66eb-32e5-45c1-b544-64fe251e3621"
+  },
+  {
+    "ref": "D7",
+    "lib": "Device",
+    "name": "LED",
+    "value": "GREEN",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "fp": "LED_SMD:LED_0402_1005Metric",
+    "xy": [
+      32,
+      20
+    ],
+    "rot": 0,
+    "mpn": "150040GS73240",
+    "mfr": "Wurth",
+    "source": "",
+    "side": "F",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "c3ec35df-6e2b-43b3-87fd-1386210dc530"
+  },
+  {
+    "ref": "R130",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "STATUS_LED",
+      "2": "LED_A"
+    },
+    "fp": "RoveFlight:R_0402_1005Metric_RF_R130",
+    "xy": null,
+    "rot": 0,
+    "mpn": "RC0402FR-071001L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "08188a59-30f6-48e2-9636-17bfb9150a47"
+  },
+  {
+    "ref": "TP1",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "+3V3",
+    "nets": {
+      "1": "+3V3"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      27,
+      20
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "e9465423-a936-44ba-8c1a-486c8aab5ab6"
+  },
+  {
+    "ref": "TP2",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "GND",
+    "nets": {
+      "1": "GND"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      28,
+      20
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "3553a23b-aa55-4ef3-958a-b7da3d776f3b"
+  },
+  {
+    "ref": "TP3",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "VM",
+    "nets": {
+      "1": "VM"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      29,
+      20
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "a68714a4-cbad-47d1-806e-063c91f1c387"
+  },
+  {
+    "ref": "TP4",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "I2C_SDA",
+    "nets": {
+      "1": "I2C_SDA"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      31,
+      11
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "f704ed08-c32c-42de-b95b-322532c2b0dc"
+  },
+  {
+    "ref": "TP5",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "I2C_SCL",
+    "nets": {
+      "1": "I2C_SCL"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      31,
+      12
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "8a418c32-d7b1-4260-b5dd-0b0ec27184e7"
+  },
+  {
+    "ref": "TP6",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "SPI_SCK",
+    "nets": {
+      "1": "SPI_SCK"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      25,
+      25
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "687c3bd5-b657-4c07-8b5c-ac330aa56ddb"
+  },
+  {
+    "ref": "TP7",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "SPI_MOSI",
+    "nets": {
+      "1": "SPI_MOSI"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      25,
+      26
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "1bc39717-b51f-4e97-b918-fabc7db45004"
+  },
+  {
+    "ref": "TP8",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "SPI_MISO",
+    "nets": {
+      "1": "SPI_MISO"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      25,
+      27
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "ddb7e098-0f64-46b4-a032-94395e8aaa13"
+  },
+  {
+    "ref": "TP9",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "DEBUG_TX",
+    "nets": {
+      "1": "DEBUG_TX"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      31,
+      17
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "d072ebe5-e299-4a88-8065-8a5852d8b16d"
+  },
+  {
+    "ref": "TP10",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "DEBUG_RX",
+    "nets": {
+      "1": "DEBUG_RX"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      32,
+      17
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "5ee6e55c-0597-4fc7-9943-d8cb540195f0"
+  },
+  {
+    "ref": "TP11",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "PWM_M1",
+    "nets": {
+      "1": "PWM_M1"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      33,
+      21
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "2e8e6f6e-05e7-40d0-8c62-654deb16d012"
+  },
+  {
+    "ref": "TP12",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "PWM_M2",
+    "nets": {
+      "1": "PWM_M2"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      34,
+      21
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "b0c6a052-baca-40d9-ba6b-9403495259bf"
+  },
+  {
+    "ref": "TP13",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "PWM_M3",
+    "nets": {
+      "1": "PWM_M3"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      35,
+      21
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "fedf6de2-b239-4744-8daa-d46d556e0a6f"
+  },
+  {
+    "ref": "TP14",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "PWM_M4",
+    "nets": {
+      "1": "PWM_M4"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      36,
+      21
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "a027a1b4-a279-4902-bba8-92188f899619"
+  },
+  {
+    "ref": "TP15",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "SAFE_CLR_N",
+    "nets": {
+      "1": "SAFE_CLR_N"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      32,
+      25
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "798a3c5b-1851-4d6c-a091-f27437149836"
+  },
+  {
+    "ref": "TP16",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "ARMED",
+    "nets": {
+      "1": "ARMED"
+    },
+    "fp": "RoveFlight:ProbePad",
+    "xy": [
+      33,
+      25
+    ],
+    "rot": 0,
+    "mpn": "PCB_TEST_PAD",
+    "mfr": "PCB",
+    "source": "",
+    "side": "B",
+    "section": "Receiver Expansion and Indicators",
+    "parent": null,
+    "uuid": "61d85660-783d-416e-a64e-9ba06304c55c"
+  }
+]

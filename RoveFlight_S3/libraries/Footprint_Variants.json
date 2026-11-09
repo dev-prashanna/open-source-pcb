@@ -1,0 +1,352 @@
+{
+  "U3": {
+    "source": "Package_SON:Texas_DRC0010J_ThermalVias",
+    "footprint": "RoveFlight:Texas_DRC0010J_ThermalVias_RF_U3",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C109": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C109",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R101": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R101",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C117": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C117",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C119": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C119",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R122": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R122",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R4": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R4",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C108": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C108",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C7": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C7",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R130": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R130",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R3": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R3",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C116": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C116",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C118": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C118",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R128": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R128",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R114": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R114",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R108": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R108",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R112": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R112",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R115": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R115",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R119": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R119",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C1": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C1",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R120": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R120",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C113": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C113",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R1": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R1",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R116": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R116",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R10": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R10",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C104": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C104",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R106": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R106",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R8": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R8",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C103": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C103",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R111": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R111",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C111": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C111",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R104": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R104",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R105": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R105",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R127": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R127",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R9": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R9",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R113": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R113",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C112": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C112",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C114": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C114",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R121": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R121",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R6": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R6",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R126": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R126",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C8": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C8",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R103": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R103",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R7": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R7",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R125": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R125",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R110": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R110",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R129": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R129",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C12": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C12",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C5": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C5",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C110": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C110",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R117": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R117",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C122": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C122",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C107": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C107",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R124": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R124",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C105": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C105",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C115": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C115",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C123": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C123",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C125": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C125",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R11": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R11",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R102": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R102",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C106": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C106",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R107": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R107",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R109": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R109",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R118": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R118",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R2": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R2",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C4": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C4",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R5": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R5",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C124": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C124",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "R123": {
+    "source": "Resistor_SMD:R_0402_1005Metric",
+    "footprint": "RoveFlight:R_0402_1005Metric_RF_R123",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  },
+  "C121": {
+    "source": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint": "RoveFlight:C_0402_1005Metric_RF_C121",
+    "change": "Silkscreen moved to Fab where covered by exposed pads; copper unchanged"
+  }
+}
