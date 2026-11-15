@@ -1,0 +1,8 @@
+{
+  "parts": 72,
+  "mapped_pins_checked": 274,
+  "copper_layers": 4,
+  "board_thickness_mm": 1.0,
+  "ground_reference_signal_tracks": 0,
+  "result": "PASS"
+}

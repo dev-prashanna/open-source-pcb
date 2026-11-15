@@ -1,0 +1,1788 @@
+[
+  {
+    "ref": "J1",
+    "lib": "Connector",
+    "name": "USB_C_Receptacle_USB2.0_16P",
+    "value": "USB4105-GF-A",
+    "nets": {
+      "A1": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND",
+      "SH": "GND",
+      "A4": "USB_5V",
+      "A9": "USB_5V",
+      "B4": "USB_5V",
+      "B9": "USB_5V",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "USB_DP",
+      "B6": "USB_DP",
+      "A7": "USB_DM",
+      "B7": "USB_DM"
+    },
+    "fp": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "xy": [
+      7.0,
+      31.5
+    ],
+    "rot": 0.0,
+    "mpn": "USB4105-GF-A",
+    "mfr": "GCT",
+    "source": "https://gct.co/connector/usb4105",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "dfc7c139-e4fa-49a4-9f0a-f9c1dbb95978"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      7.5,
+      25.75
+    ],
+    "rot": 180.0,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "b5413d0b-e6be-4b14-b65c-ad1ac0fbae59"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "5.1k",
+    "nets": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      12.0,
+      25.75
+    ],
+    "rot": 180.0,
+    "mpn": "RC0603FR-075K1L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "a98430fb-9135-4128-beae-0b3b18991812"
+  },
+  {
+    "ref": "F1",
+    "lib": "Device",
+    "name": "Polyfuse",
+    "value": "500mA",
+    "nets": {
+      "1": "USB_5V",
+      "2": "VUSB"
+    },
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "xy": [
+      3.0,
+      22.0
+    ],
+    "rot": 90.0,
+    "mpn": "1206L050YR",
+    "mfr": "Littelfuse",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "7a6a7913-61a6-48a2-8068-a1bf721dad78"
+  },
+  {
+    "ref": "U3",
+    "lib": "Regulator_Linear",
+    "name": "AP2112K-1.2",
+    "value": "AP2112K-1.2TRG1",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND",
+      "3": "VUSB",
+      "5": "+1V2"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      3.5,
+      5.0
+    ],
+    "rot": 0.0,
+    "mpn": "AP2112K-1.2TRG1",
+    "mfr": "Diodes Incorporated",
+    "source": "https://www.diodes.com/datasheet/download/AP2112.pdf",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "4e2a3afb-e5a0-4b3e-9f30-c85854b4e76f"
+  },
+  {
+    "ref": "U4",
+    "lib": "Regulator_Linear",
+    "name": "AP2112K-3.3",
+    "value": "AP2112K-3.3TRG1",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND",
+      "3": "POWER_GOOD",
+      "5": "+3V3"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-5",
+    "xy": [
+      3.5,
+      12.0
+    ],
+    "rot": 0.0,
+    "mpn": "AP2112K-3.3TRG1",
+    "mfr": "Diodes Incorporated",
+    "source": "https://www.diodes.com/datasheet/download/AP2112.pdf",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "d5ea1edd-c068-4e90-817e-0681458680b5"
+  },
+  {
+    "ref": "U5",
+    "lib": "Power_Supervisor",
+    "name": "TPS3808DBV",
+    "value": "TPS3808G12DBVR",
+    "nets": {
+      "1": "POWER_GOOD",
+      "2": "GND",
+      "3": "VUSB",
+      "4": "DELAY",
+      "5": "+1V2",
+      "6": "VUSB"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      9.0,
+      4.0
+    ],
+    "rot": 0.0,
+    "mpn": "TPS3808G12DBVR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "a35bab70-8f9c-4423-a3cf-ec9777573feb"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "VUSB",
+      "2": "POWER_GOOD"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      12.0,
+      3.0
+    ],
+    "rot": 90.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "a9dc042d-428c-4b58-aca2-2c3bde0f99d6"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C",
+    "value": "10n",
+    "nets": {
+      "1": "DELAY",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      8.75,
+      7.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71H103KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "f5f117b3-c344-47d5-b64e-40f40c623851"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      2.0,
+      2.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "42fd4eac-b21c-4f9e-b993-f40cdee2fc42"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "+1V2",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      5.0,
+      8.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "879c283c-e28c-461b-827f-3bf0b616b564"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      2.0,
+      8.5
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "9fc37485-ce2f-47b9-898f-f8f0225cdec2"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      8.5,
+      9.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "b24ca303-5ff5-4bc6-85d7-0204db4793d2"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      5.25,
+      2.25
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "24e525d1-4025-4275-b272-b514516871c1"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "VUSB",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      3.0,
+      18.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "5fada209-c72c-4aa9-aeda-5c554f968486"
+  },
+  {
+    "ref": "U6",
+    "lib": "Power_Protection",
+    "name": "TPD2E2U06DCK",
+    "value": "TPD2E2U06DCKR",
+    "nets": {
+      "1": "USB_DM",
+      "2": "USB_DP",
+      "3": "GND"
+    },
+    "fp": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "xy": [
+      4.25,
+      25.5
+    ],
+    "rot": 180.0,
+    "mpn": "TPD2E2U06DCKR",
+    "mfr": "Texas Instruments",
+    "source": "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf",
+    "side": "F",
+    "section": "USB-C and Sequenced Power",
+    "parent": null,
+    "uuid": "ec961776-ef83-4c5e-8917-36bbae5b673b"
+  },
+  {
+    "ref": "U2",
+    "lib": "Interface_USB",
+    "name": "FT2232HL",
+    "value": "FT2232HL-REEL",
+    "nets": {
+      "1": "GND",
+      "5": "GND",
+      "10": "GND",
+      "11": "GND",
+      "13": "GND",
+      "15": "GND",
+      "25": "GND",
+      "35": "GND",
+      "47": "GND",
+      "51": "GND",
+      "20": "+3V3",
+      "31": "+3V3",
+      "42": "+3V3",
+      "50": "+3V3",
+      "56": "+3V3",
+      "12": "FT_1V8",
+      "37": "FT_1V8",
+      "49": "FT_1V8",
+      "64": "FT_1V8",
+      "2": "XTAL_IN",
+      "3": "XTAL_OUT",
+      "4": "FT_VPHY",
+      "6": "FT_REF",
+      "7": "USB_DM",
+      "8": "USB_DP",
+      "9": "FT_VPLL",
+      "14": "FT_RESET_N",
+      "16": "FLASH_SCK",
+      "17": "FLASH_MOSI",
+      "18": "FLASH_MISO",
+      "21": "FLASH_CS_N",
+      "23": "CDONE",
+      "24": "CRESET_N",
+      "38": "UART_TO_CPU",
+      "39": "UART_FROM_CPU",
+      "61": "EE_DATA",
+      "62": "EE_CLK",
+      "63": "EE_CS"
+    },
+    "fp": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+    "xy": [
+      12.5,
+      18.0
+    ],
+    "rot": 0.0,
+    "mpn": "FT2232HL-REEL",
+    "mfr": "FTDI",
+    "source": "https://www.ftdichip.cn/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "1e5760ef-d1e2-4052-8709-990abd710646"
+  },
+  {
+    "ref": "Y1",
+    "lib": "Device",
+    "name": "Crystal_GND24",
+    "value": "12MHz",
+    "nets": {
+      "1": "XTAL_IN",
+      "2": "GND",
+      "3": "XTAL_OUT",
+      "4": "GND"
+    },
+    "fp": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "xy": [
+      12.5,
+      9.0
+    ],
+    "rot": 0.0,
+    "mpn": "ABM8-12.000MHZ-B2-T",
+    "mfr": "Abracon",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "47c4daac-b5cd-4376-a730-c7724de72d16"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device",
+    "name": "C",
+    "value": "27p",
+    "nets": {
+      "1": "XTAL_IN",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      12.75,
+      6.25
+    ],
+    "rot": 180.0,
+    "mpn": "GRM1885C1H270JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "2df48e63-7770-4600-8d6b-9013245777f9"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device",
+    "name": "C",
+    "value": "27p",
+    "nets": {
+      "1": "XTAL_OUT",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      15.5,
+      9.0
+    ],
+    "rot": 90.0,
+    "mpn": "GRM1885C1H270JA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "7cc52e01-e9f3-45b6-864e-c748c52846dc"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "12k",
+    "nets": {
+      "1": "FT_REF",
+      "2": "GND"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      9.5,
+      17.0
+    ],
+    "rot": 90.0,
+    "mpn": "RC0603FR-0712KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "24ec2ec3-dfcd-4ffa-982a-d7861ce53f31"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "FT_RESET_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      4.0,
+      14.75
+    ],
+    "rot": 180.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "fbc5e6d2-2720-4998-8946-a26b0eaffeb5"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_RESET_N",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      15.25,
+      5.5
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "203b1afd-117c-4a55-9df1-66f5984896fe"
+  },
+  {
+    "ref": "FB1",
+    "lib": "Device",
+    "name": "FerriteBead",
+    "value": "600R@100MHz",
+    "nets": {
+      "1": "+3V3",
+      "2": "FT_VPHY"
+    },
+    "fp": "Inductor_SMD:L_0603_1608Metric",
+    "xy": [
+      4.5,
+      15.5
+    ],
+    "rot": 90.0,
+    "mpn": "BLM18AG601SN1D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "fdbcdb69-cd96-4f5f-be71-996c7c3c0d18"
+  },
+  {
+    "ref": "FB2",
+    "lib": "Device",
+    "name": "FerriteBead",
+    "value": "600R@100MHz",
+    "nets": {
+      "1": "+3V3",
+      "2": "FT_VPLL"
+    },
+    "fp": "Inductor_SMD:L_0603_1608Metric",
+    "xy": [
+      4.5,
+      18.0
+    ],
+    "rot": 180.0,
+    "mpn": "BLM18AG601SN1D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "51882e2c-86c9-4c01-9778-bf6b06b4582e"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_VPHY",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      6.8,
+      15.5
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "981a4cd7-560f-4689-8c3c-e2d8fdcd94f1"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_VPLL",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      7.05,
+      18.75
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "60068d31-5085-47ed-8698-59bac47a125e"
+  },
+  {
+    "ref": "C13",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_1V8",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      6.8,
+      21.25
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "ce971c90-365b-49d5-8cbb-0a512f42789f"
+  },
+  {
+    "ref": "C14",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_1V8",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      17.5,
+      20.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "9c8a2a21-2b82-451a-becf-fe5f2930d70d"
+  },
+  {
+    "ref": "C15",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "FT_1V8",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      9.0,
+      12.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "41e294cb-5460-48a5-bf8e-5316c8c4b58c"
+  },
+  {
+    "ref": "C16",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      8.75,
+      23.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "b46c27df-76f1-4b10-955f-33163b25fdab"
+  },
+  {
+    "ref": "C17",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      14.0,
+      23.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "594a69d9-71dd-4e18-92a6-f961b60d1f9f"
+  },
+  {
+    "ref": "C18",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      17.5,
+      17.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "51b3dbda-3115-40b5-97b2-dacd6a55d222"
+  },
+  {
+    "ref": "C19",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      12.5,
+      12.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "a9e94750-b4f6-4c93-ace1-0a58f9ebc7f8"
+  },
+  {
+    "ref": "C20",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "FT_1V8",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      16.0,
+      12.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "1deff33c-27b7-4499-a825-5996ce815c49"
+  },
+  {
+    "ref": "C21",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u",
+    "nets": {
+      "1": "FT_VPHY",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      13.25,
+      28.25
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "a708c8d5-de73-4948-8d07-c011bf84ee1c"
+  },
+  {
+    "ref": "U8",
+    "lib": "Memory_EEPROM",
+    "name": "93LCxxB",
+    "value": "93LC46BT-I/SN",
+    "nets": {
+      "1": "EE_CS",
+      "2": "EE_CLK",
+      "3": "EE_DATA",
+      "4": "EE_DO",
+      "5": "GND",
+      "8": "+3V3"
+    },
+    "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "xy": [
+      21.5,
+      7.75
+    ],
+    "rot": 0.0,
+    "mpn": "93LC46BT-I/SN",
+    "mfr": "Microchip",
+    "source": "https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "a9a4cdd3-ccb6-492a-858a-e491809777dd"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "2.2k",
+    "nets": {
+      "1": "EE_DATA",
+      "2": "EE_DO"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      21.0,
+      11.5
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-072K2L",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "3ec67e0b-1111-49b9-acaa-74cccb13dab8"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "EE_DATA"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      21.0,
+      13.25
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "669b9afb-f4e3-4d12-8698-fe37ac4cce45"
+  },
+  {
+    "ref": "C22",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      24.25,
+      11.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "USB Programmer and Serial",
+    "parent": null,
+    "uuid": "0c50c1c0-7c31-4811-b273-c9fec8e24917"
+  },
+  {
+    "ref": "U1",
+    "lib": "TIWARI",
+    "name": "ICE40UP5K-SG48ITR_REVIEWED",
+    "value": "ICE40UP5K-SG48ITR",
+    "nets": {
+      "1": "+3V3",
+      "5": "+1V2",
+      "22": "+3V3",
+      "24": "+3V3",
+      "29": "FPGA_PLL",
+      "30": "+1V2",
+      "33": "+3V3",
+      "49": "GND",
+      "7": "CDONE",
+      "8": "CRESET_N",
+      "14": "FLASH_MOSI",
+      "15": "FLASH_SCK",
+      "16": "FLASH_CS_N",
+      "17": "FLASH_MISO",
+      "35": "CLK12",
+      "10": "CPU_RESET_N",
+      "9": "UART_TO_CPU",
+      "6": "UART_FROM_CPU",
+      "11": "USER_LED",
+      "12": "FAULT_LED",
+      "13": "PWM0",
+      "18": "PWM1",
+      "2": "D0",
+      "3": "D1",
+      "4": "D2",
+      "44": "D3",
+      "45": "D4",
+      "46": "D5",
+      "47": "D6",
+      "48": "D7",
+      "23": "D8",
+      "25": "D9",
+      "26": "D10",
+      "27": "D11",
+      "28": "D12",
+      "31": "D13",
+      "32": "D14",
+      "34": "D15"
+    },
+    "fp": "TIWARI:UP5K_SG48_Reviewed",
+    "xy": [
+      34.0,
+      18.0
+    ],
+    "rot": 0.0,
+    "mpn": "ICE40UP5K-SG48ITR",
+    "mfr": "Lattice Semiconductor",
+    "source": "https://www.latticesemi.com/api/document/download?id=51968",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "ddeec658-d2a4-4116-83e6-948357ef2360"
+  },
+  {
+    "ref": "U7",
+    "lib": "Memory_Flash",
+    "name": "W25Q32JVSS",
+    "value": "W25Q32JVSSIQ",
+    "nets": {
+      "1": "FLASH_CS_N",
+      "2": "FLASH_MISO",
+      "3": "FLASH_WP_N",
+      "4": "GND",
+      "5": "FLASH_MOSI",
+      "6": "FLASH_SCK",
+      "7": "FLASH_HOLD_N",
+      "8": "+3V3"
+    },
+    "fp": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+    "xy": [
+      24.5,
+      24.0
+    ],
+    "rot": 0.0,
+    "mpn": "W25Q32JVSSIQ",
+    "mfr": "Winbond",
+    "source": "https://www.winbond.com/resource-files/w25q32jv%20spi%20revg%2003272018%20plus.pdf",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "3b362973-231b-4d10-bb43-bcb8b8a94080"
+  },
+  {
+    "ref": "Y2",
+    "lib": "Oscillator",
+    "name": "ASE-xxxMHz",
+    "value": "12MHz 3V3 CMOS",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "CLK12",
+      "4": "+3V3"
+    },
+    "fp": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+    "xy": [
+      28.0,
+      8.0
+    ],
+    "rot": 0.0,
+    "mpn": "ASE-12.000MHZ-LC-T",
+    "mfr": "Abracon",
+    "source": "https://abracon.com/Oscillators/ASE.pdf",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "bdb5c9e6-c580-4b44-9010-2594263dc06c"
+  },
+  {
+    "ref": "C23",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      31.0,
+      6.5
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "db86b024-be5f-436d-9f72-c2f670975e3b"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "FLASH_WP_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      26.0,
+      28.0
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "90bc2516-a3ec-4290-a117-b3151dc8b839"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "FLASH_HOLD_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      29.25,
+      28.0
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "d9fcd1c1-3bc2-413b-aafc-55f8b9da71ca"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "100",
+    "nets": {
+      "1": "+1V2",
+      "2": "FPGA_PLL"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      35.5,
+      12.5
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-07100RL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "0120882a-b31c-460c-b37a-94638def7cb7"
+  },
+  {
+    "ref": "C24",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u",
+    "nets": {
+      "1": "FPGA_PLL",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      36.0,
+      18.5
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R61A105KA61D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "eb8e3413-afa7-4273-8896-b9979231215e"
+  },
+  {
+    "ref": "C25",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      29.0,
+      14.0
+    ],
+    "rot": 90.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "87cabd45-e19c-421e-860b-ce1ba375ce13"
+  },
+  {
+    "ref": "C26",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      34.5,
+      21.3
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "a1eee578-71a2-45ae-aebc-24fd90f2b896"
+  },
+  {
+    "ref": "C27",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      31.0,
+      20.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "8f8e4290-6f38-4207-9d96-934a4d9e729d"
+  },
+  {
+    "ref": "C28",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+1V2",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      31.0,
+      17.0
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "e9b7f9d9-a725-4a5f-bff2-23b42a2c87c9"
+  },
+  {
+    "ref": "C29",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+1V2",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      35.0,
+      15.8
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "87e9523e-4dcd-4673-8cd6-76409a263e31"
+  },
+  {
+    "ref": "C30",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      31.0,
+      9.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM188R71C104KA01D",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "327c734a-5f80-4d97-9cc7-4ce9741bedf6"
+  },
+  {
+    "ref": "C31",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "+1V2",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      35.0,
+      10.5
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "157cfe55-894e-4144-8bca-37c1d690f23d"
+  },
+  {
+    "ref": "C32",
+    "lib": "Device",
+    "name": "C",
+    "value": "4.7u",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      39.0,
+      12.75
+    ],
+    "rot": 0.0,
+    "mpn": "GRM21BR61A475KA73L",
+    "mfr": "Murata",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "49580514-1f33-4cd2-b9f8-d0a5a73c51b0"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "CRESET_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      26.5,
+      20.5
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "5ec43770-30b0-473d-94b9-f88ec71d6fe1"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "CDONE"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      26.5,
+      23.0
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "B",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "2fe253c6-2151-491c-8efe-a5aea0354aea"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "FLASH_CS_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      22.0,
+      28.0
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "844ae3d0-4a2a-46d8-83eb-3f581b5f128f"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "+3V3",
+      "2": "CPU_RESET_N"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      40.5,
+      8.0
+    ],
+    "rot": 90.0,
+    "mpn": "RC0603FR-0710KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "3a11df1f-3164-4ce5-b9b0-5beaf050c39a"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "CPU RESET",
+    "nets": {
+      "1": "CPU_RESET_N",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      43.25,
+      9.0
+    ],
+    "rot": 90.0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "4e3f19d0-8528-4854-b993-ee9b587d98b3"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "RECONFIGURE",
+    "nets": {
+      "1": "CRESET_N",
+      "2": "GND"
+    },
+    "fp": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+    "xy": [
+      43.25,
+      17.0
+    ],
+    "rot": 90.0,
+    "mpn": "KMR221GLFS",
+    "mfr": "C&K",
+    "source": "",
+    "side": "F",
+    "section": "TIWARI CPU Fabric",
+    "parent": null,
+    "uuid": "36213939-b2bd-4167-8d00-cd0699aad3f2"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x10",
+    "value": "J2 / 3V3 ONLY",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "D0",
+      "4": "D1",
+      "5": "D2",
+      "6": "D3",
+      "7": "D4",
+      "8": "D5",
+      "9": "D6",
+      "10": "D7"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical",
+    "xy": [
+      22.0,
+      32.0
+    ],
+    "rot": 90.0,
+    "mpn": "61301011121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "5507c0a0-b815-468b-ba4e-35294dc9ce3c"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x10",
+    "value": "J3 / 3V3 ONLY",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "D8",
+      "4": "D9",
+      "5": "D10",
+      "6": "D11",
+      "7": "D12",
+      "8": "D13",
+      "9": "D14",
+      "10": "D15"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical",
+    "xy": [
+      22.0,
+      3.0
+    ],
+    "rot": 90.0,
+    "mpn": "61301011121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "ad19c6a8-506b-4c2d-a571-0619fde3a8d8"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "J4 / 3V3 ONLY",
+    "nets": {
+      "1": "GND",
+      "2": "PWM0",
+      "3": "PWM1",
+      "4": "+3V3"
+    },
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "xy": [
+      47.0,
+      12.0
+    ],
+    "rot": 0.0,
+    "mpn": "61300411121",
+    "mfr": "Wurth Elektronik",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "8eba4528-3e8d-42e6-a695-6f980b4d515a"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "REAR SERVICE PADS",
+    "nets": {
+      "1": "GND",
+      "2": "FLASH_SCK",
+      "3": "FLASH_MOSI",
+      "4": "FLASH_MISO",
+      "5": "FLASH_CS_N",
+      "6": "CRESET_N"
+    },
+    "fp": "TIWARI:ServicePads_1x06_P1.27",
+    "xy": [
+      24.0,
+      15.0
+    ],
+    "rot": 0.0,
+    "mpn": "PCB_FEATURE",
+    "mfr": "PCB feature",
+    "source": "",
+    "side": "B",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "24a4c3d9-80e3-453d-b1b7-7ec59eea1d4d"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "+3V3",
+      "2": "LED1_A"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      1.25,
+      24.0
+    ],
+    "rot": 90.0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "B",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "1a941ab6-8330-4b0e-923d-54ab83040bf2"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "name": "LED",
+    "value": "POWER",
+    "nets": {
+      "1": "GND",
+      "2": "LED1_A"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      3.0,
+      24.0
+    ],
+    "rot": 90.0,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "B",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "a20a8f2f-f8d7-4f37-9abb-dd5eaa12fe7b"
+  },
+  {
+    "ref": "R16",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "USER_LED",
+      "2": "LED2_A"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      41.0,
+      24.0
+    ],
+    "rot": 90.0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "02e7f0f1-45f1-49b7-b35b-99e80c1669ca"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device",
+    "name": "LED",
+    "value": "USER",
+    "nets": {
+      "1": "GND",
+      "2": "LED2_A"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      44.0,
+      24.0
+    ],
+    "rot": 0.0,
+    "mpn": "LTST-C190KGKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "30e0382d-0bbc-448e-a694-05725e5bdc00"
+  },
+  {
+    "ref": "R17",
+    "lib": "Device",
+    "name": "R",
+    "value": "1k",
+    "nets": {
+      "1": "FAULT_LED",
+      "2": "LED3_A"
+    },
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      41.0,
+      27.0
+    ],
+    "rot": 0.0,
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "a88712a6-656f-4746-95c8-765e683e3d60"
+  },
+  {
+    "ref": "D3",
+    "lib": "Device",
+    "name": "LED",
+    "value": "FAULT",
+    "nets": {
+      "1": "GND",
+      "2": "LED3_A"
+    },
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "xy": [
+      44.0,
+      27.0
+    ],
+    "rot": 90.0,
+    "mpn": "LTST-C190KRKT",
+    "mfr": "Lite-On",
+    "source": "",
+    "side": "F",
+    "section": "Expansion and Indicators",
+    "parent": null,
+    "uuid": "8054cb8e-90bf-46a3-8cd7-6e73b0fb6d03"
+  }
+]

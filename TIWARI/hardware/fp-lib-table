@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "TIWARI") (type "KiCad") (uri "${KIPRJMOD}/libraries/TIWARI.pretty") (options "") (descr "Original rear service test pads")))

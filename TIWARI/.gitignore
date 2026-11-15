@@ -1,0 +1,7 @@
+build/
+__pycache__/
+*.pyc
+hardware/*.kicad_prl
+hardware/*-backups/
+hardware/~*
+.venv*/

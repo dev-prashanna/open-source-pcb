@@ -1,0 +1,51 @@
+make: Entering directory '/home/prashanna/Documents/CPU DESIGNER/TIWARI'
+python3 -m unittest discover -s tests -v
+test_encoding (test_assembler.AssemblerTests.test_encoding) ... ok
+test_errors (test_assembler.AssemblerTests.test_errors) ... ok
+test_examples (test_assembler.AssemblerTests.test_examples) ... ok
+test_forward (test_assembler.AssemblerTests.test_forward) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK
+mkdir -p build
+python3 tools/assemble.py examples/blink.asm build/blink.hex
+Assembled 27 words (54 bytes) -> build/blink.hex
+/tmp/tiwari-tools/root/usr/bin/iverilog -B /tmp/tiwari-tools/root/usr/lib/x86_64-linux-gnu/ivl -g2012 -Wall -s cpu_tb -o build/cpu_tb rtl/tiwari8.v tests/cpu_tb.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module tiwari8 declared here: rtl/tiwari8.v:3
+/tmp/tiwari-tools/root/usr/bin/vvp build/cpu_tb
+PASS CPU: 131072 ALU cases, logic, flags, branches, RAM, I/O, reset, pause, faults, wrap
+tests/cpu_tb.sv:78: $finish called at 10486846000 (1ps)
+/tmp/tiwari-tools/root/usr/bin/iverilog -B /tmp/tiwari-tools/root/usr/lib/x86_64-linux-gnu/ivl -g2012 -Wall -s soc_tb -o build/soc_tb rtl/tiwari8.v rtl/uart.v rtl/tiwari_soc.v tests/soc_tb.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module tiwari8 declared here: rtl/tiwari8.v:3
+       :   -- module tiwari_soc declared here: rtl/tiwari_soc.v:2
+       :   -- module tiwari_uart declared here: rtl/uart.v:2
+/tmp/tiwari-tools/root/usr/bin/vvp build/soc_tb
+PASS SOC: GPIO direction/input/output, LED, autonomous PWM and timer, reset
+tests/soc_tb.sv:29: $finish called at 22996000 (1ps)
+/tmp/tiwari-tools/root/usr/bin/iverilog -B /tmp/tiwari-tools/root/usr/lib/x86_64-linux-gnu/ivl -g2012 -Wall -s uart_tb -o build/uart_tb rtl/uart.v tests/uart_tb.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module tiwari_uart declared here: rtl/uart.v:2
+/tmp/tiwari-tools/root/usr/bin/vvp build/uart_tb
+PASS UART: all 256 byte values, acknowledgement, overrun
+tests/uart_tb.sv:18: $finish called at 278626000 (1ps)
+/tmp/tiwari-tools/root/usr/bin/iverilog -B /tmp/tiwari-tools/root/usr/lib/x86_64-linux-gnu/ivl -g2012 -Wall -s blink_tb -o build/blink_tb rtl/tiwari8.v rtl/uart.v rtl/tiwari_soc.v tests/blink_tb.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module tiwari8 declared here: rtl/tiwari8.v:3
+       :   -- module tiwari_soc declared here: rtl/tiwari_soc.v:2
+       :   -- module tiwari_uart declared here: rtl/uart.v:2
+/tmp/tiwari-tools/root/usr/bin/vvp build/blink_tb
+PASS BLINK: actual assembled program toggles LED every 250ms
+tests/blink_tb.sv:20: $finish called at 5000306000 (1ps)
+make: Leaving directory '/home/prashanna/Documents/CPU DESIGNER/TIWARI'

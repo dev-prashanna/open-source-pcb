@@ -1,0 +1,30 @@
+{
+  "board_revision": "TW8-A0",
+  "clock_hz": 36000000,
+  "yosys": "0.33",
+  "nextpnr": "0.6",
+  "seed": 1,
+  "physical_validation": false,
+  "source_sha256": {
+    "rtl/tiwari8.v": "ec0f1ffde01dd7e4535b924f688bb65f764429bd3deae25a4ccbf53120a32bc4",
+    "rtl/tiwari_soc.v": "a248d1b0fb3593cd465e5be93520a39af6757ab7259edcd77fab39a2d7ff9081",
+    "rtl/top.v": "997c62a824e07751f343f200f952ffceacf9404e19fd0c04e236f80c43b97f4a",
+    "rtl/uart.v": "6ec1dc1d4b80e533b24644ae4585b05faa3cb0debc790569268533cad9451459",
+    "hardware/TIWARI.pcf": "0a7a18ea48f866354fb53c5f786f26f57cb7eb4459520a1e61e5548f698ffda4",
+    "tools/assemble.py": "4bd3c825960acfd5361a166b4c0666b12369b1b0b5d15f353faf832fc9600b2f",
+    "examples/blink.asm": "7f3a9c175723edf721359718bee4d6da6957739f9a9d5d1cb06d080b80bc2f3d",
+    "examples/gpio.asm": "5b67f40bee9c9f8164df11a9565c3ea50e016cb256a2ebaa80b0b730b664212e",
+    "examples/pwm.asm": "a8d76e70e787a061f498fff27eab718c9ba7df047198f401232e25d12a4bbe93",
+    "examples/serial_echo.asm": "1c2dbc138c98ff68e0953713a0a28b51692047aacc044f11661d1d7bb2b31ec0"
+  },
+  "images": {
+    "blink.bin": "aafcba1c695fc74ca9c369ba93143b11029de17269b385b2e7a9f0514ebf90f4",
+    "blink.hex": "ed0f40a4d8d9701608f980bdbd3f89813559b21b11200b859587098f5d9c5705",
+    "gpio.bin": "aafcba1c695fc74ca9c369ba93143b11029de17269b385b2e7a9f0514ebf90f4",
+    "gpio.hex": "f272e36a529733c0433f29b1f661e4dcb95f2e2a8698f2af5ec75a1fdcc4e479",
+    "pwm.bin": "6e82643f21981667e94c8d90dc7b77a47060637eaddd5ac2fbfe4e6fb07aad88",
+    "pwm.hex": "4cf4d22bf9093861e438e078caffa67ce4a05528662629bc16158bf210eb953e",
+    "serial_echo.bin": "4534d262e9493d99c9f9e5b2f10de94554d45607aaf10564d33fb2ff6ffdd496",
+    "serial_echo.hex": "3a9392f59e1fd368939aa6fa94c802c82807350935c79347bba47b53462de594"
+  }
+}

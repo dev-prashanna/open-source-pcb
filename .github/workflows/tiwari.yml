@@ -1,0 +1,30 @@
+# Copy this workflow to the repository root .github/workflows/tiwari.yml.
+name: TIWARI CPU
+on:
+  push:
+    paths: ['TIWARI/**', '.github/workflows/tiwari.yml']
+  pull_request:
+    paths: ['TIWARI/**', '.github/workflows/tiwari.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: TIWARI
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install open FPGA tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog yosys nextpnr-ice40 nextpnr-ice40-chipdb fpga-icestorm
+      - name: Check pin mapping, assembler and CPU/peripheral simulations
+        run: |
+          python3 tools/check_pins.py
+          make test sim
+      - name: Synthesize and check all example timing
+        run: |
+          for program in examples/*.asm; do
+            make synth PROGRAM="$program"
+          done

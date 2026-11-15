@@ -1,0 +1,19 @@
+TIWARI TW8-A0
+Copyright (c) 2026 Prashanna Tiwari
+
+Original hardware design files, including schematics, PCB layout, original
+symbol modifications, BOM, pin manifest, and fabrication outputs:
+  CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0).
+  Full text: licenses/CERN-OHL-P-2.0.txt
+  Source location: https://github.com/dev-prashanna/open-source-pcb/tree/main/TIWARI
+
+Original Verilog, Python/build scripts, tests, and example programs:
+  MIT License. Full text: licenses/MIT.txt
+
+Original documentation and preview illustrations:
+  Creative Commons Attribution 4.0 International (CC-BY-4.0).
+  Full text: licenses/CC-BY-4.0.txt
+
+Third-party library material retains its original licenses and copyright.
+See hardware/libraries/README.md. No manufacturer datasheets or vendor software
+are relicensed by this project.

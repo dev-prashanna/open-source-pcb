@@ -1,6 +1,27 @@
 # Open Source PCB
 
-Open hardware designs for ESP32 robotics, a brushed-motor flight controller, and a USB logic analyser.
+Open hardware designs for a custom 8-bit CPU development board, ESP32 robotics, a brushed-motor flight controller, and a USB logic analyser.
+
+## TIWARI
+
+[TIWARI](TIWARI/) is a 50 × 35-mm, four-layer development board with an original
+36MHz 8-bit CPU implemented in an iCE40UP5K FPGA, USB-C programming/serial,
+16 digital GPIO, two hardware PWM outputs and a millisecond timer.
+
+- [Beginner guide and project overview](TIWARI/README.md)
+- [KiCad project](TIWARI/hardware/TIWARI.kicad_pro)
+- [Fabrication and assembly package](TIWARI/fabrication/)
+- [CPU architecture](TIWARI/docs/Architecture.md)
+- [Verification evidence](TIWARI/docs/Verification.md)
+- [Open-source licenses](TIWARI/LICENSE)
+
+TW8-A0 passes ERC, DRC, schematic/PCB parity, CPU/peripheral HDL simulation,
+and 36MHz FPGA timing checks for all four example images. This is an engineering
+prototype; fabrication, assembly, USB/power qualification and real performance
+measurements remain to be done. It uses its own instruction set and does not
+run Arduino sketches.
+
+![TIWARI PCB CAD preview](TIWARI/previews/TIWARI_isometric.png)
 
 ## LogicScope S3
 

@@ -1,0 +1,3446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/prashanna/Documents/CPU DESIGNER/TIWARI/hardware/TIWARI.kicad_sch</source>
+    <date>2026-11-15T17:38:18</date>
+    <tool>Eeschema 10.0.6-10.0.6~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TIWARI | TW8-A0</title>
+        <company/>
+        <rev>A.0 ENGINEERING PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>TIWARI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/">
+      <title_block>
+        <title>TIWARI | USB-C and Sequenced Power</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>01_USB-C_and_Sequenced_Power_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/">
+      <title_block>
+        <title>TIWARI | USB Programmer and Serial</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>02_USB_Programmer_and_Serial_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/03 USB Programmer and Serial 2/" tstamps="/cae4bf37-8b39-41b3-9cd2-b3052c999efe/">
+      <title_block>
+        <title>TIWARI | USB Programmer and Serial</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>03_USB_Programmer_and_Serial_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/">
+      <title_block>
+        <title>TIWARI | TIWARI CPU Fabric</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>04_TIWARI_CPU_Fabric_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/05 TIWARI CPU Fabric 2/" tstamps="/c302e9ff-4b55-4dfa-80f1-2da411b1cdca/">
+      <title_block>
+        <title>TIWARI | TIWARI CPU Fabric</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>05_TIWARI_CPU_Fabric_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/06 TIWARI CPU Fabric 3/" tstamps="/63379c11-fd04-4e6d-9543-29d7d46aa23c/">
+      <title_block>
+        <title>TIWARI | TIWARI CPU Fabric</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>06_TIWARI_CPU_Fabric_3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/">
+      <title_block>
+        <title>TIWARI | Expansion and Indicators</title>
+        <company/>
+        <rev>A.0 PROTOTYPE</rev>
+        <date>2026-11-15</date>
+        <source>07_Expansion_and_Indicators_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H103KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71H103KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>f5f117b3-c344-47d5-b64e-40f40c623851</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>42fd4eac-b21c-4f9e-b993-f40cdee2fc42</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>879c283c-e28c-461b-827f-3bf0b616b564</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>9fc37485-ce2f-47b9-898f-f8f0225cdec2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>b24ca303-5ff5-4bc6-85d7-0204db4793d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>24e525d1-4025-4275-b272-b514516871c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>5fada209-c72c-4aa9-aeda-5c554f968486</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">1206L050YR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="MPN" value="1206L050YR"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>7a6a7913-61a6-48a2-8068-a1bf721dad78</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB4105-GF-A</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>https://gct.co/connector/usb4105</datasheet>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://gct.co/connector/usb4105</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>dfc7c139-e4fa-49a4-9f0a-f9c1dbb95978</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>b5413d0b-e6be-4b14-b65c-ad1ac0fbae59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>a98430fb-9135-4128-beae-0b3b18991812</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>a9dc042d-428c-4b58-aca2-2c3bde0f99d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>AP2112K-1.2TRG1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/datasheet/download/AP2112.pdf</datasheet>
+      <fields>
+        <field name="MPN">AP2112K-1.2TRG1</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/AP2112.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-1.2" description="600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.2V fixed positive output, SOT-23-5"/>
+      <property name="MPN" value="AP2112K-1.2TRG1"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="SOT?23?5*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>4e2a3afb-e5a0-4b3e-9f30-c85854b4e76f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>AP2112K-3.3TRG1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/datasheet/download/AP2112.pdf</datasheet>
+      <fields>
+        <field name="MPN">AP2112K-3.3TRG1</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/AP2112.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="MPN" value="AP2112K-3.3TRG1"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="SOT?23?5*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>d5ea1edd-c068-4e90-817e-0681458680b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>TPS3808G12DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS3808G12DBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power_Supervisor" part="TPS3808DBV" description="Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6"/>
+      <property name="MPN" value="TPS3808G12DBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="supply voltage supervisor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>a35bab70-8f9c-4423-a3cf-ec9777573feb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>TPD2E2U06DCKR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPD2E2U06DCKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power_Protection" part="TPD2E2U06DCK" description="Dual-Channel High-Speed ESD Protection, SC-70"/>
+      <property name="MPN" value="TPD2E2U06DCKR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="01 USB-C and Sequenced Power 1"/>
+      <property name="Sheetfile" value="01_USB-C_and_Sequenced_Power_1.kicad_sch"/>
+      <property name="ki_keywords" value="TVS"/>
+      <property name="ki_fp_filters" value="*SC?70*"/>
+      <sheetpath names="/01 USB-C and Sequenced Power 1/" tstamps="/f53760a7-9b62-4c48-a595-48ce8ea5214f/"/>
+      <tstamps>ec961776-ef83-4c5e-8917-36bbae5b673b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H270JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM1885C1H270JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>2df48e63-7770-4600-8d6b-9013245777f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H270JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM1885C1H270JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>7cc52e01-e9f3-45b6-864e-c748c52846dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>203b1afd-117c-4a55-9df1-66f5984896fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>981a4cd7-560f-4689-8c3c-e2d8fdcd94f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>60068d31-5085-47ed-8698-59bac47a125e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>ce971c90-365b-49d5-8cbb-0a512f42789f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>9c8a2a21-2b82-451a-becf-fe5f2930d70d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>41e294cb-5460-48a5-bf8e-5316c8c4b58c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>b46c27df-76f1-4b10-955f-33163b25fdab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>594a69d9-71dd-4e18-92a6-f961b60d1f9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>51b3dbda-3115-40b5-97b2-dacd6a55d222</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>a9e94750-b4f6-4c93-ace1-0a58f9ebc7f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>1deff33c-27b7-4499-a825-5996ce815c49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>a708c8d5-de73-4948-8d07-c011bf84ee1c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB1">
+      <value>600R@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="MPN" value="BLM18AG601SN1D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>fdbcdb69-cd96-4f5f-be71-996c7c3c0d18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB2">
+      <value>600R@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="MPN" value="BLM18AG601SN1D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>51882e2c-86c9-4c01-9778-bf6b06b4582e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0712KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0712KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>24ec2ec3-dfcd-4ffa-982a-d7861ce53f31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>fbc5e6d2-2720-4998-8946-a26b0eaffeb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>FT2232HL-REEL</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>https://www.ftdichip.cn/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</datasheet>
+      <fields>
+        <field name="MPN">FT2232HL-REEL</field>
+        <field name="Manufacturer">FTDI</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ftdichip.cn/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Interface_USB" part="FT2232HL" description="Hi Speed Double Channel USB UART/FIFO, LQFP-64"/>
+      <property name="MPN" value="FT2232HL-REEL"/>
+      <property name="Manufacturer" value="FTDI"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="USB Double UART FIFO"/>
+      <property name="ki_fp_filters" value="LQFP*10x10mm*P0.5mm*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>1e5760ef-d1e2-4052-8709-990abd710646</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="50"/>
+            <pin num="49"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="63"/>
+            <pin num="62"/>
+            <pin num="61"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="13"/>
+            <pin num="10"/>
+            <pin num="4"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="37"/>
+            <pin num="15"/>
+            <pin num="64"/>
+            <pin num="25"/>
+            <pin num="35"/>
+            <pin num="20"/>
+            <pin num="47"/>
+            <pin num="31"/>
+            <pin num="51"/>
+            <pin num="42"/>
+            <pin num="56"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="59"/>
+            <pin num="60"/>
+            <pin num="36"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="MPN">ABM8-12.000MHZ-B2-T</field>
+        <field name="Manufacturer">Abracon</field>
+        <field name="Footprint">Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="MPN" value="ABM8-12.000MHZ-B2-T"/>
+      <property name="Manufacturer" value="Abracon"/>
+      <property name="Sheetname" value="02 USB Programmer and Serial 1"/>
+      <property name="Sheetfile" value="02_USB_Programmer_and_Serial_1.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/02 USB Programmer and Serial 1/" tstamps="/73ce2333-46e8-43cf-af7d-0dba144b73ba/"/>
+      <tstamps>47c4daac-b5cd-4376-a730-c7724de72d16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="03 USB Programmer and Serial 2"/>
+      <property name="Sheetfile" value="03_USB_Programmer_and_Serial_2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/03 USB Programmer and Serial 2/" tstamps="/cae4bf37-8b39-41b3-9cd2-b3052c999efe/"/>
+      <tstamps>0c50c1c0-7c31-4811-b273-c9fec8e24917</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="03 USB Programmer and Serial 2"/>
+      <property name="Sheetfile" value="03_USB_Programmer_and_Serial_2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 USB Programmer and Serial 2/" tstamps="/cae4bf37-8b39-41b3-9cd2-b3052c999efe/"/>
+      <tstamps>3ec67e0b-1111-49b9-acaa-74cccb13dab8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="03 USB Programmer and Serial 2"/>
+      <property name="Sheetfile" value="03_USB_Programmer_and_Serial_2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 USB Programmer and Serial 2/" tstamps="/cae4bf37-8b39-41b3-9cd2-b3052c999efe/"/>
+      <tstamps>669b9afb-f4e3-4d12-8698-fe37ac4cce45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>93LC46BT-I/SN</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</datasheet>
+      <fields>
+        <field name="MPN">93LC46BT-I/SN</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="93LCxxB" description="Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"/>
+      <property name="MPN" value="93LC46BT-I/SN"/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="Sheetname" value="03 USB Programmer and Serial 2"/>
+      <property name="Sheetfile" value="03_USB_Programmer_and_Serial_2.kicad_sch"/>
+      <property name="ki_keywords" value="EEPROM memory Microwire"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x4.9mm*"/>
+      <sheetpath names="/03 USB Programmer and Serial 2/" tstamps="/cae4bf37-8b39-41b3-9cd2-b3052c999efe/"/>
+      <tstamps>a9a4cdd3-ccb6-492a-858a-e491809777dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>db86b024-be5f-436d-9f72-c2f670975e3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>eb8e3413-afa7-4273-8896-b9979231215e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>87cabd45-e19c-421e-860b-ce1ba375ce13</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>a1eee578-71a2-45ae-aebc-24fd90f2b896</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>8f8e4290-6f38-4207-9d96-934a4d9e729d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>e9b7f9d9-a725-4a5f-bff2-23b42a2c87c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>87e9523e-4dcd-4673-8cd6-76409a263e31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>327c734a-5f80-4d97-9cc7-4ce9741bedf6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>157cfe55-894e-4144-8bca-37c1d690f23d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>49580514-1f33-4cd2-b9f8-d0a5a73c51b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>90bc2516-a3ec-4290-a117-b3151dc8b839</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>d9fcd1c1-3bc2-413b-aafc-55f8b9da71ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>0120882a-b31c-460c-b37a-94638def7cb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>5ec43770-30b0-473d-94b9-f88ec71d6fe1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>2fe253c6-2151-491c-8efe-a5aea0354aea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>844ae3d0-4a2a-46d8-83eb-3f581b5f128f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>3a11df1f-3164-4ce5-b9b0-5beaf050c39a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>CPU RESET</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG</footprint>
+      <fields>
+        <field name="MPN">KMR221GLFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="KMR221GLFS"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>4e3f19d0-8528-4854-b993-ee9b587d98b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>W25Q32JVSSIQ</value>
+      <footprint>Package_SO:SOIC-8_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>https://www.winbond.com/resource-files/w25q32jv%20spi%20revg%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="MPN">W25Q32JVSSIQ</field>
+        <field name="Manufacturer">Winbond</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet">https://www.winbond.com/resource-files/w25q32jv%20spi%20revg%2003272018%20plus.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q32JVSS" description="32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"/>
+      <property name="MPN" value="W25Q32JVSSIQ"/>
+      <property name="Manufacturer" value="Winbond"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="flash memory SPI"/>
+      <property name="ki_fp_filters" value="*SOIC*5.3x5.3mm*P1.27mm*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>3b362973-231b-4d10-bb43-bcb8b8a94080</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y2">
+      <value>12MHz 3V3 CMOS</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://abracon.com/Oscillators/ASE.pdf</datasheet>
+      <fields>
+        <field name="MPN">ASE-12.000MHZ-LC-T</field>
+        <field name="Manufacturer">Abracon</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet">https://abracon.com/Oscillators/ASE.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Oscillator" part="ASE-xxxMHz" description="3.3V CMOS SMD Crystal Clock Oscillator, Abracon"/>
+      <property name="MPN" value="ASE-12.000MHZ-LC-T"/>
+      <property name="Manufacturer" value="Abracon"/>
+      <property name="Sheetname" value="04 TIWARI CPU Fabric 1"/>
+      <property name="Sheetfile" value="04_TIWARI_CPU_Fabric_1.kicad_sch"/>
+      <property name="ki_keywords" value="3.3V CMOS SMD Crystal Clock Oscillator"/>
+      <property name="ki_fp_filters" value="Oscillator*SMD*Abracon*ASE*3.2x2.5mm*"/>
+      <sheetpath names="/04 TIWARI CPU Fabric 1/" tstamps="/2dafb9c4-4447-406a-a383-db7eb07aa0c0/"/>
+      <tstamps>bdb5c9e6-c580-4b44-9010-2594263dc06c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>RECONFIGURE</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG</footprint>
+      <fields>
+        <field name="MPN">KMR221GLFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="KMR221GLFS"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value="05 TIWARI CPU Fabric 2"/>
+      <property name="Sheetfile" value="05_TIWARI_CPU_Fabric_2.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/05 TIWARI CPU Fabric 2/" tstamps="/c302e9ff-4b55-4dfa-80f1-2da411b1cdca/"/>
+      <tstamps>36213939-b2bd-4167-8d00-cd0699aad3f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ICE40UP5K-SG48ITR</value>
+      <footprint>TIWARI:UP5K_SG48_Reviewed</footprint>
+      <datasheet>https://www.latticesemi.com/api/document/download?id=51968</datasheet>
+      <fields>
+        <field name="MPN">ICE40UP5K-SG48ITR</field>
+        <field name="Manufacturer">Lattice Semiconductor</field>
+        <field name="Footprint">TIWARI:UP5K_SG48_Reviewed</field>
+        <field name="Datasheet">https://www.latticesemi.com/api/document/download?id=51968</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TIWARI" part="ICE40UP5K-SG48ITR_REVIEWED" description="iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"/>
+      <property name="MPN" value="ICE40UP5K-SG48ITR"/>
+      <property name="Manufacturer" value="Lattice Semiconductor"/>
+      <property name="Sheetname" value="06 TIWARI CPU Fabric 3"/>
+      <property name="Sheetfile" value="06_TIWARI_CPU_Fabric_3.kicad_sch"/>
+      <property name="ki_keywords" value="FPGA programmable logic"/>
+      <property name="ki_fp_filters" value="QFN*1EP*7x7mm*P0.5mm*"/>
+      <sheetpath names="/06 TIWARI CPU Fabric 3/" tstamps="/63379c11-fd04-4e6d-9543-29d7d46aa23c/"/>
+      <tstamps>f2dc0574-2598-4eda-857f-17181d7127ce e15c382e-e590-4cf7-a841-ba7b4f8c10ce ddeec658-d2a4-4116-83e6-948357ef2360 3a6268e3-5663-4e4d-88f5-697d5e119b2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="25"/>
+            <pin num="23"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="37"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="43"/>
+            <pin num="38"/>
+            <pin num="42"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="33"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="21"/>
+            <pin num="13"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="14"/>
+            <pin num="17"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="22"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="44"/>
+            <pin num="48"/>
+            <pin num="45"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="24"/>
+            <pin num="5"/>
+            <pin num="30"/>
+            <pin num="49"/>
+            <pin num="29"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>POWER</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>a20a8f2f-f8d7-4f37-9abb-dd5eaa12fe7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>USER</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>30e0382d-0bbc-448e-a694-05725e5bdc00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>FAULT</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KRKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KRKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>8054cb8e-90bf-46a3-8cd7-6e73b0fb6d03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>J2 / 3V3 ONLY</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61301011121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61301011121"/>
+      <property name="Manufacturer" value="Wurth Elektronik"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>5507c0a0-b815-468b-ba4e-35294dc9ce3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>J3 / 3V3 ONLY</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61301011121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61301011121"/>
+      <property name="Manufacturer" value="Wurth Elektronik"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>ad19c6a8-506b-4c2d-a571-0619fde3a8d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>J4 / 3V3 ONLY</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61300411121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61300411121"/>
+      <property name="Manufacturer" value="Wurth Elektronik"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>8eba4528-3e8d-42e6-a695-6f980b4d515a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>REAR SERVICE PADS</value>
+      <footprint>TIWARI:ServicePads_1x06_P1.27</footprint>
+      <fields>
+        <field name="MPN">PCB_FEATURE</field>
+        <field name="Manufacturer">PCB feature</field>
+        <field name="Footprint">TIWARI:ServicePads_1x06_P1.27</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="PCB_FEATURE"/>
+      <property name="Manufacturer" value="PCB feature"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>24a4c3d9-80e3-453d-b1b7-7ec59eea1d4d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>1a941ab6-8330-4b0e-923d-54ab83040bf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>02e7f0f1-45f1-49b7-b35b-99e80c1669ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="07 Expansion and Indicators 1"/>
+      <property name="Sheetfile" value="07_Expansion_and_Indicators_1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 Expansion and Indicators 1/" tstamps="/ba79588f-0797-42a0-bd8e-b14f5132742d/"/>
+      <tstamps>a88712a6-656f-4746-95c8-765e683e3d60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Four pin crystal, GND on pins 2 and 4</field>
+        <field name="KLC_S3.3">The rectangle is not a symbol body but a graphical element</field>
+        <field name="KLC_S4.1">Some pins are on 50mil grid to make the symbol small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="G" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Ferrite bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT2232HL">
+      <description>Hi Speed Double Channel USB UART/FIFO, LQFP-64</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT2232HL</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</field>
+        <field name="Description">Hi Speed Double Channel USB UART/FIFO, LQFP-64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OSCI" type="input"/>
+        <pin num="3" name="OSCO" type="output"/>
+        <pin num="4" name="VPHY" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="REF" type="output"/>
+        <pin num="7" name="DM" type="bidirectional"/>
+        <pin num="8" name="DP" type="bidirectional"/>
+        <pin num="9" name="VPLL" type="input"/>
+        <pin num="10" name="AGND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCORE" type="power_in"/>
+        <pin num="13" name="TEST" type="input"/>
+        <pin num="14" name="~{RESET}" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="ADBUS0" type="bidirectional"/>
+        <pin num="17" name="ADBUS1" type="bidirectional"/>
+        <pin num="18" name="ADBUS2" type="bidirectional"/>
+        <pin num="19" name="ADBUS3" type="bidirectional"/>
+        <pin num="20" name="VCCIO" type="power_in"/>
+        <pin num="21" name="ADBUS4" type="bidirectional"/>
+        <pin num="22" name="ADBUS5" type="bidirectional"/>
+        <pin num="23" name="ADBUS6" type="bidirectional"/>
+        <pin num="24" name="ADBUS7" type="bidirectional"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="ACBUS0" type="bidirectional"/>
+        <pin num="27" name="ACBUS1" type="bidirectional"/>
+        <pin num="28" name="ACBUS2" type="bidirectional"/>
+        <pin num="29" name="ACBUS3" type="bidirectional"/>
+        <pin num="30" name="ACBUS4" type="bidirectional"/>
+        <pin num="31" name="VCCIO" type="power_in"/>
+        <pin num="32" name="ACBUS5" type="bidirectional"/>
+        <pin num="33" name="ACBUS6" type="bidirectional"/>
+        <pin num="34" name="ACBUS7" type="bidirectional"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="~{SUSPEND}" type="output"/>
+        <pin num="37" name="VCORE" type="power_in"/>
+        <pin num="38" name="BDBUS0" type="bidirectional"/>
+        <pin num="39" name="BDBUS1" type="bidirectional"/>
+        <pin num="40" name="BDBUS2" type="bidirectional"/>
+        <pin num="41" name="BDBUS3" type="bidirectional"/>
+        <pin num="42" name="VCCIO" type="power_in"/>
+        <pin num="43" name="BDBUS4" type="bidirectional"/>
+        <pin num="44" name="BDBUS5" type="bidirectional"/>
+        <pin num="45" name="BDBUS6" type="bidirectional"/>
+        <pin num="46" name="BDBUS7" type="bidirectional"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="BCBUS0" type="bidirectional"/>
+        <pin num="49" name="VREGOUT" type="power_out"/>
+        <pin num="50" name="VREGIN" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="BCBUS1" type="bidirectional"/>
+        <pin num="53" name="BCBUS2" type="bidirectional"/>
+        <pin num="54" name="BCBUS3" type="bidirectional"/>
+        <pin num="55" name="BCBUS4" type="bidirectional"/>
+        <pin num="56" name="VCCIO" type="power_in"/>
+        <pin num="57" name="BCBUS5" type="bidirectional"/>
+        <pin num="58" name="BCBUS6" type="bidirectional"/>
+        <pin num="59" name="BCBUS7" type="bidirectional"/>
+        <pin num="60" name="~{PWREN}" type="output"/>
+        <pin num="61" name="EEDATA" type="bidirectional"/>
+        <pin num="62" name="EECLK" type="output"/>
+        <pin num="63" name="EECS" type="output"/>
+        <pin num="64" name="VCORE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="93LCxxB">
+      <description>Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">93LCxxB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</field>
+        <field name="Description">Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS" type="input"/>
+        <pin num="2" name="SCLK" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="DO" type="tri_state"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q32JVSS">
+      <description>32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>*SOIC*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVSS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</field>
+        <field name="Description">32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO/IO_{1}" type="bidirectional"/>
+        <pin num="3" name="~{WP}/IO_{2}" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI/IO_{0}" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="~{HOLD}/~{RESET}/IO_{3}" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="ASE-xxxMHz">
+      <description>3.3V CMOS SMD Crystal Clock Oscillator, Abracon</description>
+      <docs>http://www.abracon.com/Oscillators/ASV.pdf</docs>
+      <footprints>
+        <fp>Oscillator*SMD*Abracon*ASE*3.2x2.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ASE-xxxMHz</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet">http://www.abracon.com/Oscillators/ASV.pdf</field>
+        <field name="Description">3.3V CMOS SMD Crystal Clock Oscillator, Abracon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="TPD2E2U06DCK">
+      <description>Dual-Channel High-Speed ESD Protection, SC-70</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf</docs>
+      <footprints>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD2E2U06DCK</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf</field>
+        <field name="Description">Dual-Channel High-Speed ESD Protection, SC-70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supervisor" part="TPS3808DBV">
+      <description>Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps3808.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description">Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{MR}" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2112K-1.2">
+      <description>600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.2V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-1.2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+        <field name="Description">600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.2V fixed positive output, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2112K-3.3">
+      <description>600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+        <field name="Description">600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TIWARI" part="ICE40UP5K-SG48ITR_REVIEWED">
+      <description>iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN</description>
+      <docs>http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICE40UP5K-SG48ITR</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</field>
+        <field name="Datasheet">http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</field>
+        <field name="Description">iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCIO_2" type="power_in"/>
+        <pin num="2" name="IOB_6a" type="bidirectional"/>
+        <pin num="3" name="IOB_9b" type="bidirectional"/>
+        <pin num="4" name="IOB_8a" type="bidirectional"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="IOB_13b" type="bidirectional"/>
+        <pin num="7" name="CDONE" type="open_collector"/>
+        <pin num="8" name="~{CRESET}" type="input"/>
+        <pin num="9" name="IOB_16a" type="bidirectional"/>
+        <pin num="10" name="IOB_18a" type="bidirectional"/>
+        <pin num="11" name="IOB_20a" type="bidirectional"/>
+        <pin num="12" name="IOB_22a" type="bidirectional"/>
+        <pin num="13" name="IOB_24a" type="bidirectional"/>
+        <pin num="14" name="IOB_32a_SPI_SO" type="bidirectional"/>
+        <pin num="15" name="IOB_34a_SPI_SCK" type="bidirectional"/>
+        <pin num="16" name="IOB_35b_SPI_SS" type="bidirectional"/>
+        <pin num="17" name="IOB_33b_SPI_SI" type="bidirectional"/>
+        <pin num="18" name="IOB_31b" type="bidirectional"/>
+        <pin num="19" name="IOB_29b" type="bidirectional"/>
+        <pin num="20" name="IOB_25b_G3" type="bidirectional"/>
+        <pin num="21" name="IOB_23b" type="bidirectional"/>
+        <pin num="22" name="SPI_VCCIO1" type="power_in"/>
+        <pin num="23" name="IOT_37a" type="bidirectional"/>
+        <pin num="24" name="VPP_2V5" type="power_in"/>
+        <pin num="25" name="IOT_36b" type="bidirectional"/>
+        <pin num="26" name="IOT_39a" type="bidirectional"/>
+        <pin num="27" name="IOT_38b" type="bidirectional"/>
+        <pin num="28" name="IOT_41a" type="bidirectional"/>
+        <pin num="29" name="VCCPLL" type="power_in"/>
+        <pin num="30" name="VCC" type="passive"/>
+        <pin num="31" name="IOT_42b" type="bidirectional"/>
+        <pin num="32" name="IOT_43a" type="bidirectional"/>
+        <pin num="33" name="VCCIO_0" type="power_in"/>
+        <pin num="34" name="IOT_44b" type="bidirectional"/>
+        <pin num="35" name="IOT_46b_G0" type="bidirectional"/>
+        <pin num="36" name="IOT_48b" type="bidirectional"/>
+        <pin num="37" name="IOT_45a_G1" type="bidirectional"/>
+        <pin num="38" name="IOT_50b" type="bidirectional"/>
+        <pin num="39" name="RGB0" type="open_collector"/>
+        <pin num="40" name="RGB1" type="open_collector"/>
+        <pin num="41" name="RGB2" type="open_collector"/>
+        <pin num="42" name="IOT_51a" type="bidirectional"/>
+        <pin num="43" name="IOT_49a" type="bidirectional"/>
+        <pin num="44" name="IOB_3b_G6" type="bidirectional"/>
+        <pin num="45" name="IOB_5b" type="bidirectional"/>
+        <pin num="46" name="IOB_0a" type="bidirectional"/>
+        <pin num="47" name="IOB_2a" type="bidirectional"/>
+        <pin num="48" name="IOB_4a" type="bidirectional"/>
+        <pin num="49" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>${KICAD10_SYMBOL_DIR}/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>${KICAD10_SYMBOL_DIR}/Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>${KICAD10_SYMBOL_DIR}/Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>${KICAD10_SYMBOL_DIR}/Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>${KICAD10_SYMBOL_DIR}/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>${KICAD10_SYMBOL_DIR}/Power_Supervisor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TIWARI">
+      <uri>${KIPRJMOD}/libraries/TIWARI.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2" class="Power">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VCC_30" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VOUT_5" pintype="power_out"/>
+      <node ref="U5" pin="5" pinfunction="SENSE_5" pintype="input"/>
+    </net>
+    <net code="2" name="+3V3" class="Power">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCCIO_2_1" pintype="power_in"/>
+      <node ref="U1" pin="22" pinfunction="SPI_VCCIO1_22" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="VPP_2V5_24" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="VCCIO_0_33" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="VCCIO_20" pintype="power_in"/>
+      <node ref="U2" pin="31" pinfunction="VCCIO_31" pintype="power_in"/>
+      <node ref="U2" pin="42" pinfunction="VCCIO_42" pintype="power_in"/>
+      <node ref="U2" pin="50" pinfunction="VREGIN_50" pintype="power_in"/>
+      <node ref="U2" pin="56" pinfunction="VCCIO_56" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VOUT_5" pintype="power_out"/>
+      <node ref="U7" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="Y2" pin="1" pinfunction="EN_1" pintype="input"/>
+      <node ref="Y2" pin="4" pinfunction="Vdd_4" pintype="power_in"/>
+    </net>
+    <net code="3" name="CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="CDONE" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CDONE_7" pintype="open_collector"/>
+      <node ref="U2" pin="23" pinfunction="ADBUS6_23" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="CLK12" class="Default">
+      <node ref="U1" pin="35" pinfunction="IOT_46b_G0_35" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="OUT_3" pintype="output"/>
+    </net>
+    <net code="7" name="CPU_RESET_N" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IOB_18a_10" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="CRESET_N" class="Default">
+      <node ref="J5" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="~{CRESET}_8" pintype="input"/>
+      <node ref="U2" pin="24" pinfunction="ADBUS7_24" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="D0" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IOB_6a_2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="D1" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IOB_9b_3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="D2" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IOB_8a_4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="D3" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="IOB_3b_G6_44" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="D4" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="IOB_5b_45" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="D5" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="IOB_0a_46" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="D6" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="IOB_2a_47" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="D7" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="IOB_4a_48" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="D8" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="IOT_37a_23" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="D9" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="IOT_36b_25" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="D10" class="Default">
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="IOT_39a_26" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="D11" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IOT_38b_27" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="D12" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="IOT_41a_28" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="D13" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="IOT_42b_31" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="D14" class="Default">
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="IOT_43a_32" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="D15" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="IOT_44b_34" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="DELAY" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="CT_4" pintype="input"/>
+    </net>
+    <net code="26" name="EE_CLK" class="Default">
+      <node ref="U2" pin="62" pinfunction="EECLK_62" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="SCLK_2" pintype="input"/>
+    </net>
+    <net code="27" name="EE_CS" class="Default">
+      <node ref="U2" pin="63" pinfunction="EECS_63" pintype="output"/>
+      <node ref="U8" pin="1" pinfunction="CS_1" pintype="input"/>
+    </net>
+    <net code="28" name="EE_DATA" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="61" pinfunction="EEDATA_61" pintype="bidirectional"/>
+      <node ref="U8" pin="3" pinfunction="DI_3" pintype="input"/>
+    </net>
+    <net code="29" name="EE_DO" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="DO_4" pintype="tri_state"/>
+    </net>
+    <net code="30" name="FAULT_LED" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IOB_22a_12" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="FLASH_CS_N" class="Default">
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IOB_35b_SPI_SS_16" pintype="bidirectional"/>
+      <node ref="U2" pin="21" pinfunction="ADBUS4_21" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="~{CS}_1" pintype="input"/>
+    </net>
+    <net code="32" name="FLASH_HOLD_N" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="~{HOLD}/~{RESET}/IO_{3}_7" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="FLASH_MISO" class="Default">
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="IOB_33b_SPI_SI_17" pintype="bidirectional"/>
+      <node ref="U2" pin="18" pinfunction="ADBUS2_18" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="DO/IO_{1}_2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="FLASH_MOSI" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IOB_32a_SPI_SO_14" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="ADBUS1_17" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="DI/IO_{0}_5" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="FLASH_SCK" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IOB_34a_SPI_SCK_15" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="ADBUS0_16" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="CLK_6" pintype="input"/>
+    </net>
+    <net code="36" name="FLASH_WP_N" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="~{WP}/IO_{2}_3" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="FPGA_PLL" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="VCCPLL_29" pintype="power_in"/>
+    </net>
+    <net code="38" name="FT_1V8" class="Power">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VCORE_12" pintype="power_in"/>
+      <node ref="U2" pin="37" pinfunction="VCORE_37" pintype="power_in"/>
+      <node ref="U2" pin="49" pinfunction="VREGOUT_49" pintype="power_out"/>
+      <node ref="U2" pin="64" pinfunction="VCORE_64" pintype="power_in"/>
+    </net>
+    <net code="39" name="FT_REF" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="REF_6" pintype="output"/>
+    </net>
+    <net code="40" name="FT_RESET_N" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="~{RESET}_14" pintype="input"/>
+    </net>
+    <net code="41" name="FT_VPHY" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VPHY_4" pintype="power_in"/>
+    </net>
+    <net code="42" name="FT_VPLL" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="VPLL_9" pintype="input"/>
+    </net>
+    <net code="43" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="SHIELD_SH" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="GND_49" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="AGND_10" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="GND_11" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="TEST_13" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U2" pin="25" pinfunction="GND_25" pintype="power_in"/>
+      <node ref="U2" pin="35" pinfunction="GND_35" pintype="power_in"/>
+      <node ref="U2" pin="47" pinfunction="GND_47" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U2" pin="51" pinfunction="GND_51" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="G_4" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="44" name="LED1_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="LED2_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="LED3_A" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="POWER_GOOD" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="~{RESET}_1" pintype="output"/>
+    </net>
+    <net code="48" name="PWM0" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IOB_24a_13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="PWM1" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IOB_31b_18" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="UART_FROM_CPU" class="Default">
+      <node ref="U1" pin="6" pinfunction="IOB_13b_6" pintype="bidirectional"/>
+      <node ref="U2" pin="39" pinfunction="BDBUS1_39" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="UART_TO_CPU" class="Default">
+      <node ref="U1" pin="9" pinfunction="IOB_16a_9" pintype="bidirectional"/>
+      <node ref="U2" pin="38" pinfunction="BDBUS0_38" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="USB_5V" class="Power">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+    </net>
+    <net code="53" name="USB_DM" class="USB">
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="DM_7" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="USB_DP" class="USB">
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="DP_8" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="USER_LED" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IOB_20a_11" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="VUSB" class="Power">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="~{MR}_3" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+    </net>
+    <net code="57" name="XTAL_IN" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="OSCI_2" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="58" name="XTAL_OUT" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OSCO_3" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1A-IOT_45a_G1-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="IOT_45a_G1_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1A-IOT_48b-Pad36)" class="Default">
+      <node ref="U1" pin="36" pinfunction="IOT_48b_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1A-IOT_49a-Pad43)" class="Default">
+      <node ref="U1" pin="43" pinfunction="IOT_49a_43" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1A-IOT_50b-Pad38)" class="Default">
+      <node ref="U1" pin="38" pinfunction="IOT_50b_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1A-IOT_51a-Pad42)" class="Default">
+      <node ref="U1" pin="42" pinfunction="IOT_51a_42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1A-RGB0-Pad39)" class="Default">
+      <node ref="U1" pin="39" pinfunction="RGB0_39" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1A-RGB1-Pad40)" class="Default">
+      <node ref="U1" pin="40" pinfunction="RGB1_40" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1A-RGB2-Pad41)" class="Default">
+      <node ref="U1" pin="41" pinfunction="RGB2_41" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1B-IOB_23b-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="IOB_23b_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1B-IOB_25b_G3-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="IOB_25b_G3_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1B-IOB_29b-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="IOB_29b_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U2-ACBUS0-Pad26)" class="Default">
+      <node ref="U2" pin="26" pinfunction="ACBUS0_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U2-ACBUS1-Pad27)" class="Default">
+      <node ref="U2" pin="27" pinfunction="ACBUS1_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U2-ACBUS2-Pad28)" class="Default">
+      <node ref="U2" pin="28" pinfunction="ACBUS2_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2-ACBUS3-Pad29)" class="Default">
+      <node ref="U2" pin="29" pinfunction="ACBUS3_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U2-ACBUS4-Pad30)" class="Default">
+      <node ref="U2" pin="30" pinfunction="ACBUS4_30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U2-ACBUS5-Pad32)" class="Default">
+      <node ref="U2" pin="32" pinfunction="ACBUS5_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U2-ACBUS6-Pad33)" class="Default">
+      <node ref="U2" pin="33" pinfunction="ACBUS6_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-ACBUS7-Pad34)" class="Default">
+      <node ref="U2" pin="34" pinfunction="ACBUS7_34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-ADBUS3-Pad19)" class="Default">
+      <node ref="U2" pin="19" pinfunction="ADBUS3_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2-ADBUS5-Pad22)" class="Default">
+      <node ref="U2" pin="22" pinfunction="ADBUS5_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-BCBUS0-Pad48)" class="Default">
+      <node ref="U2" pin="48" pinfunction="BCBUS0_48" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2-BCBUS1-Pad52)" class="Default">
+      <node ref="U2" pin="52" pinfunction="BCBUS1_52" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2-BCBUS2-Pad53)" class="Default">
+      <node ref="U2" pin="53" pinfunction="BCBUS2_53" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U2-BCBUS3-Pad54)" class="Default">
+      <node ref="U2" pin="54" pinfunction="BCBUS3_54" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U2-BCBUS4-Pad55)" class="Default">
+      <node ref="U2" pin="55" pinfunction="BCBUS4_55" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U2-BCBUS5-Pad57)" class="Default">
+      <node ref="U2" pin="57" pinfunction="BCBUS5_57" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U2-BCBUS6-Pad58)" class="Default">
+      <node ref="U2" pin="58" pinfunction="BCBUS6_58" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U2-BCBUS7-Pad59)" class="Default">
+      <node ref="U2" pin="59" pinfunction="BCBUS7_59" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U2-BDBUS2-Pad40)" class="Default">
+      <node ref="U2" pin="40" pinfunction="BDBUS2_40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U2-BDBUS3-Pad41)" class="Default">
+      <node ref="U2" pin="41" pinfunction="BDBUS3_41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U2-BDBUS4-Pad43)" class="Default">
+      <node ref="U2" pin="43" pinfunction="BDBUS4_43" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U2-BDBUS5-Pad44)" class="Default">
+      <node ref="U2" pin="44" pinfunction="BDBUS5_44" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U2-BDBUS6-Pad45)" class="Default">
+      <node ref="U2" pin="45" pinfunction="BDBUS6_45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-BDBUS7-Pad46)" class="Default">
+      <node ref="U2" pin="46" pinfunction="BDBUS7_46" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-~{PWREN}-Pad60)" class="Default">
+      <node ref="U2" pin="60" pinfunction="~{PWREN}_60" pintype="output+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U2-~{SUSPEND}-Pad36)" class="Default">
+      <node ref="U2" pin="36" pinfunction="~{SUSPEND}_36" pintype="output+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-NC-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U4-NC-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U8-NC-Pad6)" class="Default">
+      <node ref="U8" pin="6" pinfunction="NC_6" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U8-NC-Pad7)" class="Default">
+      <node ref="U8" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

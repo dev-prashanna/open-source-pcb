@@ -1,0 +1,71 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-15T17:38:15",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad",
+            "violations": []
+        },
+        {
+            "path": "/01 USB-C and Sequenced Power 1/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/f53760a7-9b62-4c48-a595-48ce8ea5214f",
+            "violations": []
+        },
+        {
+            "path": "/02 USB Programmer and Serial 1/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/73ce2333-46e8-43cf-af7d-0dba144b73ba",
+            "violations": []
+        },
+        {
+            "path": "/03 USB Programmer and Serial 2/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/cae4bf37-8b39-41b3-9cd2-b3052c999efe",
+            "violations": []
+        },
+        {
+            "path": "/04 TIWARI CPU Fabric 1/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/2dafb9c4-4447-406a-a383-db7eb07aa0c0",
+            "violations": []
+        },
+        {
+            "path": "/05 TIWARI CPU Fabric 2/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/c302e9ff-4b55-4dfa-80f1-2da411b1cdca",
+            "violations": []
+        },
+        {
+            "path": "/06 TIWARI CPU Fabric 3/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/63379c11-fd04-4e6d-9543-29d7d46aa23c",
+            "violations": []
+        },
+        {
+            "path": "/07 Expansion and Indicators 1/",
+            "uuid_path": "/217081e8-874e-484a-a0a7-cc0550683dad/ba79588f-0797-42a0-bd8e-b14f5132742d",
+            "violations": []
+        }
+    ],
+    "source": "TIWARI.kicad_sch"
+}

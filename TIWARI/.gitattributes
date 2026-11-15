@@ -1,0 +1,4 @@
+# Preserve the native upstream CAD model and verification log formatting.
+hardware/libraries/3d/*.step -whitespace
+reports/*.log -whitespace
+reports/fpga/*.log -whitespace
